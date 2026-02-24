@@ -37,7 +37,7 @@
   <header class="w-full relative">
     <!-- Carousel -->
     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden">
-      <video src="Apex-videos/video-2.mp4" class="w-full h-full object-cover" autoplay muted loop playsinline>
+      <video src="Apex-videos/Apex-video.mp4" class="w-full h-full object-cover" autoplay muted loop playsinline>
       </video>
     </div>
 
@@ -177,7 +177,7 @@
 
               <!-- Video inside mask -->
               <foreignObject width="100%" height="100%" mask="url(#apexMask)">
-                <video src="Apex-videos/video-2.mp4" autoplay muted loop playsinline
+                <video src="Apex-videos/Apex-video.mp4" autoplay muted loop playsinline
                   style="width:100%; height:100%; object-fit:cover;"></video>
               </foreignObject>
             </svg>
