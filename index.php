@@ -150,7 +150,7 @@
                 class="bg-red-600 text-white text-xs sm:text-sm px-3 py-1 rounded-sm font-light fade-left">Durability</span>
             </div>
             <div class="mt-10 fade-right">
-              <a href="#"
+              <a href="aboutus.php"
                 class="inline-flex items-center gap-2  text-white bg-red-600 font-bold text-sm px-4 py-2 rounded-md transition hover:-translate-y-[2px] hover:shadow-lg">
                 <h3>Learn More</h3>
                 <img src="Apex-icons/next-white.png" alt="next" class="w-3" />
@@ -774,7 +774,7 @@
               partnerships with our clients.
             </p>
 
-            <a href="#"
+            <a href="aboutus.php"
               class="inline-flex items-center gap-2 bg-white text-red-600 font-bold text-sm px-6 py-3 rounded-md transition hover:-translate-y-[2px] hover:shadow-lg fade-right">
               Learn More
               <img src="Apex-icons/Next-large.png" alt="next" class="w-3" />
@@ -785,7 +785,7 @@
         <!-- RIGHT IMAGE (overlay style) -->
         <div
           class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
-          <img src="Apex-Images/steel-3.png" alt="TMT Hand"
+          <img src="Apex-Images/Steel-3.png" alt="TMT Hand"
             class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
         </div>
 
