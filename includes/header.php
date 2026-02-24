@@ -350,66 +350,64 @@ $isProductPage = in_array($currentPage, $productPages);
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
-    const wrapper = document.getElementById("productsMenuWrapper");
-    if (!wrapper) return;
+  const wrapper = document.getElementById("productsMenuWrapper");
+  if (!wrapper) return;
 
-    const dropdown = document.getElementById("productsDropdown");
+  const dropdown = document.getElementById("productsDropdown");
 
-    const submenus = wrapper.querySelectorAll(
-      ".group\\/tmt > div, .group\\/ms > div"
-    );
+  const submenus = wrapper.querySelectorAll(
+    ".group\\/tmt > div, .group\\/ms > div"
+  );
 
-    let mainTimeout;
-    let subTimeout;
+  let mainTimeout;
+  let subTimeout;
 
-    // ===== MAIN DROPDOWN =====
-    wrapper.addEventListener("mouseenter", () => {
-      clearTimeout(mainTimeout);
-      dropdown.classList.remove("hidden");
-    });
-
-    wrapper.addEventListener("mouseleave", () => {
-      mainTimeout = setTimeout(() => {
-        dropdown.classList.add("hidden");
-        submenus.forEach(menu => menu.classList.add("hidden"));
-      }, 2000);
-    });
-
-    // ===== SUBMENU CONTROL =====
-    submenus.forEach(submenu => {
-      const parent = submenu.parentElement;
-
-      parent.addEventListener("mouseenter", () => {
-        clearTimeout(subTimeout);
-
-        // ✅ Close all other submenus first
-        submenus.forEach(menu => {
-          if (menu !== submenu) {
-            menu.classList.add("hidden");
-          }
-        });
-
-        submenu.classList.remove("hidden");
-      });
-
-      parent.addEventListener("mouseleave", () => {
-        subTimeout = setTimeout(() => {
-          submenu.classList.add("hidden");
-        }, 2000);
-      });
-    });
-
-    // ===== CLOSE ON OUTSIDE CLICK =====
-    document.addEventListener("click", function (event) {
-      if (!wrapper.contains(event.target)) {
-        dropdown.classList.add("hidden");
-        submenus.forEach(menu => menu.classList.add("hidden"));
-      }
-    });
-
+  // ===== MAIN DROPDOWN =====
+  wrapper.addEventListener("mouseenter", () => {
+    clearTimeout(mainTimeout);
+    dropdown.classList.remove("hidden");
   });
+
+  wrapper.addEventListener("mouseleave", () => {
+    mainTimeout = setTimeout(() => {
+      dropdown.classList.add("hidden");
+      submenus.forEach(menu => menu.classList.add("hidden"));
+    }, 300); // reduced delay
+  });
+
+  // ===== SUBMENU CONTROL =====
+  submenus.forEach(submenu => {
+    const parent = submenu.parentElement;
+
+    parent.addEventListener("mouseenter", () => {
+      clearTimeout(subTimeout);
+
+      // close ALL submenus immediately
+      submenus.forEach(menu => {
+        menu.classList.add("hidden");
+      });
+
+      submenu.classList.remove("hidden");
+    });
+
+    parent.addEventListener("mouseleave", () => {
+      subTimeout = setTimeout(() => {
+        submenu.classList.add("hidden");
+      }, 300); // reduced delay
+    });
+  });
+
+  // ===== CLOSE ON OUTSIDE CLICK =====
+  document.addEventListener("click", function (event) {
+    if (!wrapper.contains(event.target)) {
+      dropdown.classList.add("hidden");
+      submenus.forEach(menu => menu.classList.add("hidden"));
+    }
+  });
+
+});
 </script>
 
 
