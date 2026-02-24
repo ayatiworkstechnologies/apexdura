@@ -39,7 +39,7 @@
         <!-- bg-image -->
         <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
             <!-- Banner Image -->
-            <img src="Apex-Images/Investor-Corner-Banner.jpg" class="w-full h-full object-cover"
+            <img src="Apex-Images/customize-Banner.jpg" class="w-full h-full object-cover"
                 alt="Investor Corner Banner" />
 
             <!-- Breadcrumb -->

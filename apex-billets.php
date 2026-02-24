@@ -42,7 +42,7 @@
         <!-- bg-image -->
         <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
             <!-- Banner Image -->
-            <img src="Apex-Images/Apex-tmt-banner-image.jpg" class="w-full h-full object-cover"
+            <img src="Apex-Images/Apex billets-web.jpg" class="w-full h-full object-cover"
                 alt="Investor Corner Banner" />
 
             <!-- Breadcrumb -->
@@ -102,7 +102,7 @@
                 <!-- RIGHT IMAGE -->
                 <div class="relative hidden lg:flex justify-end">
           <div class="w-full max-w-md">
-            <img src="Apex-Images/steel-factory.jpg" alt="Steel Structure" class="w-full h-[350px] object-cover 
+            <img src="Apex-Images/billet-product.png" alt="Steel Structure" class="w-full h-[350px] object-cover 
                 rounded-2xl shadow-xl">
           </div>
         </div>
@@ -117,7 +117,7 @@
                 <div class="grid lg:grid-cols-12 gap-10 items-start">
                     <!-- LEFT BIG IMAGE -->
                     <div class="lg:col-span-4 animate-down">
-                        <img src="Apex-Images/pmp-1.png" class="w-full h-[420px] object-cover" />
+                        <img src="Apex-Images/billets-img.png" class="w-full h-[420px] object-cover" />
 
                         <h3 class="mt-6 text-2xl font-semibold leading-snug">
                             Our Process
@@ -277,7 +277,7 @@
         <section class="bg-red-600 text-white py-12 lg:hidden">
             <div class="max-w-7xl mx-auto px-5 sm:px-6">
                 <!-- Image -->
-                <img src="Apex-Images/pmp-1.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
+                <img src="Apex-Images/billets-img.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
 
                 <h2 class="text-2xl sm:text-3xl font-bold mb-8 fade-left">
                     Apex Dura TMT Fe 500 and Fe550 Bars
