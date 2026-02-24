@@ -211,7 +211,7 @@
           <p class="text-gray-700 text-lg md:text-xl leading-relaxed mb-8 max-w-4xl mx-auto">
             We can collaborate and develop specific sizes in any section for a feasible quantity of order in <span class="font-semibold text-gray-900 border-b-2 border-red-200 pb-1">Mild Steel, High Tensile, En 8 / En 8D / EN 9 / EN 16</span> material.
           </p>
-          <a href="contact-us.php" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-red-600 rounded-xl hover:bg-red-700 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 focus:ring-4 focus:ring-red-100 whitespace-nowrap">
+          <a href="customize-products.php" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-red-600 rounded-xl hover:bg-red-700 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 focus:ring-4 focus:ring-red-100 whitespace-nowrap">
             Contact Us for Custom Orders
             <svg class="w-5 h-5 ml-2 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </a>
