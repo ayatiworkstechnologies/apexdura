@@ -40,35 +40,29 @@
 
     <header class="w-full relative">
         <!-- bg-image -->
-        <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
-            <!-- Banner Image -->
-            <img src="Apex-Images/Alltmt-bars-web.jpg" class="w-full h-full object-cover"
-                alt="Investor Corner Banner" />
 
-            <!-- Breadcrumb -->
-            <div class="absolute bottom-6 left-6 flex items-center gap-3">
-                <!-- Home -->
-                <a href="/"
-                    class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition">
-                    <!-- Home Icon -->
-                    <img src="Apex-icons/Home.png" alt="Home icon " class="w-4 h-4" />
+         <div class="relative w-full pt-32 pb-8 bg-gray-50 overflow-hidden fade-up">
+      <!-- Breadcrumb -->
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex items-center gap-3">
+        <!-- Home -->
+        <a href="/" class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition hover:bg-gray-100">
+          <!-- Home Icon -->
+          <img src="Apex-icons/Home.png" alt="Home icon " class="w-4 h-4" />
+          Home
+        </a>
 
-                    Home
-                </a>
+        <!-- Arrow -->
+        <span class="text-gray-500 text-lg">›</span>
 
-                <!-- Arrow -->
-                <span class="text-white text-lg">›</span>
-
-                <!-- About -->
-                <span
-                    class="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md">
-                    <!-- User/About Icon -->
-                    <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
-
-                    5mm to 32mm TMT Bars
-                </span>
-            </div>
-        </div>
+        <!-- About -->
+        <span class="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md">
+          <!-- User/About Icon -->
+          <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
+          5mm to 32mm TMT Bars
+        </span>
+      </div>
+    </div>
+       
 
         <!-- Header Content Overlay -->
         <?php include "includes/header.php"; ?>

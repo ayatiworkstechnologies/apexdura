@@ -1,81 +1,164 @@
 <?php
+header('Content-Type: application/json');
 
+include './conn.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// Load PHPMailer files
 require 'mailer/Exception.php';
 require 'mailer/PHPMailer.php';
 require 'mailer/SMTP.php';
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-//   include '../conn.php';
-//   require 'mailer/PHPMailerAutoload.php';
-  
-  
+    // Get form values
+    $name    = trim($_POST['businessname'] ?? '');
+    $email   = trim($_POST['business_email'] ?? '');
+    $mobile  = trim($_POST['mobile_number'] ?? '');
+    $message = trim($_POST['message'] ?? '');
 
-  
-     if(isset($_POST['submit'])) {
-         
+    // Validation
+    if (empty($name) || empty($email) || empty($mobile) || empty($message)) {
+        http_response_code(400);
+        echo json_encode(['status' => 'error', 'message' => 'All fields are required.']);
+        exit;
+    }
 
-         /******* mail scripts */
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        http_response_code(400);
+        echo json_encode(['status' => 'error', 'message' => 'Invalid email format.']);
+        exit;
+    }
 
-            $message .= '<div>';
-			$message .= '<img src="https://www.apextmt.com/images/logo.png" alt="Logo"  style="margin: 0 auto;display: table;" />';
-			$message .= '</div>';
-			$message .= '<table rules="all" style="border-color: #666;width: 500px;margin: 0 auto;border: 1px solid #eee;" cellpadding="20"" cellpadding="20">';
-			$message .= "<tr ><td ><strong><h3>Enquiry Details </h3></td></tr>";
-			$message .= "<tr><td><strong>Name:</strong> </td><td>" . strip_tags($_POST['businessname']) . "</td></tr>";
-			$message .= "<tr><td><strong> Email :</strong> </td><td>" . strip_tags($_POST['business_email']) . "</td></tr>";
-			$message .= "<tr><td><strong> Phonenumber :</strong> </td><td>" . strip_tags($_POST['mobile_number']) . "</td></tr>";
-			$message .= "<tr><td><strong> Message :</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";	
-		
-			$subject="Enquiry from Apex TMT Investor form";
+    if (!preg_match('/^\d{10}$/', $mobile)) {
+        http_response_code(400);
+        echo json_encode(['status' => 'error', 'message' => 'Mobile number must be 10 digits.']);
+        exit;
+    }
 
-            $mail = new PHPMailer(true);
+    // Insert into DB
+    $stmt = $conn->prepare("INSERT INTO investor_enquiry 
+        (business_name, business_email, mobile_number, message, created_at) 
+        VALUES (?, ?, ?, ?, NOW())");
 
-            
-            $mail->SMTPDebug = 0;                               // Enable verbose debug output
-            $mail->isSMTP();                                    // Set mailer to use SMTP
-            $mail->Host = 'mail.ayatiworks.com'; // Specify main and backup SMTP servers
-            $mail->SMTPAuth = true;                             // Enable SMTP authentication
-            $mail->Username = 'emailsmtp@ayatiworks.com';           // SMTP username
-            $mail->Password = 'hYd@W,$nwNjC';                       // SMTP password
-            $mail->SMTPSecure = 'ssl';                          // Enable TLS encryption, `ssl` also accepted
-            $mail->Port = 465;                     
-            $mail->setFrom($_POST['business_email'],'THE Apex TMT Investor');
-            $to ="gopi@ayatiworks.com";
-            $mail->addAddress($to);
-            // $mail->AddCC("ram@fandomcricket.com");
-            $mail->Subject = $subject;
-            $mail->Body = $message;
-            $mail->IsHTML(true);
-            
-      
-            if($mail->send()){
-                
-                 echo "<script type='text/javascript'>alert('Your details have been submitted Successfully.Our admin team will contact you as soon as')</script>";
-    echo "<script>window.location.href='investor-corner.php';</script>";
-            
-           
-            } else {
-              echo '<META HTTP-EQUIV="Refresh" Content="0; URL=investors-corner.php?msg=failure">';
-            }
-            
-           
-		 /*************end */
+    $stmt->bind_param("ssss", $name, $email, $mobile, $message);
 
-	
-	 }
-     
-	 
-	
-	    	
-	    	
-	
- 
-?>
+    if ($stmt->execute()) {
 
+        // Professional Email Template
+        $body = '
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta charset="UTF-8">
+        </head>
+        <body style="margin:0;padding:0;background:#f4f4f4;font-family:Arial,sans-serif;">
+        <table width="100%" cellpadding="0" cellspacing="0" style="padding:20px 0;">
+        <tr>
+        <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" 
+        style="background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 3px 10px rgba(0,0,0,0.05);">
 
+        <tr>
+        <td style="background:#c40000;padding:20px;text-align:center;color:#ffffff;">
+        <h2 style="margin:0;">New Investor Enquiry</h2>
+        <p style="margin:5px 0 0;font-size:14px;">A new enquiry has been submitted</p>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="padding:30px;">
+        <table width="100%" cellpadding="10" cellspacing="0" style="font-size:14px;border-collapse:collapse;">
+
+        <tr style="background:#fafafa;">
+        <td width="35%"><strong>Business Name</strong></td>
+        <td>' . htmlspecialchars($name) . '</td>
+        </tr>
+
+        <tr>
+        <td><strong>Email Address</strong></td>
+        <td>' . htmlspecialchars($email) . '</td>
+        </tr>
+
+        <tr style="background:#fafafa;">
+        <td><strong>Mobile Number</strong></td>
+        <td>' . htmlspecialchars($mobile) . '</td>
+        </tr>
+
+        <tr>
+        <td valign="top"><strong>Message</strong></td>
+        <td>' . nl2br(htmlspecialchars($message)) . '</td>
+        </tr>
+
+        </table>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="background:#f9f9f9;padding:20px;text-align:center;font-size:12px;color:#777;">
+        This enquiry was submitted from your website investor form.<br>
+        © ' . date("Y") . ' Your Company Name. All rights reserved.
+        </td>
+        </tr>
+
+        </table>
+        </td>
+        </tr>
+        </table>
+        </body>
+        </html>
+        ';
+
+        $mail = new PHPMailer(true);
+
+        try {
+            $mail->isSMTP();
+            $mail->Host       = 'mail.ayatiworks.com';
+            $mail->SMTPAuth   = true;
+            $mail->Username   = 'emailsmtp@ayatiworks.com';
+            $mail->Password   = 'hYd@W,$nwNjC';  // Change immediately
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+            $mail->Port       = 465;
+
+            $mail->setFrom('emailsmtp@ayatiworks.com', 'Investor Enquiry');
+            $mail->addAddress('balaji@ayatiworks.com');
+            $mail->addReplyTo($email, $name);
+
+            $mail->isHTML(true);
+            $mail->Subject = 'New Investor Enquiry Received';
+            $mail->Body    = $body;
+
+            $mail->send();
+
+            echo json_encode([
+                'status' => 'success',
+                'message' => 'Form submitted successfully and email sent.'
+            ]);
+
+        } catch (Exception $e) {
+            echo json_encode([
+                'status' => 'warning',
+                'message' => 'Saved to DB but email failed: ' . $mail->ErrorInfo
+            ]);
+        }
+
+    } else {
+        http_response_code(500);
+        echo json_encode([
+            'status' => 'error',
+            'message' => 'Database insert failed.'
+        ]);
+    }
+
+    $stmt->close();
+} else {
+    http_response_code(405);
+    echo json_encode([
+        'status' => 'error',
+        'message' => 'Invalid request method.'
+    ]);
+}
+
+$conn->close();
 ?>

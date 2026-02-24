@@ -36,32 +36,29 @@
 
   <header class="w-full relative">
     <!-- bg-image -->
-    <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
-      <!-- Banner Image -->
-      <img src="Apex-Images/Investor-Corner-Banner.jpg" class="w-full h-full object-cover" alt="Investor Corner Banner" />
 
+     <div class="relative w-full pt-32 pb-8 bg-gray-50 overflow-hidden fade-up">
       <!-- Breadcrumb -->
-      <div class="absolute bottom-6 left-6 flex items-center gap-3">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex items-center gap-3">
         <!-- Home -->
-        <a href="/" class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition">
+        <a href="/" class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition hover:bg-gray-100">
           <!-- Home Icon -->
           <img src="Apex-icons/Home.png" alt="Home icon " class="w-4 h-4" />
-
           Home
         </a>
 
         <!-- Arrow -->
-        <span class="text-white text-lg">›</span>
+        <span class="text-gray-500 text-lg">›</span>
 
         <!-- About -->
         <span class="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md">
           <!-- User/About Icon -->
           <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
-
-         MS Square Bars
+        MS Square Bars
         </span>
       </div>
     </div>
+    
 
     <!-- Header Content Overlay -->
     <?php include "includes/header.php"; ?>

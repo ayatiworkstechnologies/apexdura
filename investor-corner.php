@@ -108,7 +108,7 @@
               Get in touch with us
             </h3>
 
-            <form class="space-y-7 fade-left" action="investor.php" method="post">
+            <form id="investorForm" class="space-y-7 fade-left" action="investor.php" method="post" >
 
               <div>
                 <label class="block text-md font-bold mb-1 ">Business Name</label>
@@ -143,6 +143,7 @@
                 Learn More →
               </button>
             </form>
+           
           </div>
         </div>
       </div>
@@ -150,7 +151,7 @@
 
    
   </main>
-
+<div id="toast" class="hidden"></div>
   <!-- footer section -->
   <?php include "includes/footer.php"; ?>
   <script src="Js/Home-slider.js"></script>
@@ -161,7 +162,53 @@
   <script src="Js/Animation.js"></script>
   <script src="Js/progressbar-script.js"></script>
   <script src="Js/bottom-up-arrow-script.js"></script>
+ <!-- Toast -->
+ <script>
+document.getElementById("investorForm").addEventListener("submit", function(e) {
+    e.preventDefault();
 
+    const form = this;
+    const formData = new FormData(form);
+
+    fetch("investor.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(res => res.json())
+    .then(data => {
+        showToast(data.status, data.message);
+
+        if (data.status === "success") {
+            form.reset();
+        }
+    })
+    .catch(() => {
+        showToast("error", "Something went wrong!");
+    });
+});
+
+function showToast(status, message) {
+    const toast = document.getElementById("toast");
+
+    // 🔥 Bottom Right Position
+    toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+    if (status === "success") {
+        toast.classList.add("bg-green-600");
+    } else if (status === "warning") {
+        toast.classList.add("bg-yellow-500");
+    } else {
+        toast.classList.add("bg-red-600");
+    }
+
+    toast.innerText = message;
+    toast.classList.remove("hidden");
+
+    setTimeout(() => {
+        toast.classList.add("hidden");
+    }, 4000);
+}
+</script>
   <script>
     function initFinanceSlider() {
       const slider = document.querySelector(".finance-slider");
