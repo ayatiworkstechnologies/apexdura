@@ -68,9 +68,180 @@
   </header>
 
   <main>
-   
+    <section class="py-16 md:py-24 bg-gray-50/50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
-   
+        <!-- Section Heading -->
+        <div class="text-center mb-12 fade-up">
+          <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+            MS Round Bars <span class="text-red-600">Specifications</span>
+          </h2>
+          <p class="text-gray-600 max-w-3xl mx-auto text-lg mb-4">
+            Apex Steel supplies a wide range of Mild Steel (MS) Round Bars. MS Round Bars are used by forging industries, bright bar industries, auto-ancillaries, foundation and anchor bolts, pins, rollers, bushes, and many more engineering industries.
+          </p>
+          <p class="text-red-600 font-semibold text-lg md:text-xl">
+            MS Round Bars : 10 mm to 125 mm
+          </p>
+        </div>
+
+        <!-- Sizes & Weights Table -->
+        <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-gray-50/80 border-b border-gray-100">
+                  <th rowspan="2" class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-100 align-middle">
+                    Size in mm
+                  </th>
+                  <th colspan="2" class="px-6 py-3 text-sm font-semibold text-gray-900 uppercase tracking-wider text-center border-b border-gray-100">
+                    Average Weight
+                  </th>
+                </tr>
+                <tr class="bg-gray-50/80 border-b border-gray-100">
+                  <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center border-r border-gray-100">
+                    KG / MTR
+                  </th>
+                  <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center">
+                    KG / FT
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-100">
+                <?php
+                $ms_round_bars = [
+                  [10, 0.62, 0.18],
+                  [12, 0.9, 0.3],
+                  [14, 1.2, 0.4],
+                  [16, 1.6, 0.5],
+                  [18, 2, 0.6],
+                  [20, 2.5, 0.8],
+                  [22, 3, 0.9],
+                  [24, 3.56, 1.08],
+                  [25, 3.9, 1.2],
+                  [28, 4.8, 1.5],
+                  [30, 5.55, 1.69],
+                  [32, 6.3, 1.9],
+                  [34, 7.14, 2.18],
+                  [36, 8, 2.44],
+                  [40, 9.9, 3],
+                  [45, 12.49, 3.81],
+                  [50, 15.4, 4.7],
+                  [56, 19.34, 5.89],
+                  [60, 22.2, 6.8],
+                  [63, 24.47, 7.46],
+                  [63.5, 24.86, 7.58],
+                  [65, 26.05, 7.94],
+                  [70, 30.2, 9.2],
+                  [73, 32.86, 10],
+                  [75, 34.72, 10.58],
+                  [78, 37.51, 11.43],
+                  [80, 39.5, 12],
+                  [83, 42.47, 12.95],
+                  [85, 44.55, 13.58],
+                  [90, 50, 15.2],
+                  [92, 52.19, 15.91],
+                  [93, 53.39, 16.27],
+                  [95, 55.65, 16.95],
+                  [100, 61.66, 18.79],
+                  [105, 67.98, 20.72],
+                  [110, 74.6, 22.74],
+                  [115, 81.64, 24.88],
+                  [125, 96.34, 29.36]
+                ];
+                foreach ($ms_round_bars as $row) {
+                  echo '<tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                    <td class="px-6 py-3 font-medium text-gray-900 border-r border-gray-100">' . $row[0] . '</td>
+                    <td class="px-6 py-3 text-center border-r border-gray-100">' . $row[1] . '</td>
+                    <td class="px-6 py-3 text-center">' . $row[2] . '</td>
+                  </tr>';
+                }
+                ?>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Rolling Tolerances -->
+        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
+          Rolling Tolerances
+        </h3>
+
+        <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-gray-50/80 border-b border-gray-100">
+                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+                    Size
+                  </th>
+                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+                    Ovality
+                  </th>
+                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+                    Weight
+                  </th>
+                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase">
+                    Length
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody class="divide-y divide-gray-100">
+                <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                  <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                    Up to 25 mm: &plusmn; 0.5 mm
+                  </td>
+                  <td class="px-6 py-4 border-r border-gray-100" rowspan="6">
+                    &plusmn; 75% of total tolerance specified on the size.
+                  </td>
+                  <td class="px-6 py-4 border-r border-gray-100 align-top" rowspan="6">
+                    <div class="space-y-2">
+                      <p>10 mm to 16 mm: &plusmn; 5%</p>
+                      <p>16 mm and above: &plusmn; 3%</p>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 align-top" rowspan="6">
+                    For fixed length: &plusmn; 100 mm
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                  <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                    25 mm to 35 mm: &plusmn; 0.6 mm
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                  <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                    35 mm to 50 mm: &plusmn; 0.8 mm
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                  <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                    50 mm to 80 mm: &plusmn; 1 mm
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                  <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                    80 mm to 100 mm: &plusmn; 1.3 mm
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                  <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                    100 mm and above: &plusmn; 1.6% of diameter.
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </main>
 
   <!-- footer section -->

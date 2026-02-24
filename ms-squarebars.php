@@ -69,7 +69,157 @@
 
   <main>
    
+<section class="py-16 md:py-24 bg-gray-50/50">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
+    <!-- Section Heading -->
+    <div class="text-center mb-12 fade-up">
+      <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+        MS Square Bars <span class="text-red-600">Specifications</span>
+      </h2>
+      <p class="text-gray-600 max-w-3xl mx-auto text-lg mb-4">
+        Apex Steel supplies a wide range of Mild Steel (MS) Square Bars. MS Square Bars are used in cranes gantry, bullock carts axles, conveyors, truck trailers and tippers, bright bars, anchor bolts and many more engineering industries.
+      </p>
+      <p class="text-red-600 font-semibold text-lg md:text-xl">
+        MS Square Bars : 10mm to 56 mm
+      </p>
+    </div>
+
+    <!-- Sizes & Weights Table -->
+    <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12">
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-gray-50/80 border-b border-gray-100">
+              <th rowspan="2" class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-100 align-middle">
+                Size in mm
+              </th>
+              <th colspan="2" class="px-6 py-3 text-sm font-semibold text-gray-900 uppercase tracking-wider text-center border-b border-gray-100">
+                Average Weight
+              </th>
+            </tr>
+            <tr class="bg-gray-50/80 border-b border-gray-100">
+              <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center border-r border-gray-100">
+                KG / MTR
+              </th>
+              <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center">
+                KG / FT
+              </th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-gray-100">
+            <?php
+            $ms_square_bars = [
+              ['10 x 10', 0.8, 0.2],
+              ['12 x 12', 1.1, 0.3],
+              ['14 x 14', 1.5, 0.5],
+              ['16 x 16', 2, 0.6],
+              ['17 x 17', 2.27, 0.69],
+              ['20 x 20', 3.14, 1],
+              ['25 x 25', 4.9, 1.5],
+              ['32 x 32', 8, 2.4],
+              ['40 x 40', 12.6, 3.8],
+              ['42 x 42', 13.85, 4.22],
+              ['50 x 50', 19.6, 6],
+              ['53 x 53', 22.05, 6.72],
+              ['56 x 56', 24.6, 7.5],
+              ['63 x 63', 31.2, 9.5]
+            ];
+            foreach ($ms_square_bars as $row) {
+              echo '<tr class="hover:bg-gray-50/50 transition-colors duration-200">
+                <td class="px-6 py-3 font-medium text-gray-900 border-r border-gray-100">' . $row[0] . '</td>
+                <td class="px-6 py-3 text-center border-r border-gray-100">' . $row[1] . '</td>
+                <td class="px-6 py-3 text-center">' . $row[2] . '</td>
+              </tr>';
+            }
+            ?>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Rolling Tolerances -->
+    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
+      Rolling Tolerances
+    </h3>
+
+    <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12">
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-gray-50/80 border-b border-gray-100">
+              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+                Size
+              </th>
+              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+                Out of squareness
+              </th>
+              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+                Weight
+              </th>
+              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase">
+                Length
+              </th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-gray-100">
+            <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                Up to 25 mm: &plusmn; 0.5 mm
+              </td>
+              <td class="px-6 py-4 border-r border-gray-100" rowspan="6">
+                &plusmn; 75% of total tolerance specified on the size.
+              </td>
+              <td class="px-6 py-4 border-r border-gray-100 align-top" rowspan="6">
+                <div class="space-y-2">
+                  <p>10 mm to 16 mm: &plusmn; 5%</p>
+                  <p>16 mm and above: &plusmn; 3%</p>
+                </div>
+              </td>
+              <td class="px-6 py-4 align-top" rowspan="6">
+                For fixed length: &plusmn; 100 mm
+              </td>
+            </tr>
+
+            <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                25 mm to 35 mm: &plusmn; 0.6 mm
+              </td>
+            </tr>
+
+            <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                35 mm to 50 mm: &plusmn; 0.8 mm
+              </td>
+            </tr>
+
+            <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                50 mm to 80 mm: &plusmn; 1 mm
+              </td>
+            </tr>
+
+            <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                80 mm to 100 mm: &plusmn; 1.3 mm
+              </td>
+            </tr>
+
+            <tr class="hover:bg-gray-50/50 transition-colors duration-200">
+              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+                100 mm and above: &plusmn; 1.6% of side width.
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>
    
   </main>
 
