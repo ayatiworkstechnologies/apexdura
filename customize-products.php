@@ -73,8 +73,8 @@
 
     <main>
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
-        <section class=" py-20 px-6 md:px-12 lg:px-20">
-            <div class="max-w-5xl">
+        <section class="max-w-7xl mx-auto py-20 px-6 md:px-12 lg:px-20">
+            <div>
 
                 <!-- Heading -->
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight">
@@ -92,151 +92,154 @@
         </section>
 
 
-        <!-- Get in touch form  -->
-        <section class="bg-gray-100 py-20 px-6 md:px-12 lg:px-20">
-            <div class="max-w-3xl">
+      <!-- Get in touch form -->
+<section class="max-w-7xl mx-auto bg-gray-100 py-20 px-6 md:px-12 lg:px-20">
+  <div>
 
-                <!-- Heading -->
-                <h2 class="text-5xl font-bold text-red-600 mb-12">
-                    Get in touch with us
-                </h2>
+    <!-- Heading -->
+    <h2 class="text-5xl font-bold text-red-600 mb-12">
+      Get in touch with us
+    </h2>
 
-                <form id="contactForm" class="space-y-10">
+    <form id="contactForm" class="space-y-10">
 
-                    <!-- Name -->
-                    <div>
-                        <label class="block text-lg font-semibold mb-2">Name</label>
-                        <input type="text" placeholder="Enter your Name"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                    </div>
+      <!-- Name -->
+      <div>
+        <label class="block text-lg font-semibold mb-2">Name</label>
+        <input type="text" placeholder="Enter your Name"
+          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+      </div>
 
-                    <!-- Email -->
-                    <div>
-                        <label class="block text-lg font-semibold mb-2">Business Email</label>
-                        <input type="email" placeholder="Enter your email"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                    </div>
+      <!-- Email -->
+      <div>
+        <label class="block text-lg font-semibold mb-2">Business Email</label>
+        <input type="email" placeholder="Enter your email"
+          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+      </div>
 
-                    <!-- Mobile -->
-                    <div>
-                        <label class="block text-lg font-semibold mb-2">Mobile Number</label>
-                        <input type="text" placeholder="Enter your number"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                    </div>
+      <!-- Mobile -->
+      <div>
+        <label class="block text-lg font-semibold mb-2">Mobile Number</label>
+        <input type="text" placeholder="Enter your number"
+          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+      </div>
 
-                    <!-- Product Selection -->
-                    <div class="pt-6">
-                        <div class="flex flex-wrap gap-8 text-lg">
+      <!-- Product Section -->
+      <div class="pt-6 space-y-6">
 
-                            <!-- TMT Checkbox -->
-                            <label class="flex items-center gap-3 cursor-pointer">
-                                <input type="checkbox" id="tmtFe550" class="peer accent-red-600 w-4 h-4">
+        <!-- TMT Fe550 -->
+        <div>
+          <label class="flex items-center gap-3 cursor-pointer text-lg">
+            <input type="checkbox" id="tmtFe550"
+              class="peer accent-red-600 w-4 h-4">
 
-                                <span class="transition-colors duration-200 peer-checked:text-red-600">
-                                    TMT Fe550 Bars
-                                </span>
-                            </label>
+            <span class="transition-colors duration-200 peer-checked:text-red-600">
+              TMT Fe550 Bars
+            </span>
+          </label>
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4">
-                                Construction Bars
-                            </label>
+          <!-- Sizes (Hidden initially) -->
+          <div id="tmtSizes" class="hidden mt-6 ml-8">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-10 text-lg">
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4">
-                                Round Bars
-                            </label>
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 5MM
+              </label>
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4">
-                                Billets
-                            </label>
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 8MM
+              </label>
 
-                        </div>
-                    </div>
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 10MM
+              </label>
 
-                    <!-- TMT Sizes (Hidden by default) -->
-                    <div id="tmtSizes" class="hidden pt-6">
-                        <div class="flex flex-wrap gap-8 text-lg">
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 12MM
+              </label>
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 5MM
-                            </label>
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 16MM
+              </label>
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 8MM
-                            </label>
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 20MM
+              </label>
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 10MM
-                            </label>
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 25MM
+              </label>
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 12MM
-                            </label>
+              <label class="flex items-center gap-3">
+                <input type="checkbox" class="accent-red-600 w-4 h-4"> 32MM
+              </label>
 
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 16MM
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 20MM
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 25MM
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 32MM
-                            </label>
-
-                        </div>
-                    </div>
-
-                    <!-- Message -->
-                    <div class="pt-6">
-                        <label class="block text-lg font-semibold mb-2">Message</label>
-                        <textarea rows="4" placeholder="Describe yourself here..."
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
-                    </div>
-
-                    <!-- Submit -->
-                    <div class="pt-10">
-                        <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-12 py-4 flex items-center gap-6 transition-all">
-                            Submit
-                            <span class="text-2xl">›</span>
-                        </button>
-                    </div>
-
-                </form>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <!-- Script -->
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
+        <!-- Other Products -->
+        <div class="flex flex-wrap gap-8 text-lg">
 
-                const tmtCheckbox = document.getElementById("tmtFe550");
-                const sizeSection = document.getElementById("tmtSizes");
+          <label class="flex items-center gap-3">
+            <input type="checkbox" class="accent-red-600 w-4 h-4">
+            Construction Bars
+          </label>
 
-                tmtCheckbox.addEventListener("change", function () {
+          <label class="flex items-center gap-3">
+            <input type="checkbox" class="accent-red-600 w-4 h-4">
+            Round Bars
+          </label>
 
-                    if (this.checked) {
-                        sizeSection.classList.remove("hidden");
-                    } else {
-                        sizeSection.classList.add("hidden");
+          <label class="flex items-center gap-3">
+            <input type="checkbox" class="accent-red-600 w-4 h-4">
+            Billets
+          </label>
 
-                        // Uncheck all size checkboxes when hiding
-                        const sizeCheckboxes = sizeSection.querySelectorAll("input[type='checkbox']");
-                        sizeCheckboxes.forEach(cb => cb.checked = false);
-                    }
+        </div>
 
-                });
+      </div>
 
-            });
-        </script>
+      <!-- Message -->
+      <div class="pt-6">
+        <label class="block text-lg font-semibold mb-2">Message</label>
+        <textarea rows="4" placeholder="Describe yourself here..."
+          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="pt-10">
+        <button type="submit"
+          class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-12 py-4 flex items-center gap-6 transition-all">
+          Submit
+          <span class="text-2xl">›</span>
+        </button>
+      </div>
+
+    </form>
+  </div>
+</section>
+
+<!-- Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const tmtCheckbox = document.getElementById("tmtFe550");
+  const sizeSection = document.getElementById("tmtSizes");
+
+  tmtCheckbox.addEventListener("change", function () {
+
+    sizeSection.classList.toggle("hidden", !this.checked);
+
+    if (!this.checked) {
+      const sizeCheckboxes = sizeSection.querySelectorAll("input[type='checkbox']");
+      sizeCheckboxes.forEach(cb => cb.checked = false);
+    }
+
+  });
+
+});
+</script>
 
     </main>
 
