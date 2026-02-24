@@ -83,33 +83,18 @@
                 <!-- LEFT CONTENT -->
                 <div>
                     <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
-                        Certified High-Strength Steel
+                       5mm TMT Bar – The Ideal Choice for Modern Construction
                     </h2>
 
                     <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
-                        Superior Grade Fe550 TMT Bars for Maximum Durability & Flexibility
+                           Apex Dura Green 5mm TMT Bar
                     </h3>
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        Apex Dura TMT Fe550 Bars are engineered for superior structural performance,
-                        combining high tensile strength with exceptional flexibility. Manufactured
-                        using advanced thermo-mechanical treatment technology, Apex Dura ensures
-                        unmatched durability, safety, and long-lasting reliability for modern
-                        construction needs.
+                        Unlock the potential of your construction projects with our 5mm TMT Bar – designed to provide exceptional strength, flexibility, and durability in a range of applications. Whether you’re reinforcing concrete structures, enhancing foundations, or working on specialized industrial and residential projects, our 5mm TMT Bars offer unmatched performance. Built to withstand challenging environmental conditions, our TMT bars are ideal for projects that require reliable, long-lasting materials without sacrificing cost-effectiveness.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
-                        We produce our Fe550 TMT bars from high-grade raw materials, maintaining
-                        superior purity and consistent quality standards. Through precision-controlled
-                        rolling and quenching processes, we achieve uniform mechanical properties and
-                        optimized rib patterns for better bonding with concrete.
-                    </p>
-
-                    <p class="text-gray-600 leading-relaxed">
-                        With a tough outer surface and a ductile core structure, Apex Dura Fe550 Bars
-                        deliver enhanced earthquake resistance, higher load-bearing capacity, and
-                        excellent corrosion resistance.
-                    </p>
+                    
                 </div>
 
                 <!-- RIGHT IMAGE -->
@@ -196,12 +181,10 @@
 
                             <div class="max-w-lg">
                                 <h3 class="text-xl lg:text-2xl font-bold text-red-600 mb-5">
-                                    Superior Corrosion Resistance
+                                    Optimal for Lightweight Structures
                                 </h3>
                                 <p class="text-gray-600 leading-relaxed">
-                                    Engineered with enhanced surface properties, our bars provide
-                                    exceptional resistance against rust and corrosion, increasing
-                                    structural lifespan even in coastal and humid environments.
+                                    Despite their smaller diameter, 5mm TMT bars are engineered to deliver exceptional load-bearing capacity, making them perfect for lightweight and intricate structural reinforcements. They offer high bending capabilities, which is crucial for projects requiring flexibility and precision, such as small-scale residential and commercial applications.
                                 </p>
                             </div>
 
@@ -232,12 +215,10 @@
 
                             <div class="max-w-lg">
                                 <h3 class="text-xl lg:text-2xl font-bold text-red-600 mb-5">
-                                    Superior Corrosion Resistance
+                                    Corrosion Resistance for Longevity
                                 </h3>
                                 <p class="text-gray-600 leading-relaxed">
-                                    Engineered with enhanced surface properties, our bars provide
-                                    exceptional resistance against rust and corrosion, increasing
-                                    structural lifespan even in coastal and humid environments.
+                                    Our 5mm TMT bars are coated with a protective layer that shields them from rust, corrosion, and degradation over time. Ideal for areas with high humidity, extreme weather, or industrial environments, they ensure that your structure maintains its integrity and strength throughout its lifespan, reducing maintenance costs and ensuring safety.
                                 </p>
                             </div>
 
@@ -269,12 +250,10 @@
 
                             <div class="max-w-lg">
                                 <h3 class="text-xl lg:text-2xl font-bold text-red-600 mb-5">
-                                    Superior Corrosion Resistance
+                                    Heat Resistance for Safety
                                 </h3>
                                 <p class="text-gray-600 leading-relaxed">
-                                    Engineered with enhanced surface properties, our bars provide
-                                    exceptional resistance against rust and corrosion, increasing
-                                    structural lifespan even in coastal and humid environments.
+                                    These TMT bars are designed to withstand high temperatures, providing the necessary resilience in regions prone to extreme heat or fire hazards. This heat-resistant quality ensures that the bars maintain their strength and don’t lose their shape or performance under thermal stress, making them suitable for a variety of construction environments.
                                 </p>
                             </div>
 
@@ -338,39 +317,46 @@
 
                             <!-- ITEM -->
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">High Tensile Strength</h3>
+                                <h3 class="font-semibold text-lg mb-4">Superior Strength & Durability</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Manufactured to Fe550 grade standards, offering enhanced
-                                    load-bearing capacity for high-rise buildings and heavy structures.
+                                    Our 5mm TMT bars offer the highest tensile strength, capable of handling extreme loads and stresses, ensuring that your structures remain secure and stable for decades.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">High Ductility</h3>
+                                <h3 class="font-semibold text-lg mb-4">Precision Manufacturing</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Superior flexibility ensures better earthquake resistance and
-                                    structural stability.
+                                    With strict quality control and adherence to international standards, our bars are consistent in diameter and surface quality, ensuring the smoothest application possible in all projects.
+                                </p>
+                            </div>
+
+                         
+
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                                <h3 class="font-semibold text-lg mb-4">Versatile Applications</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Whether you're constructing residential buildings, reinforcing industrial foundations, or working on agricultural setups, our 5mm TMT bars are engineered to meet a broad spectrum of requirements.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Corrosion Resistance</h3>
+                                <h3 class="font-semibold text-lg mb-4">Eco-Friendly</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Advanced manufacturing process improves durability and lifespan.
+                                    Produced with sustainable methods and materials, our 5mm TMT bars contribute to greener construction practices by reducing environmental impact without compromising on performance.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Better Bonding</h3>
+                                <h3 class="font-semibold text-lg mb-4">Enhanced Flexibility</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Strong rib pattern ensures firm grip with concrete.
+                                    The optimal combination of ductility and strength makes our TMT bars easy to shape and bend as required, making them ideal for both simple and complex designs.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Thermal Stability</h3>
+                                <h3 class="font-semibold text-lg mb-4">Economical Choice</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Maintains structural integrity even under high temperatures.
+                                    Offering high performance at a competitive price, our 5mm TMT bars are a cost-effective solution that doesn’t sacrifice quality for affordability, making them suitable for both large and small-scale projects.
                                 </p>
                             </div>
 
@@ -403,8 +389,7 @@
                         <div class="absolute left-8 top-20 bottom-0 w-[2px] bg-white/30"></div>
 
                         <p class="text-sm  mb-10 pl-16 fade-up">
-                            5mm TMT Bars serve a wide array of applications across various industries due to their
-                            strength, flexibility, and corrosion resistance:</p>
+                            5mm TMT Bars serve a wide array of applications across various industries due to their strength, flexibility, and corrosion resistance:</p>
 
                         <!-- STEPS -->
                         <div id="steps" class="space-y-8 fade-in">
@@ -429,7 +414,7 @@
                                             Residential Construction
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                            Perfect for reinforcing small residential buildings, walls, slabs, and fencing. Ideal for lightweight applications like decorative steel frameworks and structural support.
                                         </p>
                                     </div>
                                 </div>
@@ -452,10 +437,9 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Advanced Rolling</h4>
+                                        <h4 class="font-semibold text-lg">Infrastructure Development</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Precision Rolling Processes Shape Steel For Uniform
-                                            Strength And Performance.
+                                            Widely used in infrastructure projects such as bridges, walkways, and roads where precision and durability are crucial for safety and functionality.
                                         </p>
                                     </div>
                                 </div>
@@ -479,11 +463,10 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                            Quenching & Tempering
+                                            Industrial Manufacturing
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Controlled Heat Treatment Enhances Ductility, Toughness
-                                            And Durability.
+                                           Essential in manufacturing plants, warehouses, and storage facilities, where they are used for reinforcement in the light to medium-load-bearing applications.
                                         </p>
                                     </div>
                                 </div>
@@ -506,10 +489,9 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Quality Testing</h4>
+                                        <h4 class="font-semibold text-lg">Agricultural Uses</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Rigorous Testing Ensures Compliance With BIS Standards
-                                            And Reliability.
+                                            Excellent for reinforcing farming structures like greenhouses, irrigation systems, and fencing for crops or livestock, ensuring stability under diverse weather conditions.
                                         </p>
                                     </div>
                                 </div>
@@ -531,10 +513,9 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Quality Testing</h4>
+                                        <h4 class="font-semibold text-lg">Earthquake-Resistant Projects</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Rigorous Testing Ensures Compliance With BIS Standards
-                                            And Reliability.
+                                            Essential for earthquake-resistant construction in regions prone to seismic activity, offering the required flexibility and strength to absorb shocks and protect structures.
                                         </p>
                                     </div>
                                 </div>
@@ -557,10 +538,9 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Quality Testing</h4>
+                                        <h4 class="font-semibold text-lg">DIY and Crafts</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Rigorous Testing Ensures Compliance With BIS Standards
-                                            And Reliability.
+                                            Highly flexible, 5mm TMT bars are favored in DIY projects for creating custom furniture, fencing, and other small-scale structures, providing professional-level results with ease.
                                         </p>
                                     </div>
                                 </div>
@@ -672,7 +652,7 @@
 
 
         <!-- Apex advantages -->
-        <!-- Sunvik 5mm TMT Bar Advantages -->
+       
         <section class="w-full bg-gray-100 py-20">
 
             <!-- Heading -->

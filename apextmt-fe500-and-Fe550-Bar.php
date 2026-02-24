@@ -167,10 +167,10 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                            Billet Heating
+                                            High Tensile Strength
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                            Manufactured to Fe550 grade standards, offering enhanced load-bearing capacity for high-rise buildings and heavy structures.
                                         </p>
                                     </div>
                                 </div>
@@ -193,10 +193,9 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Advanced Rolling</h4>
+                                        <h4 class="font-semibold text-lg">Excellent Flexibility & Ductility</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Precision Rolling Processes Shape Steel For Uniform
-                                            Strength And Performance.
+                                            Advanced thermo-mechanical treatment provides a tough outer surface with a ductile core, improving bendability and crack resistance.
                                         </p>
                                     </div>
                                 </div>
@@ -220,11 +219,10 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                            Quenching & Tempering
+                                            Superior Earthquake Resistance
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Controlled Heat Treatment Enhances Ductility, Toughness
-                                            And Durability.
+                                            Optimized microstructure enhances shock absorption and structural stability during seismic activity.
                                         </p>
                                     </div>
                                 </div>
@@ -247,10 +245,56 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Quality Testing</h4>
+                                        <h4 class="font-semibold text-lg">Enhanced Corrosion Resistance</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Rigorous Testing Ensures Compliance With BIS Standards
-                                            And Reliability.
+                                            Specialized quenching technology ensures long-lasting resistance against rust and environmental exposure.
+                                        </p>
+                                    </div>
+                                </div>
+                           </div>
+                                
+
+                                <!-- STEP 05 -->
+                            <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                                data-img="Apex-Images/pmp-5.png">
+                                <span
+                                    class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
+                                <span
+                                    class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
+
+                                <div class="flex items-start gap-6 flex-1">
+                                    <span class="num text-3xl font-bold">
+                                        <h3>05</h3>
+                                    </span>
+                                    <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
+
+                                    <div>
+                                        <h4 class="font-semibold text-lg">Strong Concrete Bonding</h4>
+                                        <p class="text-sm text-white/90 mt-1">
+                                            Precision rib patterns ensure excellent grip with concrete, improving overall structural integrity.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <!-- STEP 06 -->
+                            <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                                data-img="Apex-Images/pmp-5.png">
+                                <span
+                                    class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
+                                <span
+                                    class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
+
+                                <div class="flex items-start gap-6 flex-1">
+                                    <span class="num text-3xl font-bold">
+                                        <h3>06</h3>
+                                    </span>
+                                    <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
+
+                                    <div>
+                                        <h4 class="font-semibold text-lg">Consistent Quality Standards</h4>
+                                        <p class="text-sm text-white/90 mt-1">
+                                            Produced using controlled rolling processes and tested as per industry norms to maintain uniform mechanical properties.
                                         </p>
                                     </div>
                                 </div>
@@ -283,9 +327,9 @@
                             <h3>01</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Billet Heating</h4>
+                            <h4 class="font-semibold">High Tensile Strength</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Carefully sourced raw materials to ensure strength, purity, and consistency.
+                               Manufactured to Fe550 grade standards, offering enhanced load-bearing capacity for high-rise buildings and heavy structures.
                             </p>
                         </div>
                     </div>
@@ -295,10 +339,9 @@
                             <h3>02</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Advanced Rolling</h4>
+                            <h4 class="font-semibold">Excellent Flexibility & Ductility</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Precision rolling processes shape steel for uniform strength
-                                and performance.
+                                Advanced thermo-mechanical treatment provides a tough outer surface with a ductile core, improving bendability and crack resistance.
                             </p>
                         </div>
                     </div>
@@ -308,10 +351,9 @@
                             <h3>03</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quenching & Tempering</h4>
+                            <h4 class="font-semibold">Superior Earthquake Resistance</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Controlled heat treatment enhances ductility, toughness and
-                                durability.
+                                Optimized microstructure enhances shock absorption and structural stability during seismic activity.
                             </p>
                         </div>
                     </div>
@@ -321,10 +363,33 @@
                             <h3>04</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">Enhanced Corrosion Resistance</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                                Specialized quenching technology ensures long-lasting resistance against rust and environmental exposure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-lg p-5 flex gap-4 items-start fade-right">
+                        <span class="text-2xl font-bold">
+                            <h3>05</h3>
+                        </span>
+                        <div>
+                            <h4 class="font-semibold">Strong Concrete Bonding</h4>
+                            <p class="text-sm text-white/80 mt-1">
+                                Precision rib patterns ensure excellent grip with concrete, improving overall structural integrity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-lg p-5 flex gap-4 items-start fade-right">
+                        <span class="text-2xl font-bold">
+                            <h3>06</h3>
+                        </span>
+                        <div>
+                            <h4 class="font-semibold">Consistent Quality Standards</h4>
+                            <p class="text-sm text-white/80 mt-1">
+                                Produced using controlled rolling processes and tested as per industry norms to maintain uniform mechanical properties.
                             </p>
                         </div>
                     </div>

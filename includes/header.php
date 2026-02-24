@@ -12,13 +12,7 @@ $productPages = [
   'ms-squarebars.php',
   'ms-flatbars.php',
   '5mm-tmtbar.php',
-  '8mm-tmtbar.php',
-  '10mm-tmtbar.php',
-  '12mm-tmtbar.php',
-  '16mm-tmtbar.php',
-  '20mm-tmtbar.php',
-  '25mm-tmtbar.php',
-  '32mm-tmtbar.php',
+  '5mm-to-32mm-tmtbar.php',
   'customize-products.php'
 ];
 
@@ -138,25 +132,38 @@ $isProductPage = in_array($currentPage, $productPages);
           <!-- TMT SUBMENU -->
           <div class="relative group/tmt">
 
-            <a href="#" class="flex justify-between items-center hover:text-red-500
-        <?= (preg_match('/mm-tmtbar\.php$/', $currentPage)) ? 'text-red-600 font-semibold' : '' ?>">
+            <?php
+            $currentSize = $_GET['size'] ?? '';
+            ?>
+
+            <a href="#"
+              class="flex justify-between items-center hover:text-red-500
+  <?= ($currentPage == '5mm-tmtbar.php' || $currentPage == '5mm-to-32mm-tmtbar.php') ? 'text-red-600 font-semibold' : '' ?>">
               All TMT Bar Sizes
               <span>›</span>
             </a>
 
             <div class="absolute left-full -top-5 ml-7 hidden group-hover/tmt:block
-            bg-black/50 backdrop-blur-xl
-            border border-white/20 w-60 p-6 space-y-3
-            rounded-xl shadow-2xl border border-white/10">
+  bg-black/50 backdrop-blur-xl
+  border border-white/20 w-60 p-6 space-y-3
+  rounded-xl shadow-2xl border border-white/10">
 
               <?php
               $sizes = ['5', '8', '10', '12', '16', '20', '25', '32'];
+
               foreach ($sizes as $size):
-                $file = $size . 'mm-tmtbar.php';
+
+                if ($size == '5') {
+                  $file = '5mm-tmtbar.php';
+                  $isActive = ($currentPage == '5mm-tmtbar.php');
+                } else {
+                  $file = '5mm-to-32mm-tmtbar.php?size=' . $size;
+                  $isActive = ($currentPage == '5mm-to-32mm-tmtbar.php' && $currentSize == $size);
+                }
                 ?>
 
-                <a href="<?= $file ?>" class="block hover:text-red-500
-          <?= ($currentPage == $file) ? 'text-red-600 font-semibold' : '' ?>">
+                <a href="<?= $file ?>"
+                  class="block hover:text-red-500 <?= $isActive ? 'text-red-600 font-semibold' : '' ?>">
                   <?= $size ?>MM TMT Bar
                 </a>
 
@@ -288,8 +295,13 @@ $isProductPage = in_array($currentPage, $productPages);
 
         <!-- TMT SIZES -->
         <div>
-          <button id="mobileSizesBtn" class="w-full text-left py-1 text-sm flex justify-between items-center hover:text-red-500 uppercase
-          <?= (preg_match('/mm-tmtbar\.php$/', $currentPage)) ? 'text-red-600 font-semibold' : '' ?>">
+          <?php
+          $currentSize = $_GET['size'] ?? '';
+          ?>
+
+          <button id="mobileSizesBtn"
+            class="w-full text-left py-1 text-sm flex justify-between items-center hover:text-red-500 uppercase
+  <?= ($currentPage == '5mm-tmtbar.php' || $currentPage == '5mm-to-32mm-tmtbar.php') ? 'text-red-600 font-semibold' : '' ?>">
             All TMT Bar Sizes
             <span>▸</span>
           </button>
@@ -298,12 +310,20 @@ $isProductPage = in_array($currentPage, $productPages);
 
             <?php
             $sizes = ['5', '8', '10', '12', '16', '20', '25', '32'];
+
             foreach ($sizes as $size):
-              $file = $size . 'mm-tmtbar.php';
+
+              if ($size == '5') {
+                $file = '5mm-tmtbar.php';
+                $isActive = ($currentPage == '5mm-tmtbar.php');
+              } else {
+                $file = '5mm-to-32mm-tmtbar.php?size=' . $size;
+                $isActive = ($currentPage == '5mm-to-32mm-tmtbar.php' && $currentSize == $size);
+              }
               ?>
 
-              <a href="<?= $file ?>" class="block text-sm hover:text-red-500
-            <?= ($currentPage == $file) ? 'text-red-600 font-semibold' : '' ?>">
+              <a href="<?= $file ?>"
+                class="block text-sm hover:text-red-500 <?= $isActive ? 'text-red-600 font-semibold' : '' ?>">
                 <?= $size ?>MM TMT Bar
               </a>
 
@@ -350,64 +370,64 @@ $isProductPage = in_array($currentPage, $productPages);
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
 
-  const wrapper = document.getElementById("productsMenuWrapper");
-  if (!wrapper) return;
+    const wrapper = document.getElementById("productsMenuWrapper");
+    if (!wrapper) return;
 
-  const dropdown = document.getElementById("productsDropdown");
+    const dropdown = document.getElementById("productsDropdown");
 
-  const submenus = wrapper.querySelectorAll(
-    ".group\\/tmt > div, .group\\/ms > div"
-  );
+    const submenus = wrapper.querySelectorAll(
+      ".group\\/tmt > div, .group\\/ms > div"
+    );
 
-  let mainTimeout;
-  let subTimeout;
+    let mainTimeout;
+    let subTimeout;
 
-  // ===== MAIN DROPDOWN =====
-  wrapper.addEventListener("mouseenter", () => {
-    clearTimeout(mainTimeout);
-    dropdown.classList.remove("hidden");
-  });
-
-  wrapper.addEventListener("mouseleave", () => {
-    mainTimeout = setTimeout(() => {
-      dropdown.classList.add("hidden");
-      submenus.forEach(menu => menu.classList.add("hidden"));
-    }, 300); // reduced delay
-  });
-
-  // ===== SUBMENU CONTROL =====
-  submenus.forEach(submenu => {
-    const parent = submenu.parentElement;
-
-    parent.addEventListener("mouseenter", () => {
-      clearTimeout(subTimeout);
-
-      // close ALL submenus immediately
-      submenus.forEach(menu => {
-        menu.classList.add("hidden");
-      });
-
-      submenu.classList.remove("hidden");
+    // ===== MAIN DROPDOWN =====
+    wrapper.addEventListener("mouseenter", () => {
+      clearTimeout(mainTimeout);
+      dropdown.classList.remove("hidden");
     });
 
-    parent.addEventListener("mouseleave", () => {
-      subTimeout = setTimeout(() => {
-        submenu.classList.add("hidden");
+    wrapper.addEventListener("mouseleave", () => {
+      mainTimeout = setTimeout(() => {
+        dropdown.classList.add("hidden");
+        submenus.forEach(menu => menu.classList.add("hidden"));
       }, 300); // reduced delay
     });
-  });
 
-  // ===== CLOSE ON OUTSIDE CLICK =====
-  document.addEventListener("click", function (event) {
-    if (!wrapper.contains(event.target)) {
-      dropdown.classList.add("hidden");
-      submenus.forEach(menu => menu.classList.add("hidden"));
-    }
-  });
+    // ===== SUBMENU CONTROL =====
+    submenus.forEach(submenu => {
+      const parent = submenu.parentElement;
 
-});
+      parent.addEventListener("mouseenter", () => {
+        clearTimeout(subTimeout);
+
+        // close ALL submenus immediately
+        submenus.forEach(menu => {
+          menu.classList.add("hidden");
+        });
+
+        submenu.classList.remove("hidden");
+      });
+
+      parent.addEventListener("mouseleave", () => {
+        subTimeout = setTimeout(() => {
+          submenu.classList.add("hidden");
+        }, 300); // reduced delay
+      });
+    });
+
+    // ===== CLOSE ON OUTSIDE CLICK =====
+    document.addEventListener("click", function (event) {
+      if (!wrapper.contains(event.target)) {
+        dropdown.classList.add("hidden");
+        submenus.forEach(menu => menu.classList.add("hidden"));
+      }
+    });
+
+  });
 </script>
 
 

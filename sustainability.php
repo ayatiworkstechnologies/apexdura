@@ -75,13 +75,13 @@
   <main>
 
 
-    <section class=" py-16 px-6 md:px-12 lg:px-20">
+    <section class=" py-10 px-6 md:px-12 lg:px-20">
       <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
         <!-- LEFT CONTENT -->
         <div>
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
-            Apex Dura Green Steel For A Sustainable Future 
+            Apex Dura Green Steel For A Sustainable Future
           </h2>
 
           <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
@@ -89,18 +89,20 @@
           </h3>
 
           <p class="text-gray-600 leading-relaxed mb-4">
-            Apex Dura has exceeded energy reduction targets set by the Bureau of Energy Efficiency, Ministry of Power, and Government of India. Our commitment to green steel manufacturing reflects our dedication to community, national, and environmental sustainability.
+            Apex Dura has exceeded energy reduction targets set by the Bureau of Energy Efficiency, Ministry of Power,
+            and Government of India. Our commitment to green steel manufacturing reflects our dedication to community,
+            national, and environmental sustainability.
           </p>
 
         </div>
 
         <!-- RIGHT IMAGE -->
-        <div class="relative flex justify-center hidden lg:block lg:justify-end">
-
-
-
-          <img src="Apex-Images/steel-factory.jpg" alt="Steel Structure"
-            class="w-full max-w-md lg:max-w-lg object-cover shadow-xl">
+        
+        <div class="relative hidden lg:flex justify-end">
+          <div class="w-full max-w-md">
+            <img src="Apex-Images/steel-factory.jpg" alt="Steel Structure" class="w-full h-[350px] object-cover 
+                rounded-2xl shadow-xl">
+          </div>
         </div>
 
       </div>
@@ -108,7 +110,7 @@
 
 
     <!-- Carousel Section -->
-    <section class="w-full py-24">
+    <section class="w-full py-10">
 
       <div class="max-w-6xl mx-auto px-6 relative">
 
@@ -132,10 +134,16 @@
                     Green Tech
                   </h3>
                   <p class="text-gray-600 leading-relaxed">
-                    At Apex Dura, we always build to last. That inherently implies our focus on the long term over the short term. That is why, at the heart of all our endeavours is our desire to leverage the available knowledge and the latest technology to be green and be among the top green steel manufacturers in India.
+                    At Apex Dura, we always build to last. That inherently implies our focus on the long term over the
+                    short term. That is why, at the heart of all our endeavours is our desire to leverage the available
+                    knowledge and the latest technology to be green and be among the top green steel manufacturers in
+                    India.
                   </p>
-                   <p class="text-gray-600 leading-relaxed mt-4">
-                    Our unyielding passion to abide by environmental standards is only matched by our efforts to better them in the industry. We make “Green-Pro Certified” green steel and have increasingly been adopting green tech in all aspects of manufacturing. Our rigorous R&D coupled with field expertise help us build and nurture a sustainable corporate culture.
+                  <p class="text-gray-600 leading-relaxed mt-4">
+                    Our unyielding passion to abide by environmental standards is only matched by our efforts to better
+                    them in the industry. We make “Green-Pro Certified” green steel and have increasingly been adopting
+                    green tech in all aspects of manufacturing. Our rigorous R&D coupled with field expertise help us
+                    build and nurture a sustainable corporate culture.
                   </p>
                 </div>
 
@@ -162,10 +170,15 @@
                     Environmental Awareness
                   </h3>
                   <p class="text-gray-600 leading-relaxed">
-                    Apex Dura recognises that green-house gases pose possibly the greatest threat to the planet today. The steel industry, though an absolute necessity, is frowned upon for its ecological footprint. That is where we step in as a green steel manufacturer.
+                    Apex Dura recognises that green-house gases pose possibly the greatest threat to the planet today.
+                    The steel industry, though an absolute necessity, is frowned upon for its ecological footprint. That
+                    is where we step in as a green steel manufacturer.
                   </p>
                   <p class="text-gray-600 leading-relaxed mt-4">
-                    Putting our money into our ideals, we have invested in captive power plants based on waste-heat recovery that is run entirely on the residual gases from manufacturing process. On one hand it reduces emission of greenhouse gases (between 5X-20X compared to other steel plants) and, on the other, reduces dependence on external power.
+                    Putting our money into our ideals, we have invested in captive power plants based on waste-heat
+                    recovery that is run entirely on the residual gases from manufacturing process. On one hand it
+                    reduces emission of greenhouse gases (between 5X-20X compared to other steel plants) and, on the
+                    other, reduces dependence on external power.
                   </p>
                 </div>
 
@@ -192,10 +205,13 @@
                     CSR(Corporate Social Responsibility)
                   </h3>
                   <p class="text-gray-600 leading-relaxed">
-                    Taking care of the communities that surround us is an extension of the care we take of our environment and ecosystem. As a part of Apex Dura's CSR initiatives, we have contributed towards army, defence, schools, sports and many other fields.
+                    Taking care of the communities that surround us is an extension of the care we take of our
+                    environment and ecosystem. As a part of Apex Dura's CSR initiatives, we have contributed towards
+                    army, defence, schools, sports and many other fields.
                   </p>
                   <p class="text-gray-600 leading-relaxed mt-4">
-                    We have multiple programmes to strengthen and empower the economically underprivileged. We are always on a lookout for newer ways to give back to society that is the basis of our existence.
+                    We have multiple programmes to strengthen and empower the economically underprivileged. We are
+                    always on a lookout for newer ways to give back to society that is the basis of our existence.
                   </p>
                 </div>
 
@@ -207,8 +223,8 @@
 
               </div>
             </div>
- 
-             <!-- CARD 04 -->
+
+            <!-- CARD 04 -->
             <div class="min-w-full flex justify-center">
               <div class="bg-white rounded-3xl 
                       w-full lg:w-[85%] 
@@ -222,10 +238,13 @@
                     Zero Wastage
                   </h3>
                   <p class="text-gray-600 leading-relaxed">
-                    Waste disposal is an integral part of any steel industry. However, we at Apex Dura have consciously taken efforts to minimise the solid, liquid and gaseous waste to zero. Solid residues and wastes are optimally recycled in the creation of proficient by-products that are commercially viable.
+                    Waste disposal is an integral part of any steel industry. However, we at Apex Dura have consciously
+                    taken efforts to minimise the solid, liquid and gaseous waste to zero. Solid residues and wastes are
+                    optimally recycled in the creation of proficient by-products that are commercially viable.
                   </p>
                   <p class="text-gray-600 leading-relaxed mt-4">
-                    100% of all our solid residues are utilised in the manufacture of flyash bricks and blocks. Waste from water treatment plants are re-used after carefully maintaining the water quality parameters.
+                    100% of all our solid residues are utilised in the manufacture of flyash bricks and blocks. Waste
+                    from water treatment plants are re-used after carefully maintaining the water quality parameters.
                   </p>
                 </div>
 
@@ -278,46 +297,46 @@
     </section>
 
     <script>
-  let index = 0;
-  const carousel = document.getElementById("carousel");
-  const totalSlides = carousel.children.length; // auto count slides
-  let autoSlide;
+      let index = 0;
+      const carousel = document.getElementById("carousel");
+      const totalSlides = carousel.children.length; // auto count slides
+      let autoSlide;
 
-  function updateSlide() {
-    carousel.style.transform = `translateX(-${index * 100}%)`;
-  }
+      function updateSlide() {
+        carousel.style.transform = `translateX(-${index * 100}%)`;
+      }
 
-  function nextSlide() {
-    index = (index + 1) % totalSlides;
-    updateSlide();
-  }
+      function nextSlide() {
+        index = (index + 1) % totalSlides;
+        updateSlide();
+      }
 
-  function prevSlide() {
-    index = (index - 1 + totalSlides) % totalSlides;
-    updateSlide();
-  }
+      function prevSlide() {
+        index = (index - 1 + totalSlides) % totalSlides;
+        updateSlide();
+      }
 
-  function startAutoSlide() {
-    autoSlide = setInterval(() => {
-      nextSlide();
-    }, 3000);
-  }
+      function startAutoSlide() {
+        autoSlide = setInterval(() => {
+          nextSlide();
+        }, 3000);
+      }
 
-  function stopAutoSlide() {
-    clearInterval(autoSlide);
-  }
+      function stopAutoSlide() {
+        clearInterval(autoSlide);
+      }
 
-  function handleResponsiveSlide() {
-    if (window.innerWidth < 1024) {
-      startAutoSlide();
-    } else {
-      stopAutoSlide();
-    }
-  }
+      function handleResponsiveSlide() {
+        if (window.innerWidth < 1024) {
+          startAutoSlide();
+        } else {
+          stopAutoSlide();
+        }
+      }
 
-  window.addEventListener("resize", handleResponsiveSlide);
-  window.addEventListener("load", handleResponsiveSlide);
-</script>
+      window.addEventListener("resize", handleResponsiveSlide);
+      window.addEventListener("load", handleResponsiveSlide);
+    </script>
 
 
 

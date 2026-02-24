@@ -77,49 +77,35 @@
     <main>
 
 
-        <section class="bg-[#f3f3f3] py-16 px-6 md:px-12 lg:px-20">
+        <section class=" py-16 px-6 md:px-12 lg:px-20">
             <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
                 <!-- LEFT CONTENT -->
                 <div>
                     <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
-                        Certified High-Strength Steel
+                        Unbreakable Strength, Unbeatable Quality
                     </h2>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
-                        Superior Grade Fe550 TMT Bars for Maximum Durability & Flexibility
-                    </h3>
+                    
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        Apex Dura TMT Fe550 Bars are engineered for superior structural performance,
-                        combining high tensile strength with exceptional flexibility. Manufactured
-                        using advanced thermo-mechanical treatment technology, Apex Dura ensures
-                        unmatched durability, safety, and long-lasting reliability for modern
-                        construction needs.
+                        Mild steel billets, also known as MS billets, are produced in Sunvik’s high efficiency induction furnaces through processes that are IS 2830:2012 certified. These MS billets are semi-complete steel products that have either square or rectangular cross-sections. They are made via continuous rolling or continuous casting processes at temperatures higher than 1000 degree celsius.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
-                        We produce our Fe550 TMT bars from high-grade raw materials, maintaining
-                        superior purity and consistent quality standards. Through precision-controlled
-                        rolling and quenching processes, we achieve uniform mechanical properties and
-                        optimized rib patterns for better bonding with concrete.
+                    <p class="text-gray-600 leading-relaxed mt-4">
+                        As part of its stringent quality assurance plan, Sunvik has employed an advanced Metal Spectrometer to test the quality of MS billets.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed">
-                        With a tough outer surface and a ductile core structure, Apex Dura Fe550 Bars
-                        deliver enhanced earthquake resistance, higher load-bearing capacity, and
-                        excellent corrosion resistance.
-                    </p>
+                    
                 </div>
 
                 <!-- RIGHT IMAGE -->
-                <div class="relative flex justify-center hidden lg:block lg:justify-end">
-
-
-
-                    <img src="Apex-Images/steel-factory.jpg" alt="Steel Structure"
-                        class="w-full max-w-md lg:max-w-lg object-cover shadow-xl">
-                </div>
+                <div class="relative hidden lg:flex justify-end">
+          <div class="w-full max-w-md">
+            <img src="Apex-Images/steel-factory.jpg" alt="Steel Structure" class="w-full h-[350px] object-cover 
+                rounded-2xl shadow-xl">
+          </div>
+        </div>
 
             </div>
         </section>
@@ -167,10 +153,10 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                            Billet Heating
+                                           Premium Raw Material Selection
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                            We use high-quality sponge iron, heavy melting scrap, turnings, and bundled scrap sourced from trusted scrap yards to ensure superior base strength.
                                         </p>
                                     </div>
                                 </div>
@@ -193,10 +179,9 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Advanced Rolling</h4>
+                                        <h4 class="font-semibold text-lg">MS Billet Manufacturing</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Precision Rolling Processes Shape Steel For Uniform
-                                            Strength And Performance.
+                                            The selected raw materials are processed under strict quality control to produce high-strength MS billets with consistent structural integrity.
                                         </p>
                                     </div>
                                 </div>
@@ -220,11 +205,10 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                            Quenching & Tempering
+                                            Grade-Based Color Coding
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Controlled Heat Treatment Enhances Ductility, Toughness
-                                            And Durability.
+                                            Each billet is color-coded according to its quality grade, ensuring clear identification and quality traceability.
                                         </p>
                                     </div>
                                 </div>
@@ -247,10 +231,34 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Quality Testing</h4>
+                                        <h4 class="font-semibold text-lg">Systematic Stacking & Batch Control</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Rigorous Testing Ensures Compliance With BIS Standards
-                                            And Reliability.
+                                            Billets are stacked grade-wise and organized until the required manufacturing quantity is achieved.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <!-- step 05 -->
+                             <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                                data-img="Apex-Images/pmp-5.png">
+                                <span
+                                    class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
+                                <span
+                                    class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
+
+                                <div class="flex items-start gap-6 flex-1">
+                                    <span class="num text-3xl font-bold">
+                                        <h3>05</h3>
+                                    </span>
+                                    <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
+
+                                    <div>
+                                        <h4 class="font-semibold text-lg">Conversion into TMT Bars</h4>
+                                        <p class="text-sm text-white/90 mt-1">
+                                            Once the batch requirement is met, the MS billets are dispatched for advanced rolling and conversion into high-performance TMT bars.
                                         </p>
                                     </div>
                                 </div>
@@ -283,9 +291,9 @@
                             <h3>01</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Billet Heating</h4>
+                            <h4 class="font-semibold">Premium Raw Material Selection</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                We use high-quality sponge iron, heavy melting scrap, turnings, and bundled scrap sourced from trusted scrap yards to ensure superior base strength.
                             </p>
                         </div>
                     </div>
@@ -295,10 +303,9 @@
                             <h3>02</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Advanced Rolling</h4>
+                            <h4 class="font-semibold">MS Billet Manufacturing</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Precision rolling processes shape steel for uniform strength
-                                and performance.
+                                The selected raw materials are processed under strict quality control to produce high-strength MS billets with consistent structural integrity.
                             </p>
                         </div>
                     </div>
@@ -308,10 +315,9 @@
                             <h3>03</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quenching & Tempering</h4>
+                            <h4 class="font-semibold">Grade-Based Color Coding</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Controlled heat treatment enhances ductility, toughness and
-                                durability.
+                               Each billet is color-coded according to its quality grade, ensuring clear identification and quality traceability.
                             </p>
                         </div>
                     </div>
@@ -321,10 +327,21 @@
                             <h3>04</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">Systematic Stacking & Batch Control</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                               Billets are stacked grade-wise and organized until the required manufacturing quantity is achieved.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-lg p-5 flex gap-4 items-start fade-right">
+                        <span class="text-2xl font-bold">
+                            <h3>05</h3>
+                        </span>
+                        <div>
+                            <h4 class="font-semibold">Conversion into TMT Bars</h4>
+                            <p class="text-sm text-white/80 mt-1">
+                               Once the batch requirement is met, the MS billets are dispatched for advanced rolling and conversion into high-performance TMT bars.
                             </p>
                         </div>
                     </div>
@@ -333,24 +350,19 @@
         </section>
 
         <!-- Enhance Your Construction -->
-        <section class="max-w-7xl mx-auto  overflow-hidden mt-10">
+        <section class="max-w-8xl mx-auto  overflow-hidden mt-10">
       <div class="relative flex flex-col lg:flex-row items-center min-h-[420px]">
 
         <!-- LEFT CONTENT -->
         <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-red-600 z-10">
           <div class="max-w-[560px]">
             <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-5 animate-up">
-              Reliable TMT Bars for <br class="hidden sm:block" />
-              India’s Next Leap
+              Steel Made Stronger For <br class="hidden sm:block" />
+              Futuristic Structures
             </h1>
 
             <p class="text-sm text-gray-600 sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
-              At Apex Dura, our premium TMT 500 and 550 bars are crafted by
-              Khyati Steel Industries Pvt. Ltd., a trusted name driven by the
-              vision of contributing to India’s growth story. Every bar we
-              produce reflects a blend of engineering precision, material
-              integrity, and a deep commitment to building long-term
-              partnerships with our clients.
+              MS billets are integral to TMT steel manufacturing—TMT stands for ‘thermo mechanically treated’. As a leading steel manufacturer in South India, Sunvik Steel produces top-quality MS billets from low-carbon mild steel. Known for their weldability, ductility, and formability, these billets are ideal for diverse industrial applications in construction, automotive, engineering, and manufacturing sectors. TMT steel, essential for skyscrapers, warehouses, power plants, residential and commercial buildings, bridges, tunnels, and flyovers, relies on MS billets.
             </p>
 
 
