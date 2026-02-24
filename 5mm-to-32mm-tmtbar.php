@@ -87,18 +87,24 @@
                     </h2>
 
                     <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
-                        At Apex Dura, we bring you a comprehensive range of TMT Bars designed for excellence and reliability in construction. Our products include:
+                        At Apex Dura, we bring you a comprehensive range of TMT Bars designed for excellence and
+                        reliability in construction. Our products include:
                     </h3>
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                       5MM TMT Bar, 8MM TMT Bar, 10MM TMT Bar, 12MM TMT Bar, 16MM TMT Bar, 20MM TMT Bar, 25MM TMT Bar, 32MM TMT Bar
+                        5MM TMT Bar, 8MM TMT Bar, 10MM TMT Bar, 12MM TMT Bar, 16MM TMT Bar, 20MM TMT Bar, 25MM TMT Bar,
+                        32MM TMT Bar
                     </p>
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        Each bar is manufactured using state-of-the-art technology to deliver superior strength, durability, and performance. These bars are engineered to meet the rigorous demands of modern construction while ensuring safety, longevity, and sustainability. Whether it’s a small-scale residential project or a large-scale industrial infrastructure, our TMT Bars are built to deliver exceptional results every time.
+                        Each bar is manufactured using state-of-the-art technology to deliver superior strength,
+                        durability, and performance. These bars are engineered to meet the rigorous demands of modern
+                        construction while ensuring safety, longevity, and sustainability. Whether it’s a small-scale
+                        residential project or a large-scale industrial infrastructure, our TMT Bars are built to
+                        deliver exceptional results every time.
                     </p>
 
-                    
+
                 </div>
 
                 <!-- RIGHT IMAGE -->
@@ -123,7 +129,7 @@
             <div class="max-w-6xl mx-auto px-6 text-center py-20">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
                font-bold text-red-600 leading-tight">
-                   Get the Best TMT Bars for Your Project
+                    Get the Best TMT Bars for Your Project
                 </h2>
             </div>
 
@@ -146,9 +152,12 @@
                     justify-between gap-10">
 
                             <div class="max-w-lg">
-                               
+
                                 <p class="text-gray-600 leading-relaxed">
-                                   Are you searching for TMT Bars that offer unmatched strength and flexibility for your construction projects? Look no further! Our TMT Bars are designed to exceed expectations, meeting the highest quality standards to ensure they perform under the most demanding conditions.
+                                    Are you searching for TMT Bars that offer unmatched strength and flexibility for
+                                    your construction projects? Look no further! Our TMT Bars are designed to exceed
+                                    expectations, meeting the highest quality standards to ensure they perform under the
+                                    most demanding conditions.
                                 </p>
                             </div>
 
@@ -178,9 +187,11 @@
                     justify-between gap-10">
 
                             <div class="max-w-lg">
-                              
+
                                 <p class="text-gray-600 leading-relaxed">
-                                    Our team of experts is always ready to help you choose the right TMT Bars for your specific requirements. With a range of sizes and customized solutions, we ensure you get the best materials for your project, no matter the scale.
+                                    Our team of experts is always ready to help you choose the right TMT Bars for your
+                                    specific requirements. With a range of sizes and customized solutions, we ensure you
+                                    get the best materials for your project, no matter the scale.
                                 </p>
                             </div>
 
@@ -210,9 +221,10 @@
                     justify-between gap-10">
 
                             <div class="max-w-lg">
-                               
+
                                 <p class="text-gray-600 leading-relaxed">
-                                    Call us now to place your order or get a free consultation on the best TMT Bars for your needs.
+                                    Call us now to place your order or get a free consultation on the best TMT Bars for
+                                    your needs.
                                 </p>
                             </div>
 
@@ -226,52 +238,55 @@
                     </div>
                 </div>
             </div>
-                </div>
+            </div>
             </div>
 
             </div>
         </section>
 
 
-       <section class="w-full bg-gray-200">
-  <!-- Top Heading Bar -->
-  <div class="w-full bg-red-600 py-6">
-    <h2 class="text-center text-white text-3xl md:text-5xl font-bold">
-      Versatile Uses of TMT Bars
-    </h2>
-  </div>
+        <section class="w-full  mt-7">
+            <!-- Top Heading Bar -->
+            <div class="w-full bg-red-600 py-6">
+                <h2 class="text-center text-white text-3xl md:text-5xl font-bold">
+                    Versatile Uses of TMT Bars
+                </h2>
+            </div>
 
-  <!-- Content Area -->
-  <div class="max-w-5xl mx-auto px-6 py-16 text-center text-gray-800">
-    
-    <p class="text-lg md:text-xl mb-10 leading-relaxed">
-      Our TMT Bars are known for their versatility and are used across diverse construction applications.
-      Here’s how our range is categorized:
-    </p>
+            <!-- Content Area -->
+            <div class="max-w-5xl mx-auto px-6 py-16 text-center text-gray-800">
 
-    <div class="space-y-8 text-lg md:text-xl leading-relaxed">
-      
-      <p>
-        <span class="font-bold text-black">5MM to 10MM TMT Bars:</span>
-        Ideal for small-scale construction like homes, fencing, and lightweight structures. These bars provide
-        the necessary strength without overburdening smaller projects with excessive material.
-      </p>
+                <p class="text-lg md:text-xl mb-10 leading-relaxed">
+                    Our TMT Bars are known for their versatility and are used across diverse construction applications.
+                    Here’s how our range is categorized:
+                </p>
 
-      <p>
-        <span class="font-bold text-black">12MM to 20MM TMT Bars:</span>
-        Commonly used in medium-scale projects like schools, hospitals, bridges, and commercial complexes,
-        where structural integrity is paramount.
-      </p>
+                <div class="space-y-8 text-lg md:text-xl leading-relaxed">
 
-      <p>
-        <span class="font-bold text-black">25MM to 32MM TMT Bars:</span>
-        Essential for heavy-duty infrastructure such as dams, industrial buildings, highways, and high-rise towers.
-        These bars ensure stability and safety for massive constructions.
-      </p>
+                    <p>
+                        <span class="font-bold text-black">5MM to 10MM TMT Bars:</span>
+                        Ideal for small-scale construction like homes, fencing, and lightweight structures. These bars
+                        provide
+                        the necessary strength without overburdening smaller projects with excessive material.
+                    </p>
 
-    </div>
-  </div>
-</section>
+                    <p>
+                        <span class="font-bold text-black">12MM to 20MM TMT Bars:</span>
+                        Commonly used in medium-scale projects like schools, hospitals, bridges, and commercial
+                        complexes,
+                        where structural integrity is paramount.
+                    </p>
+
+                    <p>
+                        <span class="font-bold text-black">25MM to 32MM TMT Bars:</span>
+                        Essential for heavy-duty infrastructure such as dams, industrial buildings, highways, and
+                        high-rise towers.
+                        These bars ensure stability and safety for massive constructions.
+                    </p>
+
+                </div>
+            </div>
+        </section>
 
 
 
@@ -295,19 +310,19 @@
                 <div class="max-w-7xl mx-auto px-6 relative">
 
                     <!-- Navigation Buttons (Top Right) -->
-<div class="absolute -top-20 right-10 flex gap-3 z-10">
-    
-    <button id="prevBtn"
-        class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
-        &#10094;
-    </button>
+                    <div class="absolute -top-20 right-10 flex gap-3 z-10">
 
-    <button id="nextBtn"
-        class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
-        &#10095;
-    </button>
+                        <button id="prevBtn"
+                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+                            &#10094;
+                        </button>
 
-</div>
+                        <button id="nextBtn"
+                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+                            &#10095;
+                        </button>
+
+                    </div>
 
                     <!-- Carousel Wrapper -->
                     <div class="overflow-hidden">
@@ -317,14 +332,15 @@
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">High Tensile Strength</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                   Provides robustness for handling heavy loads without compromising safety.
+                                    Provides robustness for handling heavy loads without compromising safety.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Earthquake Resistance</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    The superior ductility allows the bars to absorb shocks, making them ideal for earthquake-prone areas.
+                                    The superior ductility allows the bars to absorb shocks, making them ideal for
+                                    earthquake-prone areas.
                                 </p>
                             </div>
 
@@ -349,17 +365,18 @@
                                 </p>
                             </div>
 
-                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Long Lifespan</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                   Durable materials ensure the structure remains safe and sound for decades.
+                                    Durable materials ensure the structure remains safe and sound for decades.
                                 </p>
                             </div>
 
-                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Energy Efficiency</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Produced using advanced methods that reduce energy consumption, making it eco-friendly.
+                                    Produced using advanced methods that reduce energy consumption, making it
+                                    eco-friendly.
                                 </p>
                             </div>
 
@@ -382,7 +399,7 @@
                         <img src="Apex-Images/pmp-1.png" class="w-full h-[420px] object-cover" />
 
                         <h3 class="mt-6 text-2xl font-semibold leading-snug">
-                            Key Applications of 5mm TMT Bar
+                            Key Applications of TMT Bars
                         </h3>
                     </div>
 
@@ -417,7 +434,12 @@
                                             Residential Projects
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            TMT Bars form the foundation of safe and durable homes. From strong foundations that support the entire structure to robust walls and roofs, these bars ensure the stability and longevity of houses. Whether it’s a single-story residence or a multi-story apartment, TMT Bars provide the reinforcement necessary to handle everyday stresses and natural calamities like earthquakes and storms.
+                                            TMT Bars form the foundation of safe and durable homes. From strong
+                                            foundations that support the entire structure to robust walls and roofs,
+                                            these bars ensure the stability and longevity of houses. Whether it’s a
+                                            single-story residence or a multi-story apartment, TMT Bars provide the
+                                            reinforcement necessary to handle everyday stresses and natural calamities
+                                            like earthquakes and storms.
                                         </p>
                                     </div>
                                 </div>
@@ -442,7 +464,11 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Commercial Buildings</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            In commercial constructions such as offices, shopping malls, educational institutions, and healthcare facilities, the strength of TMT Bars is indispensable. They offer the necessary reinforcement to support large-scale structures, ensuring safety and stability even under heavy loads and high occupancy.
+                                            In commercial constructions such as offices, shopping malls, educational
+                                            institutions, and healthcare facilities, the strength of TMT Bars is
+                                            indispensable. They offer the necessary reinforcement to support large-scale
+                                            structures, ensuring safety and stability even under heavy loads and high
+                                            occupancy.
                                         </p>
                                     </div>
                                 </div>
@@ -469,7 +495,11 @@
                                             Industrial Infrastructure
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Factories, warehouses, workshops, and manufacturing units rely on TMT Bars for their structural integrity. These buildings often house heavy machinery and equipment, requiring bars that can withstand substantial stress and vibrations. TMT Bars ensure that industrial structures are resilient and long-lasting.
+                                            Factories, warehouses, workshops, and manufacturing units rely on TMT Bars
+                                            for their structural integrity. These buildings often house heavy machinery
+                                            and equipment, requiring bars that can withstand substantial stress and
+                                            vibrations. TMT Bars ensure that industrial structures are resilient and
+                                            long-lasting.
                                         </p>
                                     </div>
                                 </div>
@@ -494,7 +524,11 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Bridges and Flyovers</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                           Infrastructure projects like bridges and flyovers are subject to heavy traffic loads and environmental stress. TMT Bars ensure these structures remain durable, providing the required tensile strength to bear dynamic loads while minimizing wear and tear over time. Their resistance to corrosion also makes them suitable for bridges in coastal or humid regions.
+                                            Infrastructure projects like bridges and flyovers are subject to heavy
+                                            traffic loads and environmental stress. TMT Bars ensure these structures
+                                            remain durable, providing the required tensile strength to bear dynamic
+                                            loads while minimizing wear and tear over time. Their resistance to
+                                            corrosion also makes them suitable for bridges in coastal or humid regions.
                                         </p>
                                     </div>
                                 </div>
@@ -518,7 +552,11 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">High-Rise Towers</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            TMT Bars are essential in constructing skyscrapers and multi-story buildings. Their high tensile strength and ductility make them perfect for handling the immense load of tall structures while ensuring stability against wind forces and seismic activity. These bars contribute to the safety and longevity of high-rise buildings.
+                                            TMT Bars are essential in constructing skyscrapers and multi-story
+                                            buildings. Their high tensile strength and ductility make them perfect for
+                                            handling the immense load of tall structures while ensuring stability
+                                            against wind forces and seismic activity. These bars contribute to the
+                                            safety and longevity of high-rise buildings.
                                         </p>
                                     </div>
                                 </div>
@@ -543,10 +581,22 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Dams and Water Tanks</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Water-retaining structures like dams, reservoirs, and water tanks require TMT Bars with exceptional strength and anti-corrosion properties. These bars help maintain the structural integrity of these constructions, ensuring they can handle the constant pressure and moisture exposure without compromising safety.
+                                            Water-retaining structures like dams, reservoirs, and water tanks require
+                                            TMT Bars with exceptional strength and anti-corrosion properties. These bars
+                                            help maintain the structural integrity of these constructions, ensuring they
+                                            can handle the constant pressure and moisture exposure without compromising
+                                            safety.
                                         </p>
                                     </div>
                                 </div>
+                            </div>
+                            <!-- STEP 07 -->
+                            <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                                data-img="Apex-Images/pmp-5.png">
+                                <span
+                                    class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
+                                <span
+                                    class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
                                     <span class="num text-3xl font-bold">
@@ -557,16 +607,19 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Fencing and Retaining Walls</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                           TMT Bars are widely used in fencing to create secure boundaries for residential, commercial, and industrial properties. They also play a crucial role in retaining walls, which hold back soil in construction zones or sloped landscapes. Their strength ensures that these walls remain stable and effective over time.
+                                            TMT Bars are widely used in fencing to create secure boundaries for
+                                            residential, commercial, and industrial properties. They also play a crucial
+                                            role in retaining walls, which hold back soil in construction zones or
+                                            sloped landscapes. Their strength ensures that these walls remain stable and
+                                            effective over time.
                                         </p>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -579,7 +632,7 @@
                 <img src="Apex-Images/pmp-1.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
 
                 <h2 class="text-2xl sm:text-3xl font-bold mb-8 fade-left">
-                    Apex Dura TMT Fe 500 and Fe550 Bars
+                    Key Applications of TMT Bars
                 </h2>
 
                 <!-- Steps stacked cards -->
@@ -590,9 +643,13 @@
                             <h3>01</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Billet Heating</h4>
+                            <h4 class="font-semibold">Residential Projects</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                TMT Bars form the foundation of safe and durable homes. From strong foundations that
+                                support the entire structure to robust walls and roofs, these bars ensure the stability
+                                and longevity of houses. Whether it’s a single-story residence or a multi-story
+                                apartment, TMT Bars provide the reinforcement necessary to handle everyday stresses and
+                                natural calamities like earthquakes and storms.
                             </p>
                         </div>
                     </div>
@@ -602,10 +659,12 @@
                             <h3>02</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Advanced Rolling</h4>
+                            <h4 class="font-semibold">Commercial Buildings</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Precision rolling processes shape steel for uniform strength
-                                and performance.
+                                In commercial constructions such as offices, shopping malls, educational institutions,
+                                and healthcare facilities, the strength of TMT Bars is indispensable. They offer the
+                                necessary reinforcement to support large-scale structures, ensuring safety and stability
+                                even under heavy loads and high occupancy.
                             </p>
                         </div>
                     </div>
@@ -615,10 +674,12 @@
                             <h3>03</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quenching & Tempering</h4>
+                            <h4 class="font-semibold">Industrial Infrastructure</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Controlled heat treatment enhances ductility, toughness and
-                                durability.
+                                Factories, warehouses, workshops, and manufacturing units rely on TMT Bars for their
+                                structural integrity. These buildings often house heavy machinery and equipment,
+                                requiring bars that can withstand substantial stress and vibrations. TMT Bars ensure
+                                that industrial structures are resilient and long-lasting.
                             </p>
                         </div>
                     </div>
@@ -628,10 +689,13 @@
                             <h3>04</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">Bridges and Flyovers</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                                Infrastructure projects like bridges and flyovers are subject to heavy traffic loads and
+                                environmental stress. TMT Bars ensure these structures remain durable, providing the
+                                required tensile strength to bear dynamic loads while minimizing wear and tear over
+                                time. Their resistance to corrosion also makes them suitable for bridges in coastal or
+                                humid regions.
                             </p>
                         </div>
                     </div>
@@ -641,10 +705,12 @@
                             <h3>05</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">High-Rise Towers</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                                TMT Bars are essential in constructing skyscrapers and multi-story buildings. Their high
+                                tensile strength and ductility make them perfect for handling the immense load of tall
+                                structures while ensuring stability against wind forces and seismic activity. These bars
+                                contribute to the safety and longevity of high-rise buildings.
                             </p>
                         </div>
                     </div>
@@ -654,10 +720,27 @@
                             <h3>06</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">Dams and Water Tanks</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                                Water-retaining structures like dams, reservoirs, and water tanks require TMT Bars with
+                                exceptional strength and anti-corrosion properties. These bars help maintain the
+                                structural integrity of these constructions, ensuring they can handle the constant
+                                pressure and moisture exposure without compromising safety.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-lg p-5 flex gap-4 items-start fade-right">
+                        <span class="text-2xl font-bold">
+                            <h3>07</h3>
+                        </span>
+                        <div>
+                            <h4 class="font-semibold">Fencing and Retaining Walls</h4>
+                            <p class="text-sm text-white/80 mt-1">
+                                TMT Bars are widely used in fencing to create secure boundaries for residential,
+                                commercial, and industrial properties. They also play a crucial role in retaining walls,
+                                which hold back soil in construction zones or sloped landscapes. Their strength ensures
+                                that these walls remain stable and effective over time.
                             </p>
                         </div>
                     </div>
@@ -669,7 +752,7 @@
 
 
         <!-- Apex advantages -->
-       
+
         <section class="w-full bg-gray-100 py-20">
 
             <!-- Heading -->
@@ -815,11 +898,15 @@
                 <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-white z-10">
                     <div class="max-w-[560px]">
                         <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-5 animate-up">
-                           Build Your Future with Confidence
+                            Build Your Future with Confidence
                         </h1>
 
                         <p class="text-sm sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
-                            When you choose our TMT Bars, you’re investing in strength, safety, and sustainability. Each product is meticulously crafted to support the most ambitious construction projects while ensuring long-lasting value. <br/>Contact us today to learn more about our premium TMT Bars and take the first step toward building structures that stand the test of time. Let’s work together to create a stronger future.
+                            When you choose our TMT Bars, you’re investing in strength, safety, and sustainability. Each
+                            product is meticulously crafted to support the most ambitious construction projects while
+                            ensuring long-lasting value. <br />Contact us today to learn more about our premium TMT Bars
+                            and take the first step toward building structures that stand the test of time. Let’s work
+                            together to create a stronger future.
                         </p>
 
                     </div>
@@ -968,72 +1055,72 @@
 
 
     <!-- carousel slides  -->
-   <script>
-const carousel = document.getElementById("carousel");
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
+    <script>
+        const carousel = document.getElementById("carousel");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
 
-let index = 0;
+        let index = 0;
 
-function getVisibleItems() {
-    if (window.innerWidth >= 1024) return 4;
-    if (window.innerWidth >= 640) return 2;
-    return 1;
-}
+        function getVisibleItems() {
+            if (window.innerWidth >= 1024) return 4;
+            if (window.innerWidth >= 640) return 2;
+            return 1;
+        }
 
-function updateButtons(maxIndex) {
-    // Fade Prev
-    if (index <= 0) {
-        prevBtn.classList.add("opacity-40", "cursor-not-allowed");
-    } else {
-        prevBtn.classList.remove("opacity-40", "cursor-not-allowed");
-    }
+        function updateButtons(maxIndex) {
+            // Fade Prev
+            if (index <= 0) {
+                prevBtn.classList.add("opacity-40", "cursor-not-allowed");
+            } else {
+                prevBtn.classList.remove("opacity-40", "cursor-not-allowed");
+            }
 
-    // Fade Next
-    if (index >= maxIndex) {
-        nextBtn.classList.add("opacity-40", "cursor-not-allowed");
-    } else {
-        nextBtn.classList.remove("opacity-40", "cursor-not-allowed");
-    }
-}
+            // Fade Next
+            if (index >= maxIndex) {
+                nextBtn.classList.add("opacity-40", "cursor-not-allowed");
+            } else {
+                nextBtn.classList.remove("opacity-40", "cursor-not-allowed");
+            }
+        }
 
-function updateCarousel() {
-    const visibleItems = getVisibleItems();
-    const totalItems = carousel.children.length;
-    const maxIndex = totalItems - visibleItems;
+        function updateCarousel() {
+            const visibleItems = getVisibleItems();
+            const totalItems = carousel.children.length;
+            const maxIndex = totalItems - visibleItems;
 
-    if (index > maxIndex) index = maxIndex;
-    if (index < 0) index = 0;
+            if (index > maxIndex) index = maxIndex;
+            if (index < 0) index = 0;
 
-    const slideWidth = carousel.children[0].offsetWidth;
-    carousel.style.transform = `translateX(-${index * slideWidth}px)`;
+            const slideWidth = carousel.children[0].offsetWidth;
+            carousel.style.transform = `translateX(-${index * slideWidth}px)`;
 
-    updateButtons(maxIndex);
-}
+            updateButtons(maxIndex);
+        }
 
-nextBtn.addEventListener("click", () => {
-    const visibleItems = getVisibleItems();
-    const totalItems = carousel.children.length;
-    const maxIndex = totalItems - visibleItems;
+        nextBtn.addEventListener("click", () => {
+            const visibleItems = getVisibleItems();
+            const totalItems = carousel.children.length;
+            const maxIndex = totalItems - visibleItems;
 
-    if (index < maxIndex) {
-        index++;
+            if (index < maxIndex) {
+                index++;
+                updateCarousel();
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (index > 0) {
+                index--;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener("resize", updateCarousel);
+
+        // Initialize
         updateCarousel();
-    }
-});
-
-prevBtn.addEventListener("click", () => {
-    if (index > 0) {
-        index--;
-        updateCarousel();
-    }
-});
-
-window.addEventListener("resize", updateCarousel);
-
-// Initialize
-updateCarousel();
-</script>
+    </script>
 
 
 

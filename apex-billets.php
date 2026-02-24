@@ -89,11 +89,11 @@
                     
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        Mild steel billets, also known as MS billets, are produced in Sunvik’s high efficiency induction furnaces through processes that are IS 2830:2012 certified. These MS billets are semi-complete steel products that have either square or rectangular cross-sections. They are made via continuous rolling or continuous casting processes at temperatures higher than 1000 degree celsius.
+                        Mild steel billets, also known as MS billets, are produced in Apex Dura’s high efficiency induction furnaces through processes that are IS 2830:2012 certified. These MS billets are semi-complete steel products that have either square or rectangular cross-sections. They are made via continuous rolling or continuous casting processes at temperatures higher than 1000 degree celsius.
                     </p>
 
                     <p class="text-gray-600 leading-relaxed mt-4">
-                        As part of its stringent quality assurance plan, Sunvik has employed an advanced Metal Spectrometer to test the quality of MS billets.
+                        As part of its stringent quality assurance plan, Apex Dura has employed an advanced Metal Spectrometer to test the quality of MS billets.
                     </p>
 
                     
@@ -362,7 +362,7 @@
             </h1>
 
             <p class="text-sm text-gray-600 sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
-              MS billets are integral to TMT steel manufacturing—TMT stands for ‘thermo mechanically treated’. As a leading steel manufacturer in South India, Sunvik Steel produces top-quality MS billets from low-carbon mild steel. Known for their weldability, ductility, and formability, these billets are ideal for diverse industrial applications in construction, automotive, engineering, and manufacturing sectors. TMT steel, essential for skyscrapers, warehouses, power plants, residential and commercial buildings, bridges, tunnels, and flyovers, relies on MS billets.
+              MS billets are integral to TMT steel manufacturing—TMT stands for ‘thermo mechanically treated’. As a leading steel manufacturer in South India, Apex Dura Steel produces top-quality MS billets from low-carbon mild steel. Known for their weldability, ductility, and formability, these billets are ideal for diverse industrial applications in construction, automotive, engineering, and manufacturing sectors. TMT steel, essential for skyscrapers, warehouses, power plants, residential and commercial buildings, bridges, tunnels, and flyovers, relies on MS billets.
             </p>
 
 

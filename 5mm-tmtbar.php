@@ -562,7 +562,7 @@
                 <img src="Apex-Images/pmp-1.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
 
                 <h2 class="text-2xl sm:text-3xl font-bold mb-8 fade-left">
-                    Apex Dura TMT Fe 500 and Fe550 Bars
+                   Key Applications of 5mm TMT Bar
                 </h2>
 
                 <!-- Steps stacked cards -->
@@ -573,9 +573,9 @@
                             <h3>01</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Billet Heating</h4>
+                            <h4 class="font-semibold">Residential Construction</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                Perfect for reinforcing small residential buildings, walls, slabs, and fencing. Ideal for lightweight applications like decorative steel frameworks and structural support.
                             </p>
                         </div>
                     </div>
@@ -585,10 +585,9 @@
                             <h3>02</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Advanced Rolling</h4>
+                            <h4 class="font-semibold">Infrastructure Development</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Precision rolling processes shape steel for uniform strength
-                                and performance.
+                               Widely used in infrastructure projects such as bridges, walkways, and roads where precision and durability are crucial for safety and functionality.
                             </p>
                         </div>
                     </div>
@@ -598,10 +597,9 @@
                             <h3>03</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quenching & Tempering</h4>
+                            <h4 class="font-semibold">Industrial Manufacturing</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Controlled heat treatment enhances ductility, toughness and
-                                durability.
+                                Essential in manufacturing plants, warehouses, and storage facilities, where they are used for reinforcement in the light to medium-load-bearing applications.
                             </p>
                         </div>
                     </div>
@@ -611,10 +609,9 @@
                             <h3>04</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">Agricultural Uses</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                                Excellent for reinforcing farming structures like greenhouses, irrigation systems, and fencing for crops or livestock, ensuring stability under diverse weather conditions.
                             </p>
                         </div>
                     </div>
@@ -624,10 +621,9 @@
                             <h3>05</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">Earthquake-Resistant Projects</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                               Essential for earthquake-resistant construction in regions prone to seismic activity, offering the required flexibility and strength to absorb shocks and protect structures.
                             </p>
                         </div>
                     </div>
@@ -637,10 +633,9 @@
                             <h3>06</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">DIY and Crafts</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                                Highly flexible, 5mm TMT bars are favored in DIY projects for creating custom furniture, fencing, and other small-scale structures, providing professional-level results with ease.
                             </p>
                         </div>
                     </div>
