@@ -93,85 +93,118 @@
 
 
         <!-- Get in touch form  -->
-        <section class=" px-6 md:px-12 lg:px-20 max-w-8xl mx-auto">
+        <section class="bg-gray-100 py-20 px-6 md:px-12 lg:px-20">
             <div class="max-w-3xl">
 
-                <h2 class="text-4xl md:text-5xl font-bold text-red-600 mb-12">
+                <!-- Heading -->
+                <h2 class="text-5xl font-bold text-red-600 mb-12">
                     Get in touch with us
                 </h2>
 
-                <form id="contactForm" class="space-y-8">
+                <form id="contactForm" class="space-y-10">
 
                     <!-- Name -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Name</label>
-                        <input id="name" type="text" placeholder="Enter your Name"
+                        <label class="block text-lg font-semibold mb-2">Name</label>
+                        <input type="text" placeholder="Enter your Name"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="nameError">
-                            Please enter your name
-                        </p>
                     </div>
 
                     <!-- Email -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Business Email</label>
-                        <input id="email" type="email" placeholder="Enter your email"
+                        <label class="block text-lg font-semibold mb-2">Business Email</label>
+                        <input type="email" placeholder="Enter your email"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="emailError">
-                            Enter a valid email
-                        </p>
                     </div>
 
                     <!-- Mobile -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" type="text" placeholder="Enter your number"
+                        <label class="block text-lg font-semibold mb-2">Mobile Number</label>
+                        <input type="text" placeholder="Enter your number"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="mobileError">
-                            Enter valid 10 digit mobile number
-                        </p>
                     </div>
 
-                    <!-- Checkboxes -->
-                    <div>
-                        <div class="flex flex-wrap gap-8 pt-4">
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="TMT Fe550 Bars">
-                                TMT Fe550 Bars
+                    <!-- Product Selection -->
+                    <div class="pt-6">
+                        <div class="flex flex-wrap gap-8 text-lg">
+
+                            <!-- TMT Checkbox -->
+                            <label class="flex items-center gap-3 cursor-pointer">
+                                <input type="checkbox" id="tmtFe550" class="peer accent-red-600 w-4 h-4">
+
+                                <span class="transition-colors duration-200 peer-checked:text-red-600">
+                                    TMT Fe550 Bars
+                                </span>
                             </label>
 
                             <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Construction Bars">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4">
                                 Construction Bars
                             </label>
 
                             <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Round Bars">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4">
                                 Round Bars
                             </label>
 
                             <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Billets">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4">
                                 Billets
                             </label>
-                        </div>
 
-                        <p class="text-red-600 text-sm mt-3 hidden" id="productError">
-                            Please select at least one product
-                        </p>
+                        </div>
+                    </div>
+
+                    <!-- TMT Sizes (Hidden by default) -->
+                    <div id="tmtSizes" class="hidden pt-6">
+                        <div class="flex flex-wrap gap-8 text-lg">
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 5MM
+                            </label>
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 8MM
+                            </label>
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 10MM
+                            </label>
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 12MM
+                            </label>
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 16MM
+                            </label>
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 20MM
+                            </label>
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 25MM
+                            </label>
+
+                            <label class="flex items-center gap-3">
+                                <input type="checkbox" class="accent-red-600 w-4 h-4"> 32MM
+                            </label>
+
+                        </div>
                     </div>
 
                     <!-- Message -->
-                    <div>
-                        <label class="block text-lg font-semibold mb-3">Message</label>
-                        <textarea id="message" rows="4" placeholder="Describe yourself here..."
+                    <div class="pt-6">
+                        <label class="block text-lg font-semibold mb-2">Message</label>
+                        <textarea rows="4" placeholder="Describe yourself here..."
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
                     </div>
 
                     <!-- Submit -->
-                    <div class="pt-8">
+                    <div class="pt-10">
                         <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4 flex items-center gap-6 transition-all">
+                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-12 py-4 flex items-center gap-6 transition-all">
                             Submit
                             <span class="text-2xl">›</span>
                         </button>
@@ -181,6 +214,29 @@
             </div>
         </section>
 
+        <!-- Script -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+
+                const tmtCheckbox = document.getElementById("tmtFe550");
+                const sizeSection = document.getElementById("tmtSizes");
+
+                tmtCheckbox.addEventListener("change", function () {
+
+                    if (this.checked) {
+                        sizeSection.classList.remove("hidden");
+                    } else {
+                        sizeSection.classList.add("hidden");
+
+                        // Uncheck all size checkboxes when hiding
+                        const sizeCheckboxes = sizeSection.querySelectorAll("input[type='checkbox']");
+                        sizeCheckboxes.forEach(cb => cb.checked = false);
+                    }
+
+                });
+
+            });
+        </script>
 
     </main>
 

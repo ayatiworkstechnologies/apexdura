@@ -225,7 +225,7 @@
       <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1fr_2fr] gap-13 items-end">
         <!-- LEFT: BUILDING -->
         <div class="flex justify-center lg:justify-start h-full animate-up">
-          <video src="Apex-videos/Apex -infrastructure-video.mp4" autoplay muted loop playsinline
+          <video src="Apex-videos/infrastructure-video.mp4" autoplay muted loop playsinline
             class="h-[380px] sm:h-[460px] lg:h-[500px] xl:h-[520px]  w-auto object-contain"></video>
 
         </div>
