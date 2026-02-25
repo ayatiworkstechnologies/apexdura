@@ -834,93 +834,75 @@
 
 
         <!-- Get in touch form  -->
-        <section class=" px-6 md:px-12 lg:px-20 max-w-8xl mx-auto">
-            <div class="max-w-3xl">
+        <section class="">
+            <div class="max-w-xl mx-auto px-6">
 
-                <h2 class="text-4xl md:text-5xl font-bold text-red-600 mb-12">
+                <!-- Heading -->
+                <h2 class="text-3xl md:text-4xl font-bold text-red-600 mb-10 text-center">
                     Get in touch with us
                 </h2>
 
-                <form id="contactForm" class="space-y-8">
+                <form id="productForm" class="space-y-6" action="product-form.php" method="post">
 
                     <!-- Name -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Name</label>
-                        <input id="name" type="text" placeholder="Enter your Name"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="nameError">
-                            Please enter your name
-                        </p>
+                        <label class="block text-base font-semibold mb-2">Name</label>
+                        <input name="name" type="text" required placeholder="Enter Your Name"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2">
                     </div>
 
                     <!-- Email -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Business Email</label>
-                        <input id="email" type="email" placeholder="Enter your email"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="emailError">
-                            Enter a valid email
-                        </p>
+                        <label class="block text-base font-semibold mb-2">Business Email</label>
+                        <input name="email" type="email" required placeholder="Enter Your Email Address"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2">
                     </div>
 
                     <!-- Mobile -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" type="text" placeholder="Enter your number"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="mobileError">
-                            Enter valid 10 digit mobile number
-                        </p>
+                        <label class="block text-base font-semibold mb-2">Mobile Number</label>
+                        <input name="mobile" type="text" required pattern="^\d{10}$"
+                            placeholder="Enter Your Mobile Number"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2">
                     </div>
 
-                    <!-- Checkboxes -->
-                    <div>
-                        <div class="flex flex-wrap gap-8 pt-4">
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="TMT Fe550 Bars">
-                                TMT Fe550 Bars
+                    <!-- Products -->
+                    <div class="pt-2">
+                        <div class="flex flex-wrap gap-6 text-sm">
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="TMT Fe550 Bars"> TMT Fe550 Bars
                             </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Construction Bars">
-                                Construction Bars
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="Construction Bars"> Construction Bars
                             </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Round Bars">
-                                Round Bars
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="Round Bars"> Round Bars
                             </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Billets">
-                                Billets
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="Billets"> Billets
                             </label>
                         </div>
-
-                        <p class="text-red-600 text-sm mt-3 hidden" id="productError">
-                            Please select at least one product
-                        </p>
                     </div>
 
                     <!-- Message -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Message</label>
-                        <textarea id="message" rows="4" placeholder="Describe yourself here..."
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
+                        <label class="block text-base font-semibold mb-2">Message</label>
+                        <textarea name="message" rows="3" placeholder="Enter Your Message"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2 resize-none"></textarea>
                     </div>
 
                     <!-- Submit -->
-                    <div class="pt-8">
-                        <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4 flex items-center gap-6 transition-all">
+                    <div class="pt-4 text-center">
+                        <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3">
                             Submit
-                            <span class="text-2xl">›</span>
                         </button>
                     </div>
 
                 </form>
             </div>
         </section>
+
+        <div id="toast" class="hidden"></div>
 
 
 
@@ -940,7 +922,61 @@
     <script src="Js/bottom-up-arrow-script.js"></script>
 
 
+    <script>
+        document.getElementById("productForm").addEventListener("submit", function (e) {
+            e.preventDefault();
 
+            const form = this;
+            const button = form.querySelector("button");
+            const formData = new FormData(form);
+
+            // Loading state
+            button.disabled = true;
+            button.innerText = "Submitting...";
+
+            fetch("product-form.php", {
+                method: "POST",
+                body: formData
+            })
+                .then(res => res.json())
+                .then(data => {
+                    showToast(data.status, data.message);
+
+                    if (data.status === "success") {
+                        form.reset();
+                    }
+
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                })
+                .catch(() => {
+                    showToast("error", "Something went wrong!");
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                });
+        });
+
+        function showToast(status, message) {
+            const toast = document.getElementById("toast");
+
+            toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+            if (status === "success") {
+                toast.classList.add("bg-green-600");
+            } else if (status === "warning") {
+                toast.classList.add("bg-yellow-500");
+            } else {
+                toast.classList.add("bg-red-600");
+            }
+
+            toast.innerText = message;
+            toast.classList.remove("hidden");
+
+            setTimeout(() => {
+                toast.classList.add("hidden");
+            }, 4000);
+        }
+    </script>
 
 
     <!-- carousel slides  -->

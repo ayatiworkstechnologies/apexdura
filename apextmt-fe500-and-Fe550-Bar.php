@@ -603,59 +603,66 @@
 
 
         <!-- Get in touch form  -->
-        <section class=" px-6 md:px-12 lg:px-20 max-w-8xl mx-auto">
-            <div class="max-w-3xl">
+        <section class="">
+            <div class="max-w-xl mx-auto px-6">
 
-                <h2 class="text-4xl md:text-5xl font-bold text-red-600 mb-12">
+                <!-- Heading -->
+                <h2 class="text-3xl md:text-4xl font-bold text-red-600 mb-10 text-center">
                     Get in touch with us
                 </h2>
 
-                <form id="productForm" class="space-y-8" action="product-form.php" method="post">
+                <form id="productForm" class="space-y-6" action="product-form.php" method="post">
 
                     <!-- Name -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Name</label>
-                        <input id="name" name="name" placeholder="Enter Your Name" type="text" required
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+                        <label class="block text-base font-semibold mb-2">Name</label>
+                        <input name="name" type="text" required placeholder="Enter Your Name"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2">
                     </div>
 
                     <!-- Email -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Business Email</label>
-                        <input id="email" name="email" placeholder="Enter Your Email Address" type="email" required
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+                        <label class="block text-base font-semibold mb-2">Business Email</label>
+                        <input name="email" type="email" required placeholder="Enter Your Email Address"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2">
                     </div>
 
                     <!-- Mobile -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" name="mobile" placeholder="Enter Your Mobile Number" type="text" required
-                            pattern="^\d{10}$"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+                        <label class="block text-base font-semibold mb-2">Mobile Number</label>
+                        <input name="mobile" type="text" required pattern="^\d{10}$"
+                            placeholder="Enter Your Mobile Number"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2">
                     </div>
 
                     <!-- Products -->
-                    <div>
-                        <div class="flex flex-wrap gap-8 pt-4">
-                            <label><input type="checkbox" name="products[]" value="TMT Fe550 Bars"> TMT Fe550
-                                Bars</label>
-                            <label><input type="checkbox" name="products[]" value="Construction Bars"> Construction
-                                Bars</label>
-                            <label><input type="checkbox" name="products[]" value="Round Bars"> Round Bars</label>
-                            <label><input type="checkbox" name="products[]" value="Billets"> Billets</label>
+                    <div class="pt-2">
+                        <div class="flex flex-wrap gap-6 text-sm">
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="TMT Fe550 Bars"> TMT Fe550 Bars
+                            </label>
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="Construction Bars"> Construction Bars
+                            </label>
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="Round Bars"> Round Bars
+                            </label>
+                            <label class="flex items-center gap-2">
+                                <input type="checkbox" name="products[]" value="Billets"> Billets
+                            </label>
                         </div>
                     </div>
 
                     <!-- Message -->
                     <div>
-                        <label class="block text-lg font-semibold mb-3">Message</label>
-                        <textarea id="message" placeholder="Enter Your message" name="message" rows="4"
-                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
+                        <label class="block text-base font-semibold mb-2">Message</label>
+                        <textarea name="message" rows="3" placeholder="Enter Your Message"
+                            class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-2 resize-none"></textarea>
                     </div>
 
-                    <div class="pt-8">
-                        <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4">
+                    <!-- Submit -->
+                    <div class="pt-4 text-center">
+                        <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3">
                             Submit
                         </button>
                     </div>
