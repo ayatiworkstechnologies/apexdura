@@ -143,7 +143,7 @@ $isProductPage = in_array($currentPage, $productPages);
               <span>›</span>
             </a>
 
-            <div class="absolute left-full -top-5 ml-7 hidden group-hover/tmt:block
+            <div class="absolute left-full -top-30 ml-7 hidden group-hover/tmt:block
   bg-black/50 backdrop-blur-xl
   border border-white/20 w-60 p-6 space-y-3
   rounded-xl shadow-2xl border border-white/10">

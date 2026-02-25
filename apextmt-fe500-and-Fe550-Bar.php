@@ -81,15 +81,15 @@
 
                 <!-- LEFT CONTENT -->
                 <div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6 fade-left">
                         Certified High-Strength Steel
                     </h2>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6 fade-right">
                         Superior Grade Fe550 TMT Bars for Maximum Durability & Flexibility
                     </h3>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-left">
                         Apex Dura TMT Fe550 Bars are engineered for superior structural performance,
                         combining high tensile strength with exceptional flexibility. Manufactured
                         using advanced thermo-mechanical treatment technology, Apex Dura ensures
@@ -97,14 +97,14 @@
                         construction needs.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-left">
                         We produce our Fe550 TMT bars from high-grade raw materials, maintaining
                         superior purity and consistent quality standards. Through precision-controlled
                         rolling and quenching processes, we achieve uniform mechanical properties and
                         optimized rib patterns for better bonding with concrete.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed">
+                    <p class="text-gray-600 leading-relaxed fade-left">
                         With a tough outer surface and a ductile core structure, Apex Dura Fe550 Bars
                         deliver enhanced earthquake resistance, higher load-bearing capacity, and
                         excellent corrosion resistance.
@@ -112,7 +112,7 @@
                 </div>
 
                 <!-- RIGHT IMAGE -->
-                <div class="relative flex justify-center hidden lg:block lg:justify-end">
+                <div class="relative flex justify-center hidden lg:block lg:justify-end animate-up">
 
 
 

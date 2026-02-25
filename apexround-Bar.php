@@ -42,7 +42,7 @@
         <!-- bg-image -->
         <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
             <!-- Banner Image -->
-            <img src="Apex-Images/Apex-tmt-banner-image.jpg" class="w-full h-full object-cover"
+            <img src="Apex-Images/Apex-round-bar-web.jpg" class="w-full h-full object-cover"
                 alt="Investor Corner Banner" />
 
             <!-- Breadcrumb -->
@@ -77,39 +77,35 @@
     <main>
 
 
-        <section class="bg-[#f3f3f3] py-16 px-6 md:px-12 lg:px-20">
+        <section class=" py-16 px-6 md:px-12 lg:px-20">
             <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
                 <!-- LEFT CONTENT -->
                 <div>
                     <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
-                        Certified High-Strength Steel
+                        Apex Dura TMT Bars – Strength You Can Trust, Quality You Can Build On.
                     </h2>
 
                     <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
-                        Superior Grade Fe550 TMT Bars for Maximum Durability & Flexibility
+                        Premium 550 Grade TMT Bars with C-Rib Pattern
                     </h3>
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        Apex Dura TMT Fe550 Bars are engineered for superior structural performance,
-                        combining high tensile strength with exceptional flexibility. Manufactured
-                        using advanced thermo-mechanical treatment technology, Apex Dura ensures
-                        unmatched durability, safety, and long-lasting reliability for modern
-                        construction needs.
+
+                        The Apex Dura TMT Steel Bar is a fully owned subsidiary brand of Apex Dura Pvt Ltd, in addition
+                        to the APEX GOLD 550 grade TMT, which is produced at the same integrated facility in
+                        Karnataka.
                     </p>
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        We produce our Fe550 TMT bars from high-grade raw materials, maintaining
-                        superior purity and consistent quality standards. Through precision-controlled
-                        rolling and quenching processes, we achieve uniform mechanical properties and
-                        optimized rib patterns for better bonding with concrete.
+                        When it comes to building your dream home or executing a critical infrastructure project,
+                        compromise is not an option. Apex Dura TMT Steel Bars deliver unmatched strength, superior
+                        bonding,
+                        and reliable performance — designed to meet the highest industry standards and exceed
+                        expectations.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed">
-                        With a tough outer surface and a ductile core structure, Apex Dura Fe550 Bars
-                        deliver enhanced earthquake resistance, higher load-bearing capacity, and
-                        excellent corrosion resistance.
-                    </p>
+
                 </div>
 
                 <!-- RIGHT IMAGE -->
@@ -117,12 +113,157 @@
 
 
 
-                    <img src="Apex-Images/steel-factory.jpg" alt="Steel Structure"
+                    <img src="Apex-Images/stack-steels.png" alt="Steel Structure"
                         class="w-full max-w-md lg:max-w-lg object-cover shadow-xl">
                 </div>
 
             </div>
         </section>
+
+
+
+
+        <section class="w-full  mt-7">
+            <!-- Top Heading Bar -->
+            <div class="w-full bg-red-600 py-6">
+                <h2 class="text-center text-white text-3xl md:text-5xl font-bold">
+                    Product Overview
+                </h2>
+            </div>
+
+            <!-- Content Area -->
+            <div class="max-w-5xl mx-auto px-6 py-16 text-center text-gray-800">
+
+                <p class="text-md md:text-md mb-10 leading-relaxed">
+                    Apex Dura TMT Steels Bars are 550 Grade thermo-mechanically treated (TMT) steel bars featuring a
+                    distinctive C-Rib Pattern that ensures stronger bonding with concrete, increased load-bearing
+                    capacity, and corrosion resistance.
+                </p>
+
+                <div class="space-y-8 text-md md:text-md leading-relaxed">
+
+                    <p>
+                        Our TMT bars are manufactured under stringent quality control processes, ensuring superior
+                        durability and performance in every bar. Designed with precision and care, these bars are
+                        specially tailored to meet the needs of Individual Home Builders (IHB) and commercial
+                        construction projects seeking the perfect blend of value, strength, and consistency.
+                    </p>
+
+                    <p>
+                        Whether you’re building your dream home or managing a large-scale development, our TMT bars
+                        provide the reliability and reinforcement your project demands.
+                    </p>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!-- Why Choose Our 5mm TMT Bar -->
+        <section class="w-full  py-20">
+
+            <!-- Heading -->
+            <div class="max-w-5xl mx-auto px-6 text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl 
+               font-bold text-red-600 leading-tight">
+                    Key Features of Apex Dura TMT Steel Bars
+                </h2>
+            </div>
+
+            <!-- Content -->
+            <section class="py-16">
+                <div class="max-w-7xl mx-auto px-6 relative">
+
+                    <!-- Navigation Buttons (Top Right) -->
+                    <div class="absolute -top-20 right-10 flex gap-3 z-10">
+
+                        <button id="prevBtn"
+                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+                            &#10094;
+                        </button>
+
+                        <button id="nextBtn"
+                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+                            &#10095;
+                        </button>
+
+                    </div>
+
+                    <!-- Carousel Wrapper -->
+                    <div class="overflow-hidden">
+                        <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+
+                            <!-- ITEM -->
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                                <h3 class="font-semibold text-lg mb-4">550 Grade Strength</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Engineered for high tensile
+                                    strength and excellent yield
+                                    stress, perfect for heavy-duty
+                                    and long-lasting structures.
+
+                                </p>
+                            </div>
+
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                                <h3 class="font-semibold text-lg mb-4">
+                                    C-Rib Pattern</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Provides superior grip with
+                                    concrete, ensuring durability,
+                                    crack resistance, and improved
+                                    load transfer in structures.
+
+                                </p>
+                            </div>
+
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                                <h3 class="font-semibold text-lg mb-4">Advanced Thermo-Mechanical Treatment</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Offers a perfect balance of
+                                    flexibility and strength, ideal for
+                                    seismic and fire resistance.
+
+
+                                </p>
+                            </div>
+
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                                <h3 class="font-semibold text-lg mb-4">Corrosion Resistance</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Protected against environmental
+                                    impact, reducing long-term
+                                    maintenance and improving
+                                    lifespan.
+                                </p>
+                            </div>
+
+                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                                <h3 class="font-semibold text-lg mb-4">Trusted by Builders & Engineers</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Popular among contractors,
+                                    project developers, and individual
+                                    homeowners for its
+                                    reliability,consistent quality and
+                                    its cost effectiveness.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+
 
 
         <!--Precision Manufacturing Process Laptop SECTION -->
@@ -131,10 +272,10 @@
                 <div class="grid lg:grid-cols-12 gap-10 items-start">
                     <!-- LEFT BIG IMAGE -->
                     <div class="lg:col-span-4 animate-down">
-                        <img src="Apex-Images/pmp-1.png" class="w-full h-[420px] object-cover" />
+                        <img src="Apex-Images/process.png" class="w-full h-[420px] object-cover" />
 
                         <h3 class="mt-6 text-2xl font-semibold leading-snug">
-                            Our Process
+                            Key Applications of TMT Bars
                         </h3>
                     </div>
 
@@ -143,9 +284,8 @@
                         <!-- BASE GREY TIMELINE -->
                         <div class="absolute left-8 top-20 bottom-0 w-[2px] bg-white/30"></div>
 
-                        <h2 class="text-3xl font-bold mb-10 pl-16 fade-up">
-                            Apex Dura TMT Fe 500 and Fe550 Bars
-                        </h2>
+                        <p class="text-sm  mb-10 pl-16 fade-up">
+                            Our 5mm to 32mm TMT Bars are the backbone of various construction projects, including:</p>
 
                         <!-- STEPS -->
                         <div id="steps" class="space-y-8 fade-in">
@@ -167,10 +307,15 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                            Billet Heating
+                                            Residential Projects
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                            TMT Bars form the foundation of safe and durable homes. From strong
+                                            foundations that support the entire structure to robust walls and roofs,
+                                            these bars ensure the stability and longevity of houses. Whether it’s a
+                                            single-story residence or a multi-story apartment, TMT Bars provide the
+                                            reinforcement necessary to handle everyday stresses and natural calamities
+                                            like earthquakes and storms.
                                         </p>
                                     </div>
                                 </div>
@@ -193,10 +338,13 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Advanced Rolling</h4>
+                                        <h4 class="font-semibold text-lg">Commercial Buildings</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Precision Rolling Processes Shape Steel For Uniform
-                                            Strength And Performance.
+                                            In commercial constructions such as offices, shopping malls, educational
+                                            institutions, and healthcare facilities, the strength of TMT Bars is
+                                            indispensable. They offer the necessary reinforcement to support large-scale
+                                            structures, ensuring safety and stability even under heavy loads and high
+                                            occupancy.
                                         </p>
                                     </div>
                                 </div>
@@ -220,11 +368,14 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                            Quenching & Tempering
+                                            Industrial Infrastructure
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Controlled Heat Treatment Enhances Ductility, Toughness
-                                            And Durability.
+                                            Factories, warehouses, workshops, and manufacturing units rely on TMT Bars
+                                            for their structural integrity. These buildings often house heavy machinery
+                                            and equipment, requiring bars that can withstand substantial stress and
+                                            vibrations. TMT Bars ensure that industrial structures are resilient and
+                                            long-lasting.
                                         </p>
                                     </div>
                                 </div>
@@ -247,19 +398,104 @@
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Quality Testing</h4>
+                                        <h4 class="font-semibold text-lg">Bridges and Flyovers</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Rigorous Testing Ensures Compliance With BIS Standards
-                                            And Reliability.
+                                            Infrastructure projects like bridges and flyovers are subject to heavy
+                                            traffic loads and environmental stress. TMT Bars ensure these structures
+                                            remain durable, providing the required tensile strength to bear dynamic
+                                            loads while minimizing wear and tear over time. Their resistance to
+                                            corrosion also makes them suitable for bridges in coastal or humid regions.
                                         </p>
                                     </div>
                                 </div>
 
 
                             </div>
+                            <!-- STEP 05 -->
+                            <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                                data-img="Apex-Images/pmp-5.png">
+                                <span
+                                    class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
+                                <span
+                                    class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
+
+                                <div class="flex items-start gap-6 flex-1">
+                                    <span class="num text-3xl font-bold">
+                                        <h3>05</h3>
+                                    </span>
+                                    <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
+
+                                    <div>
+                                        <h4 class="font-semibold text-lg">High-Rise Towers</h4>
+                                        <p class="text-sm text-white/90 mt-1">
+                                            TMT Bars are essential in constructing skyscrapers and multi-story
+                                            buildings. Their high tensile strength and ductility make them perfect for
+                                            handling the immense load of tall structures while ensuring stability
+                                            against wind forces and seismic activity. These bars contribute to the
+                                            safety and longevity of high-rise buildings.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <!-- STEP 06 -->
+                            <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                                data-img="Apex-Images/pmp-5.png">
+                                <span
+                                    class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
+                                <span
+                                    class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
+
+                                <div class="flex items-start gap-6 flex-1">
+                                    <span class="num text-3xl font-bold">
+                                        <h3>06</h3>
+                                    </span>
+                                    <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
+
+                                    <div>
+                                        <h4 class="font-semibold text-lg">Dams and Water Tanks</h4>
+                                        <p class="text-sm text-white/90 mt-1">
+                                            Water-retaining structures like dams, reservoirs, and water tanks require
+                                            TMT Bars with exceptional strength and anti-corrosion properties. These bars
+                                            help maintain the structural integrity of these constructions, ensuring they
+                                            can handle the constant pressure and moisture exposure without compromising
+                                            safety.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- STEP 07 -->
+                            <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                                data-img="Apex-Images/pmp-5.png">
+                                <span
+                                    class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
+                                <span
+                                    class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
+
+                                <div class="flex items-start gap-6 flex-1">
+                                    <span class="num text-3xl font-bold">
+                                        <h3>07</h3>
+                                    </span>
+                                    <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
+
+                                    <div>
+                                        <h4 class="font-semibold text-lg">Fencing and Retaining Walls</h4>
+                                        <p class="text-sm text-white/90 mt-1">
+                                            TMT Bars are widely used in fencing to create secure boundaries for
+                                            residential, commercial, and industrial properties. They also play a crucial
+                                            role in retaining walls, which hold back soil in construction zones or
+                                            sloped landscapes. Their strength ensures that these walls remain stable and
+                                            effective over time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -269,10 +505,10 @@
         <section class="bg-red-600 text-white py-12 lg:hidden">
             <div class="max-w-7xl mx-auto px-5 sm:px-6">
                 <!-- Image -->
-                <img src="Apex-Images/pmp-1.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
+                <img src="Apex-Images/process.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
 
                 <h2 class="text-2xl sm:text-3xl font-bold mb-8 fade-left">
-                    Apex Dura TMT Fe 500 and Fe550 Bars
+                    Key Applications of TMT Bars
                 </h2>
 
                 <!-- Steps stacked cards -->
@@ -283,9 +519,13 @@
                             <h3>01</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Billet Heating</h4>
+                            <h4 class="font-semibold">Residential Projects</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Carefully sourced raw materials to ensure strength, purity, and consistency.
+                                TMT Bars form the foundation of safe and durable homes. From strong foundations that
+                                support the entire structure to robust walls and roofs, these bars ensure the stability
+                                and longevity of houses. Whether it’s a single-story residence or a multi-story
+                                apartment, TMT Bars provide the reinforcement necessary to handle everyday stresses and
+                                natural calamities like earthquakes and storms.
                             </p>
                         </div>
                     </div>
@@ -295,10 +535,12 @@
                             <h3>02</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Advanced Rolling</h4>
+                            <h4 class="font-semibold">Commercial Buildings</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Precision rolling processes shape steel for uniform strength
-                                and performance.
+                                In commercial constructions such as offices, shopping malls, educational institutions,
+                                and healthcare facilities, the strength of TMT Bars is indispensable. They offer the
+                                necessary reinforcement to support large-scale structures, ensuring safety and stability
+                                even under heavy loads and high occupancy.
                             </p>
                         </div>
                     </div>
@@ -308,10 +550,12 @@
                             <h3>03</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quenching & Tempering</h4>
+                            <h4 class="font-semibold">Industrial Infrastructure</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Controlled heat treatment enhances ductility, toughness and
-                                durability.
+                                Factories, warehouses, workshops, and manufacturing units rely on TMT Bars for their
+                                structural integrity. These buildings often house heavy machinery and equipment,
+                                requiring bars that can withstand substantial stress and vibrations. TMT Bars ensure
+                                that industrial structures are resilient and long-lasting.
                             </p>
                         </div>
                     </div>
@@ -321,10 +565,58 @@
                             <h3>04</h3>
                         </span>
                         <div>
-                            <h4 class="font-semibold">Quality Testing</h4>
+                            <h4 class="font-semibold">Bridges and Flyovers</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Rigorous testing ensures compliance with BIS standards and
-                                reliability.
+                                Infrastructure projects like bridges and flyovers are subject to heavy traffic loads and
+                                environmental stress. TMT Bars ensure these structures remain durable, providing the
+                                required tensile strength to bear dynamic loads while minimizing wear and tear over
+                                time. Their resistance to corrosion also makes them suitable for bridges in coastal or
+                                humid regions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-lg p-5 flex gap-4 items-start fade-right">
+                        <span class="text-2xl font-bold">
+                            <h3>05</h3>
+                        </span>
+                        <div>
+                            <h4 class="font-semibold">High-Rise Towers</h4>
+                            <p class="text-sm text-white/80 mt-1">
+                                TMT Bars are essential in constructing skyscrapers and multi-story buildings. Their high
+                                tensile strength and ductility make them perfect for handling the immense load of tall
+                                structures while ensuring stability against wind forces and seismic activity. These bars
+                                contribute to the safety and longevity of high-rise buildings.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-lg p-5 flex gap-4 items-start fade-right">
+                        <span class="text-2xl font-bold">
+                            <h3>06</h3>
+                        </span>
+                        <div>
+                            <h4 class="font-semibold">Dams and Water Tanks</h4>
+                            <p class="text-sm text-white/80 mt-1">
+                                Water-retaining structures like dams, reservoirs, and water tanks require TMT Bars with
+                                exceptional strength and anti-corrosion properties. These bars help maintain the
+                                structural integrity of these constructions, ensuring they can handle the constant
+                                pressure and moisture exposure without compromising safety.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-lg p-5 flex gap-4 items-start fade-right">
+                        <span class="text-2xl font-bold">
+                            <h3>07</h3>
+                        </span>
+                        <div>
+                            <h4 class="font-semibold">Fencing and Retaining Walls</h4>
+                            <p class="text-sm text-white/80 mt-1">
+                                TMT Bars are widely used in fencing to create secure boundaries for residential,
+                                commercial, and industrial properties. They also play a crucial role in retaining walls,
+                                which hold back soil in construction zones or sloped landscapes. Their strength ensures
+                                that these walls remain stable and effective over time.
                             </p>
                         </div>
                     </div>
@@ -332,27 +624,75 @@
             </div>
         </section>
 
-        <!-- Enhance Your Construction -->
-        <section class="max-w-7xl mx-auto  overflow-hidden mt-10">
+        <section class="bg-gray-100 py-16">
+
+            <div class="max-w-6xl mx-auto px-6 text-center">
+
+                <!-- Heading -->
+                <h2 class="text-4xl md:text-5xl font-bold text-[#1f2757] mb-12">
+                    Technical Specifications
+                </h2>
+
+                <!-- TMT Bar Image -->
+                <div class="flex justify-center mb-16">
+                    <img src="Apex-Images/steel-full.jpg" alt="TMT Bar" class="w-full max-w-5xl object-contain">
+                </div>
+
+                <!-- Specifications -->
+                <div class="space-y-6 text-md md:text-md text-gray-700">
+
+                    <p><span class="font-semibold text-gray-900">Grade:</span> Fe 550</p>
+
+                    <p><span class="font-semibold text-gray-900">Pattern:</span> C–Rib</p>
+
+                    <p><span class="font-semibold text-gray-900">Elongation:</span> High ductility for seismic zones</p>
+
+                    <p><span class="font-semibold text-gray-900">Bendability:</span> Excellent cold bend properties</p>
+
+                    <p><span class="font-semibold text-gray-900">Diameter Range:</span> Available in standard sizes (8mm
+                        to 32mm)</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        <!-- Reliable TMT Bars  -->
+        <section class="w-full bg-red-600 overflow-hidden mt-7">
             <div class="relative flex flex-col lg:flex-row items-center min-h-[420px]">
 
                 <!-- LEFT CONTENT -->
-                <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-red-600 z-10">
+                <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-white z-10">
                     <div class="max-w-[560px]">
-                        <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-5 animate-up">
-                            Reliable TMT Bars for <br class="hidden sm:block" />
-                            India’s Next Leap
+
+                        <!-- Heading -->
+                        <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-6 animate-up">
+                            Why Choose Apex Dura TMT Bars?
                         </h1>
 
-                        <p class="text-sm text-gray-600 sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
-                            At Apex Dura, our premium TMT 500 and 550 bars are crafted by
-                            Khyati Steel Industries Pvt. Ltd., a trusted name driven by the
-                            vision of contributing to India’s growth story. Every bar we
-                            produce reflects a blend of engineering precision, material
-                            integrity, and a deep commitment to building long-term
-                            partnerships with our clients.
-                        </p>
+                        <!-- Bullet Points -->
+                        <ul class="space-y-3 text-sm sm:text-base md:text-lg mb-8 fade-down">
+                            <li>✓ Certified Quality Standards</li>
+                            <li>✓ Perfect for both IHB & Projects</li>
+                            <li>✓ Consistent Supply & Availability</li>
+                            <li>✓ Tested & Approved by Engineers</li>
+                            <li>✓ Made with Integrated Steel Manufacturing Processes</li>
+                        </ul>
 
+                        <!-- Description Paragraph -->
+                        <p class="text-sm sm:text-base leading-relaxed opacity-95 fade-down">
+                            We understand the importance of using the right materials for any construction
+                            buildings or projects. Hence, Apex Dura TMT Bars ensure your structures are built
+                            strong, built safe, and built to last.
+                        </p>
 
                     </div>
                 </div>
@@ -360,12 +700,13 @@
                 <!-- RIGHT IMAGE (overlay style) -->
                 <div
                     class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
-                    <img src="Apex-Images/Steel-3.png" alt="TMT Hand"
+                    <img src="Apex-Images/holding-steelapex.png" alt="TMT Hand"
                         class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
                 </div>
 
             </div>
         </section>
+
 
 
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
@@ -527,7 +868,73 @@
     </script>
 
 
+    <!-- carousel slides  -->
+    <script>
+        const carousel = document.getElementById("carousel");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
 
+        let index = 0;
+
+        function getVisibleItems() {
+            if (window.innerWidth >= 1024) return 4;
+            if (window.innerWidth >= 640) return 2;
+            return 1;
+        }
+
+        function updateButtons(maxIndex) {
+            // Fade Prev
+            if (index <= 0) {
+                prevBtn.classList.add("opacity-40", "cursor-not-allowed");
+            } else {
+                prevBtn.classList.remove("opacity-40", "cursor-not-allowed");
+            }
+
+            // Fade Next
+            if (index >= maxIndex) {
+                nextBtn.classList.add("opacity-40", "cursor-not-allowed");
+            } else {
+                nextBtn.classList.remove("opacity-40", "cursor-not-allowed");
+            }
+        }
+
+        function updateCarousel() {
+            const visibleItems = getVisibleItems();
+            const totalItems = carousel.children.length;
+            const maxIndex = totalItems - visibleItems;
+
+            if (index > maxIndex) index = maxIndex;
+            if (index < 0) index = 0;
+
+            const slideWidth = carousel.children[0].offsetWidth;
+            carousel.style.transform = `translateX(-${index * slideWidth}px)`;
+
+            updateButtons(maxIndex);
+        }
+
+        nextBtn.addEventListener("click", () => {
+            const visibleItems = getVisibleItems();
+            const totalItems = carousel.children.length;
+            const maxIndex = totalItems - visibleItems;
+
+            if (index < maxIndex) {
+                index++;
+                updateCarousel();
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (index > 0) {
+                index--;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener("resize", updateCarousel);
+
+        // Initialize
+        updateCarousel();
+    </script>
 
 
 

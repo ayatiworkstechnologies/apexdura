@@ -42,7 +42,7 @@
     <!-- bg-image -->
     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
       <!-- Banner Image -->
-      <img src="Apex-Images/Apex-tmt-banner-image.jpg" class="w-full h-full object-cover"
+      <img src="Apex-Images/sustainability.jpg" class="w-full h-full object-cover"
         alt="Investor Corner Banner" />
 
       <!-- Breadcrumb -->
@@ -100,7 +100,7 @@
         
         <div class="relative hidden lg:flex justify-end">
           <div class="w-full max-w-md">
-            <img src="Apex-Images/steel-factory.jpg" alt="Steel Structure" class="w-full h-[350px] object-cover 
+            <img src="Apex-Images/sustainabilty-image.png" alt="Steel Structure" class="w-full h-[350px] object-cover 
                 rounded-2xl shadow-xl">
           </div>
         </div>

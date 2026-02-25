@@ -41,28 +41,30 @@
     <header class="w-full relative">
         <!-- bg-image -->
 
-         <div class="relative w-full pt-32 pb-8 bg-gray-50 overflow-hidden fade-up">
-      <!-- Breadcrumb -->
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex items-center gap-3">
-        <!-- Home -->
-        <a href="/" class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition hover:bg-gray-100">
-          <!-- Home Icon -->
-          <img src="Apex-icons/Home.png" alt="Home icon " class="w-4 h-4" />
-          Home
-        </a>
+        <div class="relative w-full pt-32 pb-8 bg-gray-50 overflow-hidden fade-up">
+            <!-- Breadcrumb -->
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex items-center gap-3">
+                <!-- Home -->
+                <a href="/"
+                    class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition hover:bg-gray-100">
+                    <!-- Home Icon -->
+                    <img src="Apex-icons/Home.png" alt="Home icon " class="w-4 h-4" />
+                    Home
+                </a>
 
-        <!-- Arrow -->
-        <span class="text-gray-500 text-lg">›</span>
+                <!-- Arrow -->
+                <span class="text-gray-500 text-lg">›</span>
 
-        <!-- About -->
-        <span class="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md">
-          <!-- User/About Icon -->
-          <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
-          5mm to 32mm TMT Bars
-        </span>
-      </div>
-    </div>
-       
+                <!-- About -->
+                <span
+                    class="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md">
+                    <!-- User/About Icon -->
+                    <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
+                    5mm to 32mm TMT Bars
+                </span>
+            </div>
+        </div>
+
 
         <!-- Header Content Overlay -->
         <?php include "includes/header.php"; ?>
@@ -946,86 +948,61 @@
                     Get in touch with us
                 </h2>
 
-                <form id="contactForm" class="space-y-8">
+                <form id="productForm" class="space-y-8" action="product-form.php" method="post">
 
                     <!-- Name -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Name</label>
-                        <input id="name" type="text" placeholder="Enter your Name"
+                        <input id="name" name="name" placeholder="Enter Your Name" type="text" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="nameError">
-                            Please enter your name
-                        </p>
                     </div>
 
                     <!-- Email -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Business Email</label>
-                        <input id="email" type="email" placeholder="Enter your email"
+                        <input id="email" name="email" placeholder="Enter Your Email Address" type="email" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="emailError">
-                            Enter a valid email
-                        </p>
                     </div>
 
                     <!-- Mobile -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" type="text" placeholder="Enter your number"
+                        <input id="mobile" name="mobile" placeholder="Enter Your Mobile Number" type="text" required
+                            pattern="^\d{10}$"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="mobileError">
-                            Enter valid 10 digit mobile number
-                        </p>
                     </div>
 
-                    <!-- Checkboxes -->
+                    <!-- Products -->
                     <div>
                         <div class="flex flex-wrap gap-8 pt-4">
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="TMT Fe550 Bars">
-                                TMT Fe550 Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Construction Bars">
-                                Construction Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Round Bars">
-                                Round Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Billets">
-                                Billets
-                            </label>
+                            <label><input type="checkbox" name="products[]" value="TMT Fe550 Bars"> TMT Fe550
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Construction Bars"> Construction
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Round Bars"> Round Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Billets"> Billets</label>
                         </div>
-
-                        <p class="text-red-600 text-sm mt-3 hidden" id="productError">
-                            Please select at least one product
-                        </p>
                     </div>
 
                     <!-- Message -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Message</label>
-                        <textarea id="message" rows="4" placeholder="Describe yourself here..."
+                        <textarea id="message" placeholder="Enter Your message" name="message" rows="4"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
                     </div>
 
-                    <!-- Submit -->
                     <div class="pt-8">
                         <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4 flex items-center gap-6 transition-all">
+                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4">
                             Submit
-                            <span class="text-2xl">›</span>
                         </button>
                     </div>
 
                 </form>
             </div>
         </section>
+
+        <div id="toast" class="hidden"></div>
 
 
 
@@ -1045,7 +1022,61 @@
     <script src="Js/bottom-up-arrow-script.js"></script>
 
 
+    <script>
+        document.getElementById("productForm").addEventListener("submit", function (e) {
+            e.preventDefault();
 
+            const form = this;
+            const button = form.querySelector("button");
+            const formData = new FormData(form);
+
+            // Loading state
+            button.disabled = true;
+            button.innerText = "Submitting...";
+
+            fetch("product-form.php", {
+                method: "POST",
+                body: formData
+            })
+                .then(res => res.json())
+                .then(data => {
+                    showToast(data.status, data.message);
+
+                    if (data.status === "success") {
+                        form.reset();
+                    }
+
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                })
+                .catch(() => {
+                    showToast("error", "Something went wrong!");
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                });
+        });
+
+        function showToast(status, message) {
+            const toast = document.getElementById("toast");
+
+            toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+            if (status === "success") {
+                toast.classList.add("bg-green-600");
+            } else if (status === "warning") {
+                toast.classList.add("bg-yellow-500");
+            } else {
+                toast.classList.add("bg-red-600");
+            }
+
+            toast.innerText = message;
+            toast.classList.remove("hidden");
+
+            setTimeout(() => {
+                toast.classList.add("hidden");
+            }, 4000);
+        }
+    </script>
 
 
     <!-- carousel slides  -->

@@ -628,10 +628,10 @@
     </section>
 
     <!-- Logo filling section -->
-    <section class="w-full bg-red-600 py-14 md:py-20 my-5">
+    <!-- <section class="w-full bg-red-600 py-14 md:py-20 my-5">
       <div class="max-w-7xl mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center gap-4 md:gap-6">
-          <!-- LEFT TEXT -->
+          
           <div class="text-white text-center md:text-left">
             <p class="text-sm lg:text-xl tracking-wide mb-2 opacity-90 fade-down">
               The Mark of Integrity Is
@@ -641,17 +641,15 @@
             </h2>
           </div>
 
-          <!-- CENTER IMAGE -->
 
           <div class="flex justify-center">
             <svg class="apex-logo w-56 md:w-70 lg:w-[290px]" viewBox="0 0 317 387" fill="none">
               <defs>
-                <!-- Vertical fill mask -->
+               
                 <mask id="fillMask">
                   <rect class="fill-anim" x="0" y="-387" width="317" height="387" fill="white" />
                 </mask>
 
-                <!-- Soft glow -->
                 <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
                   <feGaussianBlur stdDeviation="6" result="blur" />
                   <feMerge>
@@ -661,7 +659,7 @@
                 </filter>
               </defs>
 
-              <!-- Logo paths -->
+ 
               <g mask="url(#fillMask)" filter="url(#softGlow)">
                 <path
                   d="M138.812 73.6844L299.963 192.263L295.892 143.647L158.515 0L19.907 147.504L16.3837 189.32L138.812 73.6844Z"
@@ -679,7 +677,7 @@
             </svg>
           </div>
 
-          <!-- RIGHT TEXT -->
+
           <div class="text-white text-center md:text-right fade-up">
             <h2 class="text-4xl md:text-6xl lg:text-[110px] xl:text-9xl font-extrabold tracking-wide mb-2">
               TRUST
@@ -690,11 +688,25 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+    
+    
+    <!-- Apex grip -->
+     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden">
+  <img 
+    src="Apex-Images/apex-grip.jpg" 
+    alt="Banner Image"
+    class="w-full h-full object-cover"
+  />
+</div>
+    
+    
     <!-- steel image  -->
-    <section class="w-full fade-left">
+
+
+    <!-- <section class="w-full fade-left">
       <img src="Apex-Images/steel-full.png" alt="Apex Steel" class="w-full h-auto object-contain" />
-    </section>
+    </section> -->
 
 
 
