@@ -72,23 +72,23 @@
           <p class="text-gray-600 max-w-2xl mx-auto text-lg mb-2">
             Explore our comprehensive range of high-quality Mild Steel (MS) Channels, designed for structural support and industrial applications.
           </p>
-          <p class="text-red-600 font-semibold text-lg md:text-xl">
+          <p class="text-red-600 font-bold text-lg md:text-xl">
             MS Channels: 75 x 40mm to 200 x 75mm (Light Wt. / Med. Wt. / STD .Wt.)
           </p>
         </div>
 
         <!-- Sizes & Weights Table -->
-        <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-400 fade-up mb-12" style="transition-delay: 0.1s;">
+        <div class="bg-white rounded-2xl max-w-2xl mx-auto shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-400 fade-up mb-12" style="transition-delay: 0.1s;">
           <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
-              <thead>
-                <tr class="bg-gray-200/80 border-b border-gray-400">
-                  <th rowspan="2" class="px-6 py-4 text-sm font-semibold text-red-600 uppercase tracking-wider whitespace-nowrap border-r border-gray-400 align-middle">Size in mm</th>
-                  <th colspan="2" class="px-6 py-3 text-sm font-semibold text-red-600 uppercase tracking-wider text-center border-b border-gray-400">Average Weight</th>
+              <thead >
+                <tr class="bg-gray-200/80  border-b border-gray-400">
+                  <th rowspan="2" class="px-6 py-4 text-sm font-bold text-red-600 uppercase tracking-wider whitespace-nowrap border-r border-gray-400 align-middle">Size in mm</th>
+                  <th colspan="2" class="px-6 py-3 text-sm font-bold text-red-600 uppercase tracking-wider text-center border-b border-gray-400">Average Weight</th>
                 </tr>
                 <tr class="bg-gray-200/80 border-b border-gray-400">
-                  <th class="px-6 py-3 text-sm font-semibold text-red-600 uppercase tracking-wider text-center border-r border-gray-400">KG / MTR</th>
-                  <th class="px-6 py-3 text-sm font-semibold text-red-600 uppercase tracking-wider text-center">KG / FT</th>
+                  <th class="px-6 py-3 text-sm font-bold text-red-600 uppercase tracking-wider text-center border-r border-gray-400">KG / MTR</th>
+                  <th class="px-6 py-3 text-sm font-bold text-red-600 uppercase tracking-wider text-center">KG / FT</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-100">
@@ -169,11 +169,11 @@
           <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
               <thead>
-                <tr class="bg-gray-50/80 border-b border-gray-400">
-                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Web</th>
-                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Flange</th>
-                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Sectional Weight</th>
-                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap">Length</th>
+                <tr class="bg-gray-200/80 border-b border-gray-400">
+                  <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Web</th>
+                  <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Flange</th>
+                  <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Sectional Weight</th>
+                  <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase tracking-wider whitespace-nowrap">Length</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-100">
@@ -204,9 +204,9 @@
              </svg>
           </div>
           <p class="text-gray-700 text-lg md:text-xl leading-relaxed mb-8 max-w-4xl mx-auto">
-            We can collaborate and develop specific sizes in any section for a feasible quantity of order in <span class="font-semibold text-gray-900 border-b-2 border-red-200 pb-1">Mild Steel, High Tensile, En 8 / En 8D / EN 9 / EN 16</span> material.
+            We can collaborate and develop specific sizes in any section for a feasible quantity of order in <span class="font-bold text-gray-900 border-b-2 border-red-200 pb-1">Mild Steel, High Tensile, En 8 / En 8D / EN 9 / EN 16</span> material.
           </p>
-          <a href="customize-products.php" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-red-600 rounded-xl hover:bg-red-700 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 focus:ring-4 focus:ring-red-100 whitespace-nowrap">
+          <a href="customize-products.php" class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-red-600 rounded-xl hover:bg-red-700 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 focus:ring-4 focus:ring-red-100 whitespace-nowrap">
             Contact Us for Custom Orders
             <svg class="w-5 h-5 ml-2 -mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </a>

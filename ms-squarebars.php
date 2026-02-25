@@ -83,23 +83,23 @@
     </div>
 
     <!-- Sizes & Weights Table -->
-    <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12">
+    <div class="bg-white rounded-2xl max-w-2xl mx-auto shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-400 fade-up mb-12">
       <div class="overflow-x-auto">
         <table class="w-full text-left border-collapse">
           <thead>
-            <tr class="bg-gray-50/80 border-b border-gray-100">
-              <th rowspan="2" class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-100 align-middle">
+            <tr class="bg-gray-200/80 border-b border-gray-400">
+              <th rowspan="2" class="px-6 py-4 text-sm font-bold text-red-600 uppercase tracking-wider whitespace-nowrap border-r border-gray-400 align-middle">
                 Size in mm
               </th>
-              <th colspan="2" class="px-6 py-3 text-sm font-semibold text-gray-900 uppercase tracking-wider text-center border-b border-gray-100">
+              <th colspan="2" class="px-6 py-3 text-sm font-bold text-red-600 uppercase tracking-wider text-center border-b border-gray-400">
                 Average Weight
               </th>
             </tr>
-            <tr class="bg-gray-50/80 border-b border-gray-100">
-              <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center border-r border-gray-100">
+            <tr class="bg-gray-200/80 border-b border-gray-400">
+              <th class="px-6 py-3 text-sm font-bold text-red-600 uppercase tracking-wider text-center border-r border-gray-400">
                 KG / MTR
               </th>
-              <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center">
+              <th class="px-6 py-3 text-sm font-bold text-red-600 uppercase tracking-wider text-center">
                 KG / FT
               </th>
             </tr>
@@ -125,8 +125,8 @@
             ];
             foreach ($ms_square_bars as $row) {
               echo '<tr class="hover:bg-gray-50/50 transition-colors duration-200">
-                <td class="px-6 py-3 font-medium text-gray-900 border-r border-gray-100">' . $row[0] . '</td>
-                <td class="px-6 py-3 text-center border-r border-gray-100">' . $row[1] . '</td>
+                <td class="px-6 py-3 font-medium text-gray-900 border-r border-gray-400">' . $row[0] . '</td>
+                <td class="px-6 py-3 text-center border-r border-gray-400">' . $row[1] . '</td>
                 <td class="px-6 py-3 text-center">' . $row[2] . '</td>
               </tr>';
             }
@@ -141,21 +141,21 @@
       Rolling Tolerances
     </h3>
 
-    <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12">
+    <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-400 fade-up mb-12">
       <div class="overflow-x-auto">
         <table class="w-full text-left border-collapse">
           <thead>
-            <tr class="bg-gray-50/80 border-b border-gray-100">
-              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+            <tr class="bg-gray-200/80 border-b border-gray-400">
+              <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase border-r border-gray-400">
                 Size
               </th>
-              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+              <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase border-r border-gray-400">
                 Out of squareness
               </th>
-              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase border-r border-gray-100">
+              <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase border-r border-gray-400">
                 Weight
               </th>
-              <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase">
+              <th class="px-6 py-4 text-sm font-bold text-red-600 uppercase">
                 Length
               </th>
             </tr>
@@ -163,13 +163,13 @@
 
           <tbody class="divide-y divide-gray-100">
             <tr class="hover:bg-gray-50/50 transition-colors duration-200">
-              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+              <td class="px-6 py-4 border-r border-gray-400 whitespace-nowrap">
                 Up to 25 mm: &plusmn; 0.5 mm
               </td>
-              <td class="px-6 py-4 border-r border-gray-100" rowspan="6">
+              <td class="px-6 py-4 border-r border-gray-400" rowspan="6">
                 &plusmn; 75% of total tolerance specified on the size.
               </td>
-              <td class="px-6 py-4 border-r border-gray-100 align-top" rowspan="6">
+              <td class="px-6 py-4 border-r border-gray-400 align-top" rowspan="6">
                 <div class="space-y-2">
                   <p>10 mm to 16 mm: &plusmn; 5%</p>
                   <p>16 mm and above: &plusmn; 3%</p>
@@ -181,31 +181,31 @@
             </tr>
 
             <tr class="hover:bg-gray-50/50 transition-colors duration-200">
-              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+              <td class="px-6 py-4 border-r border-gray-400 whitespace-nowrap">
                 25 mm to 35 mm: &plusmn; 0.6 mm
               </td>
             </tr>
 
             <tr class="hover:bg-gray-50/50 transition-colors duration-200">
-              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+              <td class="px-6 py-4 border-r border-gray-400 whitespace-nowrap">
                 35 mm to 50 mm: &plusmn; 0.8 mm
               </td>
             </tr>
 
             <tr class="hover:bg-gray-50/50 transition-colors duration-200">
-              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+              <td class="px-6 py-4 border-r border-gray-400 whitespace-nowrap">
                 50 mm to 80 mm: &plusmn; 1 mm
               </td>
             </tr>
 
             <tr class="hover:bg-gray-50/50 transition-colors duration-200">
-              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+              <td class="px-6 py-4 border-r border-gray-400 whitespace-nowrap">
                 80 mm to 100 mm: &plusmn; 1.3 mm
               </td>
             </tr>
 
             <tr class="hover:bg-gray-50/50 transition-colors duration-200">
-              <td class="px-6 py-4 border-r border-gray-100 whitespace-nowrap">
+              <td class="px-6 py-4 border-r border-gray-400 whitespace-nowrap">
                 100 mm and above: &plusmn; 1.6% of side width.
               </td>
             </tr>
