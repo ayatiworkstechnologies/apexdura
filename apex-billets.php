@@ -86,26 +86,31 @@
                         Unbreakable Strength, Unbeatable Quality
                     </h2>
 
-                    
+
 
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        Mild steel billets, also known as MS billets, are produced in Apex Dura’s high efficiency induction furnaces through processes that are IS 2830:2012 certified. These MS billets are semi-complete steel products that have either square or rectangular cross-sections. They are made via continuous rolling or continuous casting processes at temperatures higher than 1000 degree celsius.
+                        Mild steel billets, also known as MS billets, are produced in Apex Dura’s high efficiency
+                        induction furnaces through processes that are IS 2830:2012 certified. These MS billets are
+                        semi-complete steel products that have either square or rectangular cross-sections. They are
+                        made via continuous rolling or continuous casting processes at temperatures higher than 1000
+                        degree celsius.
                     </p>
 
                     <p class="text-gray-600 leading-relaxed mt-4">
-                        As part of its stringent quality assurance plan, Apex Dura has employed an advanced Metal Spectrometer to test the quality of MS billets.
+                        As part of its stringent quality assurance plan, Apex Dura has employed an advanced Metal
+                        Spectrometer to test the quality of MS billets.
                     </p>
 
-                    
+
                 </div>
 
                 <!-- RIGHT IMAGE -->
                 <div class="relative hidden lg:flex justify-end">
-          <div class="w-full max-w-md">
-            <img src="Apex-Images/billet-product.png" alt="Steel Structure" class="w-full h-[350px] object-cover 
+                    <div class="w-full max-w-md">
+                        <img src="Apex-Images/billet-product.png" alt="Steel Structure" class="w-full h-[350px] object-cover 
                 rounded-2xl shadow-xl">
-          </div>
-        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -153,10 +158,11 @@
 
                                     <div>
                                         <h4 class="font-semibold text-lg">
-                                           Premium Raw Material Selection
+                                            Premium Raw Material Selection
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            We use high-quality sponge iron, heavy melting scrap, turnings, and bundled scrap sourced from trusted scrap yards to ensure superior base strength.
+                                            We use high-quality sponge iron, heavy melting scrap, turnings, and bundled
+                                            scrap sourced from trusted scrap yards to ensure superior base strength.
                                         </p>
                                     </div>
                                 </div>
@@ -181,7 +187,8 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">MS Billet Manufacturing</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            The selected raw materials are processed under strict quality control to produce high-strength MS billets with consistent structural integrity.
+                                            The selected raw materials are processed under strict quality control to
+                                            produce high-strength MS billets with consistent structural integrity.
                                         </p>
                                     </div>
                                 </div>
@@ -208,7 +215,8 @@
                                             Grade-Based Color Coding
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Each billet is color-coded according to its quality grade, ensuring clear identification and quality traceability.
+                                            Each billet is color-coded according to its quality grade, ensuring clear
+                                            identification and quality traceability.
                                         </p>
                                     </div>
                                 </div>
@@ -233,7 +241,8 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Systematic Stacking & Batch Control</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Billets are stacked grade-wise and organized until the required manufacturing quantity is achieved.
+                                            Billets are stacked grade-wise and organized until the required
+                                            manufacturing quantity is achieved.
                                         </p>
                                     </div>
                                 </div>
@@ -242,7 +251,7 @@
                             </div>
 
                             <!-- step 05 -->
-                             <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
+                            <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
                                 data-img="Apex-Images/pmp-5.png">
                                 <span
                                     class="indicator-left hidden absolute left-8 top-0 bottom-0 w-[2px] bg-white"></span>
@@ -258,7 +267,8 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Conversion into TMT Bars</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Once the batch requirement is met, the MS billets are dispatched for advanced rolling and conversion into high-performance TMT bars.
+                                            Once the batch requirement is met, the MS billets are dispatched for
+                                            advanced rolling and conversion into high-performance TMT bars.
                                         </p>
                                     </div>
                                 </div>
@@ -277,7 +287,8 @@
         <section class="bg-red-600 text-white py-12 lg:hidden">
             <div class="max-w-7xl mx-auto px-5 sm:px-6">
                 <!-- Image -->
-                <img src="Apex-Images/billets-img.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
+                <img src="Apex-Images/billets-img.png"
+                    class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
 
                 <h2 class="text-2xl sm:text-3xl font-bold mb-8 fade-left">
                     Apex Dura TMT Fe 500 and Fe550 Bars
@@ -293,7 +304,8 @@
                         <div>
                             <h4 class="font-semibold">Premium Raw Material Selection</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                We use high-quality sponge iron, heavy melting scrap, turnings, and bundled scrap sourced from trusted scrap yards to ensure superior base strength.
+                                We use high-quality sponge iron, heavy melting scrap, turnings, and bundled scrap
+                                sourced from trusted scrap yards to ensure superior base strength.
                             </p>
                         </div>
                     </div>
@@ -305,7 +317,8 @@
                         <div>
                             <h4 class="font-semibold">MS Billet Manufacturing</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                The selected raw materials are processed under strict quality control to produce high-strength MS billets with consistent structural integrity.
+                                The selected raw materials are processed under strict quality control to produce
+                                high-strength MS billets with consistent structural integrity.
                             </p>
                         </div>
                     </div>
@@ -317,7 +330,8 @@
                         <div>
                             <h4 class="font-semibold">Grade-Based Color Coding</h4>
                             <p class="text-sm text-white/80 mt-1">
-                               Each billet is color-coded according to its quality grade, ensuring clear identification and quality traceability.
+                                Each billet is color-coded according to its quality grade, ensuring clear identification
+                                and quality traceability.
                             </p>
                         </div>
                     </div>
@@ -329,7 +343,8 @@
                         <div>
                             <h4 class="font-semibold">Systematic Stacking & Batch Control</h4>
                             <p class="text-sm text-white/80 mt-1">
-                               Billets are stacked grade-wise and organized until the required manufacturing quantity is achieved.
+                                Billets are stacked grade-wise and organized until the required manufacturing quantity
+                                is achieved.
                             </p>
                         </div>
                     </div>
@@ -341,7 +356,8 @@
                         <div>
                             <h4 class="font-semibold">Conversion into TMT Bars</h4>
                             <p class="text-sm text-white/80 mt-1">
-                               Once the batch requirement is met, the MS billets are dispatched for advanced rolling and conversion into high-performance TMT bars.
+                                Once the batch requirement is met, the MS billets are dispatched for advanced rolling
+                                and conversion into high-performance TMT bars.
                             </p>
                         </div>
                     </div>
@@ -351,33 +367,39 @@
 
         <!-- Enhance Your Construction -->
         <section class="max-w-8xl mx-auto  overflow-hidden mt-10">
-      <div class="relative flex flex-col lg:flex-row items-center min-h-[420px]">
+            <div class="relative flex flex-col lg:flex-row items-center min-h-[420px]">
 
-        <!-- LEFT CONTENT -->
-        <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-red-600 z-10">
-          <div class="max-w-[560px]">
-            <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-5 animate-up">
-              Steel Made Stronger For <br class="hidden sm:block" />
-              Futuristic Structures
-            </h1>
+                <!-- LEFT CONTENT -->
+                <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-red-600 z-10">
+                    <div class="max-w-[560px]">
+                        <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-5 animate-up">
+                            Steel Made Stronger For <br class="hidden sm:block" />
+                            Futuristic Structures
+                        </h1>
 
-            <p class="text-sm text-gray-600 sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
-              MS billets are integral to TMT steel manufacturing—TMT stands for ‘thermo mechanically treated’. As a leading steel manufacturer in South India, Apex Dura Steel produces top-quality MS billets from low-carbon mild steel. Known for their weldability, ductility, and formability, these billets are ideal for diverse industrial applications in construction, automotive, engineering, and manufacturing sectors. TMT steel, essential for skyscrapers, warehouses, power plants, residential and commercial buildings, bridges, tunnels, and flyovers, relies on MS billets.
-            </p>
+                        <p class="text-sm text-gray-600 sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
+                            MS billets are integral to TMT steel manufacturing—TMT stands for ‘thermo mechanically
+                            treated’. As a leading steel manufacturer in South India, Apex Dura Steel produces
+                            top-quality MS billets from low-carbon mild steel. Known for their weldability, ductility,
+                            and formability, these billets are ideal for diverse industrial applications in
+                            construction, automotive, engineering, and manufacturing sectors. TMT steel, essential for
+                            skyscrapers, warehouses, power plants, residential and commercial buildings, bridges,
+                            tunnels, and flyovers, relies on MS billets.
+                        </p>
 
 
-          </div>
-        </div>
+                    </div>
+                </div>
 
-        <!-- RIGHT IMAGE (overlay style) -->
-        <div
-          class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
-          <img src="Apex-Images/Steel-3.png" alt="TMT Hand"
-            class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
-        </div>
+                <!-- RIGHT IMAGE (overlay style) -->
+                <div
+                    class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
+                    <img src="Apex-Images/Steel-3.png" alt="TMT Hand"
+                        class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
+                </div>
 
-      </div>
-    </section>
+            </div>
+        </section>
 
 
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
@@ -408,80 +430,53 @@
                     Get in touch with us
                 </h2>
 
-                <form id="contactForm" class="space-y-8">
+                <form id="productForm" class="space-y-8" action="product-form.php" method="post">
 
                     <!-- Name -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Name</label>
-                        <input id="name" type="text" placeholder="Enter your Name"
+                        <input id="name" name="name" placeholder="Enter Your Name" type="text" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="nameError">
-                            Please enter your name
-                        </p>
                     </div>
 
                     <!-- Email -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Business Email</label>
-                        <input id="email" type="email" placeholder="Enter your email"
+                        <input id="email" name="email" placeholder="Enter Your Email Address" type="email" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="emailError">
-                            Enter a valid email
-                        </p>
                     </div>
 
                     <!-- Mobile -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" type="text" placeholder="Enter your number"
+                        <input id="mobile" name="mobile" placeholder="Enter Your Mobile Number" type="text" required
+                            pattern="^\d{10}$"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="mobileError">
-                            Enter valid 10 digit mobile number
-                        </p>
                     </div>
 
-                    <!-- Checkboxes -->
+                    <!-- Products -->
                     <div>
                         <div class="flex flex-wrap gap-8 pt-4">
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="TMT Fe550 Bars">
-                                TMT Fe550 Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Construction Bars">
-                                Construction Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Round Bars">
-                                Round Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Billets">
-                                Billets
-                            </label>
+                            <label><input type="checkbox" name="products[]" value="TMT Fe550 Bars"> TMT Fe550
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Construction Bars"> Construction
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Round Bars"> Round Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Billets"> Billets</label>
                         </div>
-
-                        <p class="text-red-600 text-sm mt-3 hidden" id="productError">
-                            Please select at least one product
-                        </p>
                     </div>
 
                     <!-- Message -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Message</label>
-                        <textarea id="message" rows="4" placeholder="Describe yourself here..."
+                        <textarea id="message" placeholder="Enter Your message" name="message" rows="4"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
                     </div>
 
-                    <!-- Submit -->
                     <div class="pt-8">
                         <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4 flex items-center gap-6 transition-all">
+                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4">
                             Submit
-                            <span class="text-2xl">›</span>
                         </button>
                     </div>
 
@@ -489,6 +484,7 @@
             </div>
         </section>
 
+        <div id="toast" class="hidden"></div>
 
 
     </main>
@@ -508,7 +504,61 @@
 
 
 
+    <script>
+        document.getElementById("productForm").addEventListener("submit", function (e) {
+            e.preventDefault();
 
+            const form = this;
+            const button = form.querySelector("button");
+            const formData = new FormData(form);
+
+            // Loading state
+            button.disabled = true;
+            button.innerText = "Submitting...";
+
+            fetch("product-form.php", {
+                method: "POST",
+                body: formData
+            })
+                .then(res => res.json())
+                .then(data => {
+                    showToast(data.status, data.message);
+
+                    if (data.status === "success") {
+                        form.reset();
+                    }
+
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                })
+                .catch(() => {
+                    showToast("error", "Something went wrong!");
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                });
+        });
+
+        function showToast(status, message) {
+            const toast = document.getElementById("toast");
+
+            toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+            if (status === "success") {
+                toast.classList.add("bg-green-600");
+            } else if (status === "warning") {
+                toast.classList.add("bg-yellow-500");
+            } else {
+                toast.classList.add("bg-red-600");
+            }
+
+            toast.innerText = message;
+            toast.classList.remove("hidden");
+
+            setTimeout(() => {
+                toast.classList.add("hidden");
+            }, 4000);
+        }
+    </script>
 
 
 

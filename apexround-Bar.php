@@ -65,7 +65,7 @@
                     <!-- User/About Icon -->
                     <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
 
-                   Apex Round Bar
+                    Apex Round Bar
                 </span>
             </div>
         </div>
@@ -334,38 +334,38 @@
 
         <!-- Enhance Your Construction -->
         <section class="max-w-7xl mx-auto  overflow-hidden mt-10">
-      <div class="relative flex flex-col lg:flex-row items-center min-h-[420px]">
+            <div class="relative flex flex-col lg:flex-row items-center min-h-[420px]">
 
-        <!-- LEFT CONTENT -->
-        <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-red-600 z-10">
-          <div class="max-w-[560px]">
-            <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-5 animate-up">
-              Reliable TMT Bars for <br class="hidden sm:block" />
-              India’s Next Leap
-            </h1>
+                <!-- LEFT CONTENT -->
+                <div class="w-full lg:w-1/2 px-6 sm:px-10 md:px-14 lg:px-20 py-12 text-red-600 z-10">
+                    <div class="max-w-[560px]">
+                        <h1 class="text-[28px] sm:text-[34px] md:text-[40px] font-bold leading-snug mb-5 animate-up">
+                            Reliable TMT Bars for <br class="hidden sm:block" />
+                            India’s Next Leap
+                        </h1>
 
-            <p class="text-sm text-gray-600 sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
-              At Apex Dura, our premium TMT 500 and 550 bars are crafted by
-              Khyati Steel Industries Pvt. Ltd., a trusted name driven by the
-              vision of contributing to India’s growth story. Every bar we
-              produce reflects a blend of engineering precision, material
-              integrity, and a deep commitment to building long-term
-              partnerships with our clients.
-            </p>
+                        <p class="text-sm text-gray-600 sm:text-base leading-relaxed mb-8 opacity-95 fade-down">
+                            At Apex Dura, our premium TMT 500 and 550 bars are crafted by
+                            Khyati Steel Industries Pvt. Ltd., a trusted name driven by the
+                            vision of contributing to India’s growth story. Every bar we
+                            produce reflects a blend of engineering precision, material
+                            integrity, and a deep commitment to building long-term
+                            partnerships with our clients.
+                        </p>
 
 
-          </div>
-        </div>
+                    </div>
+                </div>
 
-        <!-- RIGHT IMAGE (overlay style) -->
-        <div
-          class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
-          <img src="Apex-Images/Steel-3.png" alt="TMT Hand"
-            class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
-        </div>
+                <!-- RIGHT IMAGE (overlay style) -->
+                <div
+                    class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
+                    <img src="Apex-Images/Steel-3.png" alt="TMT Hand"
+                        class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
+                </div>
 
-      </div>
-    </section>
+            </div>
+        </section>
 
 
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
@@ -396,86 +396,61 @@
                     Get in touch with us
                 </h2>
 
-                <form id="contactForm" class="space-y-8">
+                <form id="productForm" class="space-y-8" action="product-form.php" method="post">
 
                     <!-- Name -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Name</label>
-                        <input id="name" type="text" placeholder="Enter your Name"
+                        <input id="name" name="name" placeholder="Enter Your Name" type="text" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="nameError">
-                            Please enter your name
-                        </p>
                     </div>
 
                     <!-- Email -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Business Email</label>
-                        <input id="email" type="email" placeholder="Enter your email"
+                        <input id="email" name="email" placeholder="Enter Your Email Address" type="email" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="emailError">
-                            Enter a valid email
-                        </p>
                     </div>
 
                     <!-- Mobile -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" type="text" placeholder="Enter your number"
+                        <input id="mobile" name="mobile" placeholder="Enter Your Mobile Number" type="text" required
+                            pattern="^\d{10}$"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="mobileError">
-                            Enter valid 10 digit mobile number
-                        </p>
                     </div>
 
-                    <!-- Checkboxes -->
+                    <!-- Products -->
                     <div>
                         <div class="flex flex-wrap gap-8 pt-4">
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="TMT Fe550 Bars">
-                                TMT Fe550 Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Construction Bars">
-                                Construction Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Round Bars">
-                                Round Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Billets">
-                                Billets
-                            </label>
+                            <label><input type="checkbox" name="products[]" value="TMT Fe550 Bars"> TMT Fe550
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Construction Bars"> Construction
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Round Bars"> Round Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Billets"> Billets</label>
                         </div>
-
-                        <p class="text-red-600 text-sm mt-3 hidden" id="productError">
-                            Please select at least one product
-                        </p>
                     </div>
 
                     <!-- Message -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Message</label>
-                        <textarea id="message" rows="4" placeholder="Describe yourself here..."
+                        <textarea id="message" placeholder="Enter Your message" name="message" rows="4"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
                     </div>
 
-                    <!-- Submit -->
                     <div class="pt-8">
                         <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4 flex items-center gap-6 transition-all">
+                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4">
                             Submit
-                            <span class="text-2xl">›</span>
                         </button>
                     </div>
 
                 </form>
             </div>
         </section>
+
+        <div id="toast" class="hidden"></div>
 
 
 
@@ -495,7 +470,61 @@
     <script src="Js/bottom-up-arrow-script.js"></script>
 
 
+    <script>
+        document.getElementById("productForm").addEventListener("submit", function (e) {
+            e.preventDefault();
 
+            const form = this;
+            const button = form.querySelector("button");
+            const formData = new FormData(form);
+
+            // Loading state
+            button.disabled = true;
+            button.innerText = "Submitting...";
+
+            fetch("product-form.php", {
+                method: "POST",
+                body: formData
+            })
+                .then(res => res.json())
+                .then(data => {
+                    showToast(data.status, data.message);
+
+                    if (data.status === "success") {
+                        form.reset();
+                    }
+
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                })
+                .catch(() => {
+                    showToast("error", "Something went wrong!");
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                });
+        });
+
+        function showToast(status, message) {
+            const toast = document.getElementById("toast");
+
+            toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+            if (status === "success") {
+                toast.classList.add("bg-green-600");
+            } else if (status === "warning") {
+                toast.classList.add("bg-yellow-500");
+            } else {
+                toast.classList.add("bg-red-600");
+            }
+
+            toast.innerText = message;
+            toast.classList.remove("hidden");
+
+            setTimeout(() => {
+                toast.classList.add("hidden");
+            }, 4000);
+        }
+    </script>
 
 
 

@@ -629,7 +629,8 @@
                     <!-- Mobile -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" name="mobile" placeholder="Enter Your Mobile Number" type="text" required pattern="^\d{10}$"
+                        <input id="mobile" name="mobile" placeholder="Enter Your Mobile Number" type="text" required
+                            pattern="^\d{10}$"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
                     </div>
 
@@ -663,7 +664,7 @@
             </div>
         </section>
 
-      <div id="toast" class="hidden"></div>
+        <div id="toast" class="hidden"></div>
 
     </main>
 
@@ -682,61 +683,61 @@
 
 
 
-<script>
-document.getElementById("productForm").addEventListener("submit", function(e) {
-    e.preventDefault();
+    <script>
+        document.getElementById("productForm").addEventListener("submit", function (e) {
+            e.preventDefault();
 
-    const form = this;
-    const button = form.querySelector("button");
-    const formData = new FormData(form);
+            const form = this;
+            const button = form.querySelector("button");
+            const formData = new FormData(form);
 
-    // Loading state
-    button.disabled = true;
-    button.innerText = "Submitting...";
+            // Loading state
+            button.disabled = true;
+            button.innerText = "Submitting...";
 
-    fetch("product-form.php", {
-        method: "POST",
-        body: formData
-    })
-    .then(res => res.json())
-    .then(data => {
-        showToast(data.status, data.message);
+            fetch("product-form.php", {
+                method: "POST",
+                body: formData
+            })
+                .then(res => res.json())
+                .then(data => {
+                    showToast(data.status, data.message);
 
-        if (data.status === "success") {
-            form.reset();
+                    if (data.status === "success") {
+                        form.reset();
+                    }
+
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                })
+                .catch(() => {
+                    showToast("error", "Something went wrong!");
+                    button.disabled = false;
+                    button.innerText = "Submit";
+                });
+        });
+
+        function showToast(status, message) {
+            const toast = document.getElementById("toast");
+
+            toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+            if (status === "success") {
+                toast.classList.add("bg-green-600");
+            } else if (status === "warning") {
+                toast.classList.add("bg-yellow-500");
+            } else {
+                toast.classList.add("bg-red-600");
+            }
+
+            toast.innerText = message;
+            toast.classList.remove("hidden");
+
+            setTimeout(() => {
+                toast.classList.add("hidden");
+            }, 4000);
         }
-
-        button.disabled = false;
-        button.innerText = "Submit";
-    })
-    .catch(() => {
-        showToast("error", "Something went wrong!");
-        button.disabled = false;
-        button.innerText = "Submit";
-    });
-});
-
-function showToast(status, message) {
-    const toast = document.getElementById("toast");
-
-    toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
-
-    if (status === "success") {
-        toast.classList.add("bg-green-600");
-    } else if (status === "warning") {
-        toast.classList.add("bg-yellow-500");
-    } else {
-        toast.classList.add("bg-red-600");
-    }
-
-    toast.innerText = message;
-    toast.classList.remove("hidden");
-
-    setTimeout(() => {
-        toast.classList.add("hidden");
-    }, 4000);
-}
-</script>
+    </script>
 
 
 
