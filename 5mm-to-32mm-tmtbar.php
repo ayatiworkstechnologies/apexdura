@@ -404,7 +404,7 @@
                         <!-- BASE GREY TIMELINE -->
                         <div class="absolute left-8 top-20 bottom-0 w-[2px] bg-white/30"></div>
 
-                        <p class="text-sm  mb-10 pl-16 fade-up">
+                        <p class="text-md  mb-10 pl-16 fade-up">
                             Our 5mm to 32mm TMT Bars are the backbone of various construction projects, including:</p>
 
                         <!-- STEPS -->
@@ -420,16 +420,16 @@
                                     class="indicator-bottom absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>01</h3>
                                     </span>
                                     <span class="bar w-20 h-[2px] bg-white mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl">
                                             Residential Projects
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                             TMT Bars form the foundation of safe and durable homes. From strong
                                             foundations that support the entire structure to robust walls and roofs,
                                             these bars ensure the stability and longevity of houses. Whether it’s a
@@ -452,14 +452,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>02</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Commercial Buildings</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Commercial Buildings</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             In commercial constructions such as offices, shopping malls, educational
                                             institutions, and healthcare facilities, the strength of TMT Bars is
                                             indispensable. They offer the necessary reinforcement to support large-scale
@@ -481,16 +481,16 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>03</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl">
                                             Industrial Infrastructure
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                             Factories, warehouses, workshops, and manufacturing units rely on TMT Bars
                                             for their structural integrity. These buildings often house heavy machinery
                                             and equipment, requiring bars that can withstand substantial stress and
@@ -512,14 +512,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>04</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Bridges and Flyovers</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Bridges and Flyovers</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Infrastructure projects like bridges and flyovers are subject to heavy
                                             traffic loads and environmental stress. TMT Bars ensure these structures
                                             remain durable, providing the required tensile strength to bear dynamic
@@ -540,14 +540,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>05</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">High-Rise Towers</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">High-Rise Towers</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             TMT Bars are essential in constructing skyscrapers and multi-story
                                             buildings. Their high tensile strength and ductility make them perfect for
                                             handling the immense load of tall structures while ensuring stability
@@ -569,14 +569,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>06</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Dams and Water Tanks</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Dams and Water Tanks</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Water-retaining structures like dams, reservoirs, and water tanks require
                                             TMT Bars with exceptional strength and anti-corrosion properties. These bars
                                             help maintain the structural integrity of these constructions, ensuring they
@@ -595,14 +595,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>07</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Fencing and Retaining Walls</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Fencing and Retaining Walls</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             TMT Bars are widely used in fencing to create secure boundaries for
                                             residential, commercial, and industrial properties. They also play a crucial
                                             role in retaining walls, which hold back soil in construction zones or
@@ -1160,73 +1160,88 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
 
-            const steps = document.querySelectorAll(".step");
-            if (!steps.length) return;
+            const wrapper = document.getElementById("steps");
+            const steps = document.querySelectorAll("#steps .step");
+            if (!wrapper || !steps.length) return;
 
-            let currentStep = 0;
-            let autoInterval;
+            let startIndex = 0;
+            let autoInterval = null;
 
-            function activateStep(index) {
+            function activateIndicators(step, active) {
+                const left = step.querySelector(".indicator-left");
+                const bottom = step.querySelector(".indicator-bottom");
+                const bar = step.querySelector(".bar");
 
-                steps.forEach((s) => {
-
-                    // Dim all
-                    s.classList.add("opacity-50");
-
-                    const left = s.querySelector(".indicator-left");
-                    const bottom = s.querySelector(".indicator-bottom");
-                    const bar = s.querySelector(".bar");
-
+                if (active) {
+                    step.classList.remove("opacity-50");
+                    if (left) left.classList.remove("hidden");
+                    if (bottom) bottom.classList.remove("hidden");
+                    if (bar) {
+                        bar.classList.remove("w-14", "bg-white/40");
+                        bar.classList.add("w-20", "bg-white");
+                    }
+                } else {
+                    step.classList.add("opacity-50");
                     if (left) left.classList.add("hidden");
                     if (bottom) bottom.classList.add("hidden");
-
                     if (bar) {
                         bar.classList.remove("w-20", "bg-white");
                         bar.classList.add("w-14", "bg-white/40");
                     }
-
-                });
-
-                // Activate selected
-                const active = steps[index];
-
-                active.classList.remove("opacity-50");
-
-                const left = active.querySelector(".indicator-left");
-                const bottom = active.querySelector(".indicator-bottom");
-                const bar = active.querySelector(".bar");
-
-                if (left) left.classList.remove("hidden");
-                if (bottom) bottom.classList.remove("hidden");
-
-                if (bar) {
-                    bar.classList.remove("w-14", "bg-white/40");
-                    bar.classList.add("w-20", "bg-white");
                 }
             }
 
+            function showTwoSteps() {
+
+                // Hide all
+                steps.forEach(step => {
+                    step.classList.add("hidden-step");
+                    activateIndicators(step, false);
+                });
+
+                // Show first
+                const first = steps[startIndex];
+                first.classList.remove("hidden-step");
+                activateIndicators(first, true);
+
+                // Show second
+                const secondIndex = (startIndex + 1) % steps.length;
+                const second = steps[secondIndex];
+                second.classList.remove("hidden-step");
+                activateIndicators(second, false);
+            }
+
+            function rotateSteps() {
+                startIndex = (startIndex + 1) % steps.length;
+                showTwoSteps();
+            }
+
             function startAuto() {
-                autoInterval = setInterval(() => {
-                    currentStep = (currentStep + 1) % steps.length;
-                    activateStep(currentStep);
-                }, 3000);
+                if (autoInterval) return;
+                autoInterval = setInterval(rotateSteps, 4000); // smooth timing
             }
 
-            function restartAuto() {
+            function stopAuto() {
                 clearInterval(autoInterval);
-                startAuto();
+                autoInterval = null;
             }
 
+            // Pause on hover
+            wrapper.addEventListener("mouseenter", stopAuto);
+            wrapper.addEventListener("mouseleave", startAuto);
+
+            // Click support
             steps.forEach((step, index) => {
                 step.addEventListener("click", () => {
-                    currentStep = index;
-                    activateStep(currentStep);
-                    restartAuto();
+                    startIndex = index;
+                    showTwoSteps();
+                    stopAuto();
+                    startAuto();
                 });
             });
 
-            // Initialize
-            activateStep(currentStep);
+            // Init
+            showTwoSteps();
             startAuto();
 
         });

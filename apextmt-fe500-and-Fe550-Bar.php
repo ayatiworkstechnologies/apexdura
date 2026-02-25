@@ -159,16 +159,16 @@
                                     class="indicator-bottom absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>01</h3>
                                     </span>
                                     <span class="bar w-20 h-[2px] bg-white mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl">
                                             High Tensile Strength
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                             Manufactured to Fe550 grade standards, offering enhanced load-bearing
                                             capacity for high-rise buildings and heavy structures.
                                         </p>
@@ -187,14 +187,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>02</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Excellent Flexibility & Ductility</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Excellent Flexibility & Ductility</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Advanced thermo-mechanical treatment provides a tough outer surface with a
                                             ductile core, improving bendability and crack resistance.
                                         </p>
@@ -213,16 +213,16 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>03</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl">
                                             Superior Earthquake Resistance
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                             Optimized microstructure enhances shock absorption and structural stability
                                             during seismic activity.
                                         </p>
@@ -241,14 +241,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>04</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Enhanced Corrosion Resistance</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Enhanced Corrosion Resistance</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Specialized quenching technology ensures long-lasting resistance against
                                             rust and environmental exposure.
                                         </p>
@@ -266,14 +266,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>05</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Strong Concrete Bonding</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Strong Concrete Bonding</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Precision rib patterns ensure excellent grip with concrete, improving
                                             overall structural integrity.
                                         </p>
@@ -290,14 +290,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>06</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Consistent Quality Standards</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Consistent Quality Standards</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Produced using controlled rolling processes and tested as per industry norms
                                             to maintain uniform mechanical properties.
                                         </p>
@@ -752,79 +752,94 @@
 
     <!-- Precision Manufacturing Process -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
-            const steps = document.querySelectorAll(".step");
-            if (!steps.length) return;
+    const wrapper = document.getElementById("steps");
+    const steps = document.querySelectorAll("#steps .step");
+    if (!wrapper || !steps.length) return;
 
-            let currentStep = 0;
-            let autoInterval;
+    let startIndex = 0;
+    let autoInterval = null;
 
-            function activateStep(index) {
+    function activateIndicators(step, active) {
+        const left = step.querySelector(".indicator-left");
+        const bottom = step.querySelector(".indicator-bottom");
+        const bar = step.querySelector(".bar");
 
-                steps.forEach((s) => {
-
-                    // Dim all
-                    s.classList.add("opacity-50");
-
-                    const left = s.querySelector(".indicator-left");
-                    const bottom = s.querySelector(".indicator-bottom");
-                    const bar = s.querySelector(".bar");
-
-                    if (left) left.classList.add("hidden");
-                    if (bottom) bottom.classList.add("hidden");
-
-                    if (bar) {
-                        bar.classList.remove("w-20", "bg-white");
-                        bar.classList.add("w-14", "bg-white/40");
-                    }
-
-                });
-
-                // Activate selected
-                const active = steps[index];
-
-                active.classList.remove("opacity-50");
-
-                const left = active.querySelector(".indicator-left");
-                const bottom = active.querySelector(".indicator-bottom");
-                const bar = active.querySelector(".bar");
-
-                if (left) left.classList.remove("hidden");
-                if (bottom) bottom.classList.remove("hidden");
-
-                if (bar) {
-                    bar.classList.remove("w-14", "bg-white/40");
-                    bar.classList.add("w-20", "bg-white");
-                }
+        if (active) {
+            step.classList.remove("opacity-50");
+            if (left) left.classList.remove("hidden");
+            if (bottom) bottom.classList.remove("hidden");
+            if (bar) {
+                bar.classList.remove("w-14", "bg-white/40");
+                bar.classList.add("w-20", "bg-white");
             }
-
-            function startAuto() {
-                autoInterval = setInterval(() => {
-                    currentStep = (currentStep + 1) % steps.length;
-                    activateStep(currentStep);
-                }, 3000);
+        } else {
+            step.classList.add("opacity-50");
+            if (left) left.classList.add("hidden");
+            if (bottom) bottom.classList.add("hidden");
+            if (bar) {
+                bar.classList.remove("w-20", "bg-white");
+                bar.classList.add("w-14", "bg-white/40");
             }
+        }
+    }
 
-            function restartAuto() {
-                clearInterval(autoInterval);
-                startAuto();
-            }
+    function showTwoSteps() {
 
-            steps.forEach((step, index) => {
-                step.addEventListener("click", () => {
-                    currentStep = index;
-                    activateStep(currentStep);
-                    restartAuto();
-                });
-            });
-
-            // Initialize
-            activateStep(currentStep);
-            startAuto();
-
+        // Hide all
+        steps.forEach(step => {
+            step.classList.add("hidden-step");
+            activateIndicators(step, false);
         });
-    </script>
+
+        // Show first
+        const first = steps[startIndex];
+        first.classList.remove("hidden-step");
+        activateIndicators(first, true);
+
+        // Show second
+        const secondIndex = (startIndex + 1) % steps.length;
+        const second = steps[secondIndex];
+        second.classList.remove("hidden-step");
+        activateIndicators(second, false);
+    }
+
+    function rotateSteps() {
+        startIndex = (startIndex + 1) % steps.length;
+        showTwoSteps();
+    }
+
+    function startAuto() {
+        if (autoInterval) return;
+        autoInterval = setInterval(rotateSteps, 4000); // smooth timing
+    }
+
+    function stopAuto() {
+        clearInterval(autoInterval);
+        autoInterval = null;
+    }
+
+    // Pause on hover
+    wrapper.addEventListener("mouseenter", stopAuto);
+    wrapper.addEventListener("mouseleave", startAuto);
+
+    // Click support
+    steps.forEach((step, index) => {
+        step.addEventListener("click", () => {
+            startIndex = index;
+            showTwoSteps();
+            stopAuto();
+            startAuto();
+        });
+    });
+
+    // Init
+    showTwoSteps();
+    startAuto();
+
+});
+</script>
 
 </body>
 

@@ -606,3 +606,23 @@ html, body {
 .group:hover .line-draw {
   stroke-dashoffset: 0;
 }
+
+
+ #steps {
+    position: relative;
+    min-height: 280px;
+    overflow: hidden;
+  }
+
+  .step {
+    transition: all 0.6s ease-in-out;
+  }
+
+  .hidden-step {
+    opacity: 0;
+    transform: translateY(40px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+  }

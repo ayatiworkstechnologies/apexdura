@@ -380,7 +380,7 @@
                         <!-- BASE GREY TIMELINE -->
                         <div class="absolute left-8 top-20 bottom-0 w-[2px] bg-white/30"></div>
 
-                        <p class="text-sm  mb-10 pl-16 fade-up">
+                        <p class="text-md  mb-10 pl-16 fade-up">
                             5mm TMT Bars serve a wide array of applications across various industries due to their strength, flexibility, and corrosion resistance:</p>
 
                         <!-- STEPS -->
@@ -396,16 +396,16 @@
                                     class="indicator-bottom absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>01</h3>
                                     </span>
                                     <span class="bar w-20 h-[2px] bg-white mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl">
                                             Residential Construction
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                             Perfect for reinforcing small residential buildings, walls, slabs, and fencing. Ideal for lightweight applications like decorative steel frameworks and structural support.
                                         </p>
                                     </div>
@@ -423,14 +423,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>02</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Infrastructure Development</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Infrastructure Development</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Widely used in infrastructure projects such as bridges, walkways, and roads where precision and durability are crucial for safety and functionality.
                                         </p>
                                     </div>
@@ -448,16 +448,16 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>03</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl">
                                             Industrial Manufacturing
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                            Essential in manufacturing plants, warehouses, and storage facilities, where they are used for reinforcement in the light to medium-load-bearing applications.
                                         </p>
                                     </div>
@@ -475,14 +475,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>04</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Agricultural Uses</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Agricultural Uses</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Excellent for reinforcing farming structures like greenhouses, irrigation systems, and fencing for crops or livestock, ensuring stability under diverse weather conditions.
                                         </p>
                                     </div>
@@ -499,14 +499,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>05</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Earthquake-Resistant Projects</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Earthquake-Resistant Projects</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Essential for earthquake-resistant construction in regions prone to seismic activity, offering the required flexibility and strength to absorb shocks and protect structures.
                                         </p>
                                     </div>
@@ -524,14 +524,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>06</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">DIY and Crafts</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">DIY and Crafts</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Highly flexible, 5mm TMT bars are favored in DIY projects for creating custom furniture, fencing, and other small-scale structures, providing professional-level results with ease.
                                         </p>
                                     </div>
@@ -1053,73 +1053,88 @@ updateCarousel();
     <script>
         document.addEventListener("DOMContentLoaded", function () {
 
-            const steps = document.querySelectorAll(".step");
-            if (!steps.length) return;
+            const wrapper = document.getElementById("steps");
+            const steps = document.querySelectorAll("#steps .step");
+            if (!wrapper || !steps.length) return;
 
-            let currentStep = 0;
-            let autoInterval;
+            let startIndex = 0;
+            let autoInterval = null;
 
-            function activateStep(index) {
+            function activateIndicators(step, active) {
+                const left = step.querySelector(".indicator-left");
+                const bottom = step.querySelector(".indicator-bottom");
+                const bar = step.querySelector(".bar");
 
-                steps.forEach((s) => {
-
-                    // Dim all
-                    s.classList.add("opacity-50");
-
-                    const left = s.querySelector(".indicator-left");
-                    const bottom = s.querySelector(".indicator-bottom");
-                    const bar = s.querySelector(".bar");
-
+                if (active) {
+                    step.classList.remove("opacity-50");
+                    if (left) left.classList.remove("hidden");
+                    if (bottom) bottom.classList.remove("hidden");
+                    if (bar) {
+                        bar.classList.remove("w-14", "bg-white/40");
+                        bar.classList.add("w-20", "bg-white");
+                    }
+                } else {
+                    step.classList.add("opacity-50");
                     if (left) left.classList.add("hidden");
                     if (bottom) bottom.classList.add("hidden");
-
                     if (bar) {
                         bar.classList.remove("w-20", "bg-white");
                         bar.classList.add("w-14", "bg-white/40");
                     }
-
-                });
-
-                // Activate selected
-                const active = steps[index];
-
-                active.classList.remove("opacity-50");
-
-                const left = active.querySelector(".indicator-left");
-                const bottom = active.querySelector(".indicator-bottom");
-                const bar = active.querySelector(".bar");
-
-                if (left) left.classList.remove("hidden");
-                if (bottom) bottom.classList.remove("hidden");
-
-                if (bar) {
-                    bar.classList.remove("w-14", "bg-white/40");
-                    bar.classList.add("w-20", "bg-white");
                 }
             }
 
+            function showThreeSteps() {
+
+                // Hide all first
+                steps.forEach(step => {
+                    step.classList.add("hidden-step");
+                    activateIndicators(step, false);
+                });
+
+                // Show 3 steps
+                for (let i = 0; i < 3; i++) {
+                    const index = (startIndex + i) % steps.length;
+                    const step = steps[index];
+
+                    step.classList.remove("hidden-step");
+
+                    // Only first one active
+                    activateIndicators(step, i === 0);
+                }
+            }
+
+            function rotateSteps() {
+                startIndex = (startIndex + 1) % steps.length;
+                showThreeSteps();
+            }
+
             function startAuto() {
-                autoInterval = setInterval(() => {
-                    currentStep = (currentStep + 1) % steps.length;
-                    activateStep(currentStep);
-                }, 3000);
+                if (autoInterval) return;
+                autoInterval = setInterval(rotateSteps, 3000);
             }
 
-            function restartAuto() {
+            function stopAuto() {
                 clearInterval(autoInterval);
-                startAuto();
+                autoInterval = null;
             }
 
+            // Pause on hover
+            wrapper.addEventListener("mouseenter", stopAuto);
+            wrapper.addEventListener("mouseleave", startAuto);
+
+            // Click support
             steps.forEach((step, index) => {
                 step.addEventListener("click", () => {
-                    currentStep = index;
-                    activateStep(currentStep);
-                    restartAuto();
+                    startIndex = index;
+                    showThreeSteps();
+                    stopAuto();
+                    startAuto();
                 });
             });
 
-            // Initialize
-            activateStep(currentStep);
+            // Init
+            showThreeSteps();
             startAuto();
 
         });

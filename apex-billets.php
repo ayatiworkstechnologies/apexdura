@@ -151,16 +151,16 @@
                                     class="indicator-bottom absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>01</h3>
                                     </span>
                                     <span class="bar w-20 h-[2px] bg-white mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl;">
                                             Premium Raw Material Selection
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                             We use high-quality sponge iron, heavy melting scrap, turnings, and bundled
                                             scrap sourced from trusted scrap yards to ensure superior base strength.
                                         </p>
@@ -179,14 +179,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>02</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">MS Billet Manufacturing</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">MS Billet Manufacturing</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             The selected raw materials are processed under strict quality control to
                                             produce high-strength MS billets with consistent structural integrity.
                                         </p>
@@ -205,16 +205,16 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>03</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">
+                                        <h4 class="font-semibold text-xl">
                                             Grade-Based Color Coding
                                         </h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <p class="text-md text-white/90 mt-1">
                                             Each billet is color-coded according to its quality grade, ensuring clear
                                             identification and quality traceability.
                                         </p>
@@ -233,14 +233,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>04</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Systematic Stacking & Batch Control</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Systematic Stacking & Batch Control</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Billets are stacked grade-wise and organized until the required
                                             manufacturing quantity is achieved.
                                         </p>
@@ -259,14 +259,14 @@
                                     class="indicator-bottom hidden absolute left-13 right-0 bottom-0 h-[2px] bg-white"></span>
 
                                 <div class="flex items-start gap-6 flex-1">
-                                    <span class="num text-3xl font-bold">
+                                    <span class="num text-4xl font-bold">
                                         <h3>05</h3>
                                     </span>
                                     <span class="bar w-14 h-[2px] bg-white/40 mt-4 transition-all"></span>
 
                                     <div>
-                                        <h4 class="font-semibold text-lg">Conversion into TMT Bars</h4>
-                                        <p class="text-sm text-white/90 mt-1">
+                                        <h4 class="font-semibold text-xl">Conversion into TMT Bars</h4>
+                                        <p class="text-md text-white/90 mt-1">
                                             Once the batch requirement is met, the MS billets are dispatched for
                                             advanced rolling and conversion into high-performance TMT bars.
                                         </p>
@@ -575,73 +575,88 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
 
-            const steps = document.querySelectorAll(".step");
-            if (!steps.length) return;
+            const wrapper = document.getElementById("steps");
+            const steps = document.querySelectorAll("#steps .step");
+            if (!wrapper || !steps.length) return;
 
-            let currentStep = 0;
-            let autoInterval;
+            let startIndex = 0;
+            let autoInterval = null;
 
-            function activateStep(index) {
+            function activateIndicators(step, active) {
+                const left = step.querySelector(".indicator-left");
+                const bottom = step.querySelector(".indicator-bottom");
+                const bar = step.querySelector(".bar");
 
-                steps.forEach((s) => {
-
-                    // Dim all
-                    s.classList.add("opacity-50");
-
-                    const left = s.querySelector(".indicator-left");
-                    const bottom = s.querySelector(".indicator-bottom");
-                    const bar = s.querySelector(".bar");
-
+                if (active) {
+                    step.classList.remove("opacity-50");
+                    if (left) left.classList.remove("hidden");
+                    if (bottom) bottom.classList.remove("hidden");
+                    if (bar) {
+                        bar.classList.remove("w-14", "bg-white/40");
+                        bar.classList.add("w-20", "bg-white");
+                    }
+                } else {
+                    step.classList.add("opacity-50");
                     if (left) left.classList.add("hidden");
                     if (bottom) bottom.classList.add("hidden");
-
                     if (bar) {
                         bar.classList.remove("w-20", "bg-white");
                         bar.classList.add("w-14", "bg-white/40");
                     }
-
-                });
-
-                // Activate selected
-                const active = steps[index];
-
-                active.classList.remove("opacity-50");
-
-                const left = active.querySelector(".indicator-left");
-                const bottom = active.querySelector(".indicator-bottom");
-                const bar = active.querySelector(".bar");
-
-                if (left) left.classList.remove("hidden");
-                if (bottom) bottom.classList.remove("hidden");
-
-                if (bar) {
-                    bar.classList.remove("w-14", "bg-white/40");
-                    bar.classList.add("w-20", "bg-white");
                 }
             }
 
+            function showThreeSteps() {
+
+                // Hide all first
+                steps.forEach(step => {
+                    step.classList.add("hidden-step");
+                    activateIndicators(step, false);
+                });
+
+                // Show 3 steps
+                for (let i = 0; i < 3; i++) {
+                    const index = (startIndex + i) % steps.length;
+                    const step = steps[index];
+
+                    step.classList.remove("hidden-step");
+
+                    // Only first one active
+                    activateIndicators(step, i === 0);
+                }
+            }
+
+            function rotateSteps() {
+                startIndex = (startIndex + 1) % steps.length;
+                showThreeSteps();
+            }
+
             function startAuto() {
-                autoInterval = setInterval(() => {
-                    currentStep = (currentStep + 1) % steps.length;
-                    activateStep(currentStep);
-                }, 3000);
+                if (autoInterval) return;
+                autoInterval = setInterval(rotateSteps, 3000);
             }
 
-            function restartAuto() {
+            function stopAuto() {
                 clearInterval(autoInterval);
-                startAuto();
+                autoInterval = null;
             }
 
+            // Pause on hover
+            wrapper.addEventListener("mouseenter", stopAuto);
+            wrapper.addEventListener("mouseleave", startAuto);
+
+            // Click support
             steps.forEach((step, index) => {
                 step.addEventListener("click", () => {
-                    currentStep = index;
-                    activateStep(currentStep);
-                    restartAuto();
+                    startIndex = index;
+                    showThreeSteps();
+                    stopAuto();
+                    startAuto();
                 });
             });
 
-            // Initialize
-            activateStep(currentStep);
+            // Init
+            showThreeSteps();
             startAuto();
 
         });
