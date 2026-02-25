@@ -78,84 +78,84 @@
         </div>
 
         <!-- Sizes & Weights Table -->
-        <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12" style="transition-delay: 0.1s;">
+        <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-400 fade-up mb-12" style="transition-delay: 0.1s;">
           <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
               <thead>
-                <tr class="bg-gray-50/80 border-b border-gray-100">
-                  <th rowspan="2" class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-100 align-middle">Size in mm</th>
-                  <th colspan="2" class="px-6 py-3 text-sm font-semibold text-gray-900 uppercase tracking-wider text-center border-b border-gray-100">Average Weight</th>
+                <tr class="bg-gray-200/80 border-b border-gray-400">
+                  <th rowspan="2" class="px-6 py-4 text-sm font-semibold text-red-600 uppercase tracking-wider whitespace-nowrap border-r border-gray-400 align-middle">Size in mm</th>
+                  <th colspan="2" class="px-6 py-3 text-sm font-semibold text-red-600 uppercase tracking-wider text-center border-b border-gray-400">Average Weight</th>
                 </tr>
-                <tr class="bg-gray-50/80 border-b border-gray-100">
-                  <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center border-r border-gray-100">KG / MTR</th>
-                  <th class="px-6 py-3 text-sm font-semibold text-gray-700 uppercase tracking-wider text-center">KG / FT</th>
+                <tr class="bg-gray-200/80 border-b border-gray-400">
+                  <th class="px-6 py-3 text-sm font-semibold text-red-600 uppercase tracking-wider text-center border-r border-gray-400">KG / MTR</th>
+                  <th class="px-6 py-3 text-sm font-semibold text-red-600 uppercase tracking-wider text-center">KG / FT</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-100">
                 <!-- Data Rows -->
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">70 x 35</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">4.2</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">70 x 35</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">4.2</td>
                   <td class="px-6 py-3 text-gray-600 text-center">1.3</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">75 x 40</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">5.2</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">75 x 40</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">5.2</td>
                   <td class="px-6 py-3 text-gray-600 text-center">1.58</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">75 x 40 STD</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">7.1</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">75 x 40 STD</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">7.1</td>
                   <td class="px-6 py-3 text-gray-600 text-center">2.2</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">75 x 40 MED</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">6.5</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">75 x 40 MED</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">6.5</td>
                   <td class="px-6 py-3 text-gray-600 text-center">2</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">75 x 40 LIGHT</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">5.7</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">75 x 40 LIGHT</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">5.7</td>
                   <td class="px-6 py-3 text-gray-600 text-center">1.7</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">100 x 50 STD</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">9.56</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">100 x 50 STD</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">9.56</td>
                   <td class="px-6 py-3 text-gray-600 text-center">2.9</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">100 x 50 MED</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">9.2</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">100 x 50 MED</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">9.2</td>
                   <td class="px-6 py-3 text-gray-600 text-center">2.8</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">100 x 50 LT MED</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">8.7</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">100 x 50 LT MED</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">8.7</td>
                   <td class="px-6 py-3 text-gray-600 text-center">2.6</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">100 x 50 LIGHT</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">7.9</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">100 x 50 LIGHT</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">7.9</td>
                   <td class="px-6 py-3 text-gray-600 text-center">2.4</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">120 x 55</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">12.5</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">120 x 55</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">12.5</td>
                   <td class="px-6 py-3 text-gray-600 text-center">3.1</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">125 x 65</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">13.1</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">125 x 65</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">13.1</td>
                   <td class="px-6 py-3 text-gray-600 text-center">4</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">150 x 75</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">16.8</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">150 x 75</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">16.8</td>
                   <td class="px-6 py-3 text-gray-600 text-center">5.1</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-100">200 x 75</td>
-                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-100">22.3</td>
+                  <td class="px-6 py-3 whitespace-nowrap font-medium text-gray-900 border-r border-gray-400">200 x 75</td>
+                  <td class="px-6 py-3 text-gray-600 text-center border-r border-gray-400">22.3</td>
                   <td class="px-6 py-3 text-gray-600 text-center">6.8</td>
                 </tr>
               </tbody>
@@ -165,28 +165,28 @@
 
         <!-- Rolling Tolerances Table -->
         <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center fade-up" style="transition-delay: 0.2s;">Rolling Tolerances</h3>
-        <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-100 fade-up mb-12" style="transition-delay: 0.3s;">
+        <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden border border-gray-400 fade-up mb-12" style="transition-delay: 0.3s;">
           <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
               <thead>
-                <tr class="bg-gray-50/80 border-b border-gray-100">
-                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-100">Web</th>
-                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-100">Flange</th>
-                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-100">Sectional Weight</th>
+                <tr class="bg-gray-50/80 border-b border-gray-400">
+                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Web</th>
+                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Flange</th>
+                  <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap border-r border-gray-400">Sectional Weight</th>
                   <th class="px-6 py-4 text-sm font-semibold text-gray-900 uppercase tracking-wider whitespace-nowrap">Length</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-100">
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-100">up to 200 mm &plusmn; 2.5 mm</td>
-                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-100">upto 100 mm &plusmn; 2 mm</td>
-                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-100">&plusmn; 2.5 %</td>
+                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-400">up to 200 mm &plusmn; 2.5 mm</td>
+                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-400">upto 100 mm &plusmn; 2 mm</td>
+                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-400">&plusmn; 2.5 %</td>
                   <td class="px-6 py-4 text-gray-700 whitespace-nowrap">For fixed length : &plusmn; 100 mm</td>
                 </tr>
                 <tr class="hover:bg-gray-50/50 transition-colors duration-200 group">
-                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-100">above 200 mm &plusmn; 3 mm</td>
-                  <td class="px-6 py-4 text-gray-500 whitespace-nowrap border-r border-gray-100 text-center">-</td>
-                  <td class="px-6 py-4 text-gray-500 whitespace-nowrap border-r border-gray-100 text-center">-</td>
+                  <td class="px-6 py-4 text-gray-700 whitespace-nowrap border-r border-gray-400">above 200 mm &plusmn; 3 mm</td>
+                  <td class="px-6 py-4 text-gray-500 whitespace-nowrap border-r border-gray-400 text-center">-</td>
+                  <td class="px-6 py-4 text-gray-500 whitespace-nowrap border-r border-gray-400 text-center">-</td>
                   <td class="px-6 py-4 text-gray-500 whitespace-nowrap text-center">-</td>
                 </tr>
               </tbody>
