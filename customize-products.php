@@ -93,131 +93,88 @@
 
 
       <!-- Get in touch form -->
-<section class="max-w-7xl mx-auto bg-gray-100 py-20 px-6 md:px-12 lg:px-20">
+<section class="max-w-7xl mx-auto bg-gray-100 py-10 px-6 md:px-12 lg:px-10">
   <div>
 
     <!-- Heading -->
-    <h2 class="text-5xl font-bold text-red-600 mb-12">
+    <h2 class="text-5xl font-bold text-red-600 mb-10">
       Get in touch with us
     </h2>
 
-    <form id="contactForm" class="space-y-10">
+    <form id="customize-Form" class="space-y-10" method="post" action="customize-form.php">
 
-      <!-- Name -->
-      <div>
-        <label class="block text-lg font-semibold mb-2">Name</label>
-        <input type="text" placeholder="Enter your Name"
-          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-      </div>
-
-      <!-- Email -->
-      <div>
-        <label class="block text-lg font-semibold mb-2">Business Email</label>
-        <input type="email" placeholder="Enter your email"
-          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-      </div>
-
-      <!-- Mobile -->
-      <div>
-        <label class="block text-lg font-semibold mb-2">Mobile Number</label>
-        <input type="text" placeholder="Enter your number"
-          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-      </div>
-
-      <!-- Product Section -->
-      <div class="pt-6 space-y-6">
-
-        <!-- TMT Fe550 -->
-        <div>
-          <label class="flex items-center gap-3 cursor-pointer text-lg">
-            <input type="checkbox" id="tmtFe550"
-              class="peer accent-red-600 w-4 h-4">
-
-            <span class="transition-colors duration-200 peer-checked:text-red-600">
-              TMT Fe550 Bars
-            </span>
-          </label>
-
-          <!-- Sizes (Hidden initially) -->
-          <div id="tmtSizes" class="hidden mt-6 ml-8">
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-10 text-lg">
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 5MM
-              </label>
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 8MM
-              </label>
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 10MM
-              </label>
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 12MM
-              </label>
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 16MM
-              </label>
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 20MM
-              </label>
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 25MM
-              </label>
-
-              <label class="flex items-center gap-3">
-                <input type="checkbox" class="accent-red-600 w-4 h-4"> 32MM
-              </label>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Other Products -->
-        <div class="flex flex-wrap gap-8 text-lg">
-
-          <label class="flex items-center gap-3">
-            <input type="checkbox" class="accent-red-600 w-4 h-4">
-            Construction Bars
-          </label>
-
-          <label class="flex items-center gap-3">
-            <input type="checkbox" class="accent-red-600 w-4 h-4">
-            Round Bars
-          </label>
-
-          <label class="flex items-center gap-3">
-            <input type="checkbox" class="accent-red-600 w-4 h-4">
-            Billets
-          </label>
-
-        </div>
-
-      </div>
-
-      <!-- Message -->
-      <div class="pt-6">
-        <label class="block text-lg font-semibold mb-2">Message</label>
-        <textarea rows="4" placeholder="Describe yourself here..."
-          class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
-      </div>
-
-      <!-- Submit -->
-      <div class="pt-10">
-        <button type="submit"
-          class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-12 py-4 flex items-center gap-6 transition-all">
-          Submit
-          <span class="text-2xl">›</span>
-        </button>
-      </div>
-
-    </form>
+  <!-- Name -->
+  <div>
+    <label class="block text-lg font-semibold mb-2">Name</label>
+    <input type="text" name="name" required
+      class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
   </div>
+
+  <!-- Email -->
+  <div>
+    <label class="block text-lg font-semibold mb-2">Business Email</label>
+    <input type="email" name="email" required
+      class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+  </div>
+
+  <!-- Mobile -->
+  <div>
+    <label class="block text-lg font-semibold mb-2">Mobile Number</label>
+    <input type="text" name="mobile" required pattern="^\d{10}$"
+      class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
+  </div>
+
+  <!-- Products -->
+  <div class="pt-3 space-y-4">
+
+    <div>
+      <label class="flex items-center gap-3 cursor-pointer text-lg">
+        <input type="checkbox" name="products[]" value="TMT Fe550 Bars" id="tmtFe550"
+          class="peer accent-red-600 w-4 h-4">
+        <span class="peer-checked:text-red-600">TMT Fe550 Bars</span>
+      </label>
+
+      <div id="tmtSizes" class="hidden mt-6 ml-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-10 text-lg">
+
+          <label><input type="checkbox" name="sizes[]" value="5MM"> 5MM</label>
+          <label><input type="checkbox" name="sizes[]" value="8MM"> 8MM</label>
+          <label><input type="checkbox" name="sizes[]" value="10MM"> 10MM</label>
+          <label><input type="checkbox" name="sizes[]" value="12MM"> 12MM</label>
+          <label><input type="checkbox" name="sizes[]" value="16MM"> 16MM</label>
+          <label><input type="checkbox" name="sizes[]" value="20MM"> 20MM</label>
+          <label><input type="checkbox" name="sizes[]" value="25MM"> 25MM</label>
+          <label><input type="checkbox" name="sizes[]" value="32MM"> 32MM</label>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap gap-8 text-lg">
+      <label><input type="checkbox" name="products[]" value="Construction Bars"> Construction Bars</label>
+      <label><input type="checkbox" name="products[]" value="Round Bars"> Round Bars</label>
+      <label><input type="checkbox" name="products[]" value="Billets"> Billets</label>
+    </div>
+
+  </div>
+
+  <!-- Message -->
+  <div class="pt-2">
+    <label class="block text-lg font-semibold mb-2">Message</label>
+    <textarea name="message" rows="4"
+      class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
+  </div>
+
+  <div class="pt-5">
+    <button type="submit"
+      class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-12 py-2">
+      Submit
+    </button>
+  </div>
+
+</form>
+  </div>
+  <div id="toast" class="hidden"></div>
 </section>
 
 <!-- Script -->
@@ -241,6 +198,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+
+
     </main>
 
     <!-- footer section -->
@@ -250,7 +209,61 @@ document.addEventListener("DOMContentLoaded", function () {
     <script src="Js/Animation.js"></script>
     <script src="Js/progressbar-script.js"></script>
     <script src="Js/bottom-up-arrow-script.js"></script>
+<script>
+document.getElementById("customize-Form").addEventListener("submit", function(e) {
+    e.preventDefault();
 
+    const form = this;
+    const button = form.querySelector("button");
+    const formData = new FormData(form);
+
+    // Loading state
+    button.disabled = true;
+    button.innerText = "Submitting...";
+
+    fetch("customize-form.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(res => res.json())
+    .then(data => {
+        showToast(data.status, data.message);
+
+        if (data.status === "success") {
+            form.reset();
+        }
+
+        button.disabled = false;
+        button.innerText = "Submit";
+    })
+    .catch(() => {
+        showToast("error", "Something went wrong!");
+        button.disabled = false;
+        button.innerText = "Submit";
+    });
+});
+
+function showToast(status, message) {
+    const toast = document.getElementById("toast");
+
+    toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+    if (status === "success") {
+        toast.classList.add("bg-green-600");
+    } else if (status === "warning") {
+        toast.classList.add("bg-yellow-500");
+    } else {
+        toast.classList.add("bg-red-600");
+    }
+
+    toast.innerText = message;
+    toast.classList.remove("hidden");
+
+    setTimeout(() => {
+        toast.classList.add("hidden");
+    }, 4000);
+}
+</script>
 
 </body>
 

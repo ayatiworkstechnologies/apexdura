@@ -38,8 +38,7 @@
     <!-- bg-image -->
     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
       <!-- Banner Image -->
-      <img src="Apex-Images/contact-us-banner.jpg" class="w-full h-full object-cover"
-        alt="Infrastructure Banner" />
+      <img src="Apex-Images/contact-us-banner.jpg" class="w-full h-full object-cover" alt="Infrastructure Banner" />
 
       <!-- center text -->
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center fade-up">
@@ -83,35 +82,40 @@
           <h2 class="text-2xl font-semibold mb-6 text-red-600">
             Leave a message
           </h2>
-          <form class="space-y-4" action="contact-form.php" method="post">
+          <form id="contact-form" class="space-y-4" action="contact-form.php" method="post">
+
             <!-- Row 1 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="text" name="firstname" required="" placeholder="Name"
+              <input type="text" name="firstname" required placeholder="Name"
                 class="w-full p-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:border-red-500" />
 
-              <input type="email" name="email" placeholder="Email" required=""
+              <input type="email" name="email" required placeholder="Email"
                 class="w-full p-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:border-red-500" />
             </div>
 
             <!-- Row 2 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="text" placeholder="Subject" name="message"
+              <input type="text" name="subject" placeholder="Subject"
                 class="w-full p-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:border-red-500" />
 
-              <input type="text" name="mobile" placeholder="Phone" required="" pattern="^\d{10}$"
+              <input type="text" name="mobile" required pattern="^\d{10}$" placeholder="Phone (10 digits)"
                 class="w-full p-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:border-red-500" />
             </div>
 
             <!-- Comment -->
-            <textarea rows="6" placeholder="Comment"
+            <textarea name="comment" rows="6" required placeholder="Comment"
               class="w-full p-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:border-red-500"></textarea>
 
             <!-- Button -->
             <button type="submit" name="submit"
-              class="bg-red-600 cursor-pointer text-white px-8 py-3 rounded-md hover:bg-red-700 transition "
-              data-loading-text="Loading...">SUBMIT </button>
+              class="bg-red-600 cursor-pointer text-white px-8 py-3 rounded-md hover:bg-red-700 transition">
+              SUBMIT
+            </button>
+
           </form>
+          
         </div>
+
 
         <!-- RIGHT: Contact Info -->
         <div>
@@ -175,6 +179,7 @@
           </div>
         </div>
       </div>
+      <div id="toast" class="hidden"></div>
     </section>
 
     <!-- location -->
@@ -197,6 +202,52 @@
   <script src="Js/Animation.js"></script>
   <script src="Js/progressbar-script.js"></script>
   <script src="Js/bottom-up-arrow-script.js"></script>
+<script>
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const form = this;
+    const formData = new FormData(form);
+
+    fetch("contact-form.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(res => res.json())
+    .then(data => {
+        showToast(data.status, data.message);
+
+        if (data.status === "success") {
+            form.reset();
+        }
+    })
+    .catch(() => {
+        showToast("error", "Something went wrong!");
+    });
+});
+
+function showToast(status, message) {
+    const toast = document.getElementById("toast");
+
+    toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+    if (status === "success") {
+        toast.classList.add("bg-green-600");
+    } else if (status === "warning") {
+        toast.classList.add("bg-yellow-500");
+    } else {
+        toast.classList.add("bg-red-600");
+    }
+
+    toast.innerText = message;
+    toast.classList.remove("hidden");
+
+    setTimeout(() => {
+        toast.classList.add("hidden");
+    }, 4000);
+}
+</script>
+
 </body>
 
 </html>

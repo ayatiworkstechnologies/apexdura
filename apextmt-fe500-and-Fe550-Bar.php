@@ -42,8 +42,7 @@
         <!-- bg-image -->
         <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
             <!-- Banner Image -->
-            <img src="Apex-Images/ApexTMT-Fe500.jpg" class="w-full h-full object-cover"
-                alt="Investor Corner Banner" />
+            <img src="Apex-Images/ApexTMT-Fe500.jpg" class="w-full h-full object-cover" alt="Investor Corner Banner" />
 
             <!-- Breadcrumb -->
             <div class="absolute bottom-6 left-6 flex items-center gap-3">
@@ -170,7 +169,8 @@
                                             High Tensile Strength
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Manufactured to Fe550 grade standards, offering enhanced load-bearing capacity for high-rise buildings and heavy structures.
+                                            Manufactured to Fe550 grade standards, offering enhanced load-bearing
+                                            capacity for high-rise buildings and heavy structures.
                                         </p>
                                     </div>
                                 </div>
@@ -195,7 +195,8 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Excellent Flexibility & Ductility</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Advanced thermo-mechanical treatment provides a tough outer surface with a ductile core, improving bendability and crack resistance.
+                                            Advanced thermo-mechanical treatment provides a tough outer surface with a
+                                            ductile core, improving bendability and crack resistance.
                                         </p>
                                     </div>
                                 </div>
@@ -222,7 +223,8 @@
                                             Superior Earthquake Resistance
                                         </h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Optimized microstructure enhances shock absorption and structural stability during seismic activity.
+                                            Optimized microstructure enhances shock absorption and structural stability
+                                            during seismic activity.
                                         </p>
                                     </div>
                                 </div>
@@ -247,14 +249,15 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Enhanced Corrosion Resistance</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Specialized quenching technology ensures long-lasting resistance against rust and environmental exposure.
+                                            Specialized quenching technology ensures long-lasting resistance against
+                                            rust and environmental exposure.
                                         </p>
                                     </div>
                                 </div>
-                           </div>
-                                
+                            </div>
 
-                                <!-- STEP 05 -->
+
+                            <!-- STEP 05 -->
                             <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
                                 data-img="Apex-Images/pmp-5.png">
                                 <span
@@ -271,13 +274,14 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Strong Concrete Bonding</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Precision rib patterns ensure excellent grip with concrete, improving overall structural integrity.
+                                            Precision rib patterns ensure excellent grip with concrete, improving
+                                            overall structural integrity.
                                         </p>
                                     </div>
                                 </div>
                             </div>
 
-                                <!-- STEP 06 -->
+                            <!-- STEP 06 -->
                             <div class="step opacity-50 relative flex items-center justify-between gap-6 py-6 pl-16 cursor-pointer"
                                 data-img="Apex-Images/pmp-5.png">
                                 <span
@@ -294,7 +298,8 @@
                                     <div>
                                         <h4 class="font-semibold text-lg">Consistent Quality Standards</h4>
                                         <p class="text-sm text-white/90 mt-1">
-                                            Produced using controlled rolling processes and tested as per industry norms to maintain uniform mechanical properties.
+                                            Produced using controlled rolling processes and tested as per industry norms
+                                            to maintain uniform mechanical properties.
                                         </p>
                                     </div>
                                 </div>
@@ -329,7 +334,8 @@
                         <div>
                             <h4 class="font-semibold">High Tensile Strength</h4>
                             <p class="text-sm text-white/80 mt-1">
-                               Manufactured to Fe550 grade standards, offering enhanced load-bearing capacity for high-rise buildings and heavy structures.
+                                Manufactured to Fe550 grade standards, offering enhanced load-bearing capacity for
+                                high-rise buildings and heavy structures.
                             </p>
                         </div>
                     </div>
@@ -341,7 +347,8 @@
                         <div>
                             <h4 class="font-semibold">Excellent Flexibility & Ductility</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Advanced thermo-mechanical treatment provides a tough outer surface with a ductile core, improving bendability and crack resistance.
+                                Advanced thermo-mechanical treatment provides a tough outer surface with a ductile core,
+                                improving bendability and crack resistance.
                             </p>
                         </div>
                     </div>
@@ -353,7 +360,8 @@
                         <div>
                             <h4 class="font-semibold">Superior Earthquake Resistance</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Optimized microstructure enhances shock absorption and structural stability during seismic activity.
+                                Optimized microstructure enhances shock absorption and structural stability during
+                                seismic activity.
                             </p>
                         </div>
                     </div>
@@ -365,7 +373,8 @@
                         <div>
                             <h4 class="font-semibold">Enhanced Corrosion Resistance</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Specialized quenching technology ensures long-lasting resistance against rust and environmental exposure.
+                                Specialized quenching technology ensures long-lasting resistance against rust and
+                                environmental exposure.
                             </p>
                         </div>
                     </div>
@@ -377,7 +386,8 @@
                         <div>
                             <h4 class="font-semibold">Strong Concrete Bonding</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Precision rib patterns ensure excellent grip with concrete, improving overall structural integrity.
+                                Precision rib patterns ensure excellent grip with concrete, improving overall structural
+                                integrity.
                             </p>
                         </div>
                     </div>
@@ -389,7 +399,8 @@
                         <div>
                             <h4 class="font-semibold">Consistent Quality Standards</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Produced using controlled rolling processes and tested as per industry norms to maintain uniform mechanical properties.
+                                Produced using controlled rolling processes and tested as per industry norms to maintain
+                                uniform mechanical properties.
                             </p>
                         </div>
                     </div>
@@ -398,7 +409,7 @@
         </section>
 
         <!-- Engineered for strength.built for realiability -->
-        
+
         <section class="w-full bg-gray-100 py-24">
 
             <!-- Heading -->
@@ -599,80 +610,52 @@
                     Get in touch with us
                 </h2>
 
-                <form id="contactForm" class="space-y-8">
+                <form id="productForm" class="space-y-8" action="product-form.php" method="post">
 
                     <!-- Name -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Name</label>
-                        <input id="name" type="text" placeholder="Enter your Name"
+                        <input id="name" name="name" placeholder="Enter Your Name" type="text" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="nameError">
-                            Please enter your name
-                        </p>
                     </div>
 
                     <!-- Email -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Business Email</label>
-                        <input id="email" type="email" placeholder="Enter your email"
+                        <input id="email" name="email" placeholder="Enter Your Email Address" type="email" required
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="emailError">
-                            Enter a valid email
-                        </p>
                     </div>
 
                     <!-- Mobile -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Mobile Number</label>
-                        <input id="mobile" type="text" placeholder="Enter your number"
+                        <input id="mobile" name="mobile" placeholder="Enter Your Mobile Number" type="text" required pattern="^\d{10}$"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3">
-                        <p class="text-red-600 text-sm mt-2 hidden" id="mobileError">
-                            Enter valid 10 digit mobile number
-                        </p>
                     </div>
 
-                    <!-- Checkboxes -->
+                    <!-- Products -->
                     <div>
                         <div class="flex flex-wrap gap-8 pt-4">
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="TMT Fe550 Bars">
-                                TMT Fe550 Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Construction Bars">
-                                Construction Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Round Bars">
-                                Round Bars
-                            </label>
-
-                            <label class="flex items-center gap-3">
-                                <input type="checkbox" class="product" value="Billets">
-                                Billets
-                            </label>
+                            <label><input type="checkbox" name="products[]" value="TMT Fe550 Bars"> TMT Fe550
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Construction Bars"> Construction
+                                Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Round Bars"> Round Bars</label>
+                            <label><input type="checkbox" name="products[]" value="Billets"> Billets</label>
                         </div>
-
-                        <p class="text-red-600 text-sm mt-3 hidden" id="productError">
-                            Please select at least one product
-                        </p>
                     </div>
 
                     <!-- Message -->
                     <div>
                         <label class="block text-lg font-semibold mb-3">Message</label>
-                        <textarea id="message" rows="4" placeholder="Describe yourself here..."
+                        <textarea id="message" placeholder="Enter Your message" name="message" rows="4"
                             class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-red-600 py-3 resize-none"></textarea>
                     </div>
 
-                    <!-- Submit -->
                     <div class="pt-8">
                         <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4 flex items-center gap-6 transition-all">
+                            class="bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-10 py-4">
                             Submit
-                            <span class="text-2xl">›</span>
                         </button>
                     </div>
 
@@ -680,7 +663,7 @@
             </div>
         </section>
 
-
+      <div id="toast" class="hidden"></div>
 
     </main>
 
@@ -699,7 +682,61 @@
 
 
 
+<script>
+document.getElementById("productForm").addEventListener("submit", function(e) {
+    e.preventDefault();
 
+    const form = this;
+    const button = form.querySelector("button");
+    const formData = new FormData(form);
+
+    // Loading state
+    button.disabled = true;
+    button.innerText = "Submitting...";
+
+    fetch("product-form.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(res => res.json())
+    .then(data => {
+        showToast(data.status, data.message);
+
+        if (data.status === "success") {
+            form.reset();
+        }
+
+        button.disabled = false;
+        button.innerText = "Submit";
+    })
+    .catch(() => {
+        showToast("error", "Something went wrong!");
+        button.disabled = false;
+        button.innerText = "Submit";
+    });
+});
+
+function showToast(status, message) {
+    const toast = document.getElementById("toast");
+
+    toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+
+    if (status === "success") {
+        toast.classList.add("bg-green-600");
+    } else if (status === "warning") {
+        toast.classList.add("bg-yellow-500");
+    } else {
+        toast.classList.add("bg-red-600");
+    }
+
+    toast.innerText = message;
+    toast.classList.remove("hidden");
+
+    setTimeout(() => {
+        toast.classList.add("hidden");
+    }, 4000);
+}
+</script>
 
 
 

@@ -209,6 +209,7 @@ function showToast(status, message) {
     }, 4000);
 }
 </script>
+
   <script>
     function initFinanceSlider() {
       const slider = document.querySelector(".finance-slider");
