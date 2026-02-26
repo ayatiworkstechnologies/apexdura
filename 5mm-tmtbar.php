@@ -689,7 +689,7 @@
 
         <!-- Apex advantages -->
 
-        <section class="w-full bg-gray-100 py-20">
+        <section class="w-full bg-gray-100 pt-10">
 
             <!-- Heading -->
             <div class="max-w-6xl mx-auto px-6 text-center mb-16">

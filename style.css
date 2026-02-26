@@ -626,3 +626,10 @@ html, body {
     right: 0;
     pointer-events: none;
   }
+
+
+/* All carousel slides */
+
+  #prevBtn , #nextBtn{
+    cursor: pointer;
+  }
