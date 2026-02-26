@@ -98,7 +98,7 @@
 
         <!-- RIGHT IMAGE -->
         
-        <div class="relative hidden lg:flex justify-end">
+        <div class="relative  justify-end">
           <div class="w-full max-w-md">
             <img src="Apex-Images/sustainabilty-image.png" alt="Steel Structure" class="w-full h-[350px] object-cover 
                 rounded-2xl shadow-xl">

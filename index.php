@@ -36,7 +36,7 @@
 
   <header class="w-full relative">
     <!-- Carousel -->
-    <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden">
+    <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] lg:h-[580px] overflow-hidden">
       <video src="Apex-videos/Apex-video.mp4" class="w-full h-full object-cover" autoplay muted loop playsinline>
       </video>
     </div>
@@ -75,7 +75,7 @@
     </section>
 
     <!-- steel image  -->
-    <section class="w-full py-12 animate-down">
+    <section class="w-full pb-10 animate-down">
       <img src="Apex-Images/steel-full.png" alt="Apex Steel" class="w-full h-auto object-contain" />
     </section>
 
@@ -275,7 +275,7 @@
     </section>
 
     <!-- Rib Revolution -->
-    <section class="relative  overflow-hidden">
+    <section class="relative  overflow-hidden ">
       <div class="max-w-8xl mx-auto  py-16 lg:py-24 grid lg:grid-cols-2 items-center">
 
         <!-- LEFT CONTENT -->

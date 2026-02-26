@@ -78,7 +78,7 @@
 
 
         <section class=" py-16 px-6 md:px-12 lg:px-20">
-            <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
 
                 <!-- LEFT CONTENT -->
                 <div>
@@ -113,7 +113,7 @@
 
 
 
-                    <img src="Apex-Images/stack-steels.png" alt="Steel Structure"
+                    <img src="Apex-Images/round-bar.jpg" alt="Steel Structure"
                         class="w-full max-w-md lg:max-w-lg object-cover shadow-xl">
                 </div>
 
@@ -634,9 +634,9 @@
                 </h2>
 
                 <!-- TMT Bar Image -->
-                <div class="flex justify-center mb-16 fade-left">
+                <!-- <div class="flex justify-center mb-16 fade-left">
                     <img src="Apex-Images/steel-full.jpg" alt="TMT Bar" class="w-full max-w-5xl object-contain">
-                </div>
+                </div> -->
 
                 <!-- Specifications -->
                 <div class="space-y-6 text-md md:text-md text-gray-700">
@@ -700,7 +700,7 @@
                 <!-- RIGHT IMAGE (overlay style) -->
                 <div
                     class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
-                    <img src="Apex-Images/holding-steelapex.png" alt="TMT Hand"
+                    <img src="Apex-Images/apex-roundnbar.png" alt="TMT Hand"
                         class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
                 </div>
 
@@ -710,8 +710,8 @@
 
 
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
-        <section class=" py-20 px-6 md:px-12 lg:px-20">
-            <div class="max-w-5xl">
+        <section class=" py-20 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto">
+            <div class="">
 
                 <!-- Heading -->
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight fade-right">

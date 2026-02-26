@@ -366,7 +366,7 @@
         </section>
 
         <!-- Enhance Your Construction -->
-        <section class="max-w-8xl mx-auto  overflow-hidden mt-10">
+        <section class="max-w-7xl mx-auto  overflow-hidden mt-10">
             <div class="relative flex flex-col lg:flex-row items-center min-h-[420px]">
 
                 <!-- LEFT CONTENT -->
@@ -394,7 +394,7 @@
                 <!-- RIGHT IMAGE (overlay style) -->
                 <div
                     class="w-full lg:w-1/2 flex justify-end lg:absolute lg:right-0 lg:top-0 lg:h-full animate-down hidden lg:flex">
-                    <img src="Apex-Images/Steel-3.png" alt="TMT Hand"
+                    <img src="Apex-Images/billets-1.jpg" alt="TMT Hand"
                         class="h-[260px] sm:h-[320px] md:h-[380px] lg:h-full object-contain object-right" />
                 </div>
 
@@ -403,8 +403,8 @@
 
 
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
-        <section class=" py-20 px-6 md:px-12 lg:px-20">
-            <div class="max-w-5xl">
+        <section class=" py-20 px-6 md:px-12 lg:px-20  max-w-7xl mx-auto ">
+            <div class="">
 
                 <!-- Heading -->
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight fade-left">

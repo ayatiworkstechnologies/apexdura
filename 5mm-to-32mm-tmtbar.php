@@ -74,7 +74,7 @@
 
 
         <section class=" py-16 px-6 md:px-12 lg:px-20">
-            <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-45 items-center">
 
                 <!-- LEFT CONTENT -->
                 <div>
@@ -108,8 +108,8 @@
 
 
 
-                    <img src="Apex-Images/stack-steels.png" alt="Steel Structure"
-                        class="w-full max-w-md lg:max-w-lg object-cover shadow-xl">
+                    <img src="Apex-Images/8mm-32mm.jpg" alt="Steel Structure"
+                        class="w-full max-w-md lg:max-w-lg object-cover ">
                 </div>
 
             </div>
@@ -921,8 +921,8 @@
 
 
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
-        <section class=" py-20 px-6 md:px-12 lg:px-20">
-            <div class="max-w-5xl">
+        <section class=" py-20 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto">
+            <div class="">
 
                 <!-- Heading -->
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 fade-left leading-tight">

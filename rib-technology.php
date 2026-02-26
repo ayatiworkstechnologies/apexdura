@@ -275,7 +275,7 @@
 
             
 
-            <img src="Apex-Images/steel-factory.jpg" alt="Steel Manufacturing"
+            <img src="Apex-Images/rib-tech.png" alt="Steel Manufacturing"
               class="w-full object-cover grayscale pl-3" />
           </div>
 
