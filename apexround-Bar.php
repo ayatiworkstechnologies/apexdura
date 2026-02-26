@@ -82,22 +82,22 @@
 
                 <!-- LEFT CONTENT -->
                 <div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6 fade-left">
                         Apex Dura TMT Bars – Strength You Can Trust, Quality You Can Build On.
                     </h2>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6 fade-right">
                         Premium 550 Grade TMT Bars with C-Rib Pattern
                     </h3>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-up">
 
                         The Apex Dura TMT Steel Bar is a fully owned subsidiary brand of Apex Dura Pvt Ltd, in addition
                         to the APEX GOLD 550 grade TMT, which is produced at the same integrated facility in
                         Karnataka.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-up">
                         When it comes to building your dream home or executing a critical infrastructure project,
                         compromise is not an option. Apex Dura TMT Steel Bars deliver unmatched strength, superior
                         bonding,
@@ -109,7 +109,7 @@
                 </div>
 
                 <!-- RIGHT IMAGE -->
-                <div class="relative flex justify-center hidden lg:block lg:justify-end">
+                <div class="relative flex justify-center hidden lg:block lg:justify-end animate-up">
 
 
 
@@ -126,7 +126,7 @@
         <section class="w-full  mt-7">
             <!-- Top Heading Bar -->
             <div class="w-full bg-red-600 py-6">
-                <h2 class="text-center text-white text-3xl md:text-5xl font-bold">
+                <h2 class="text-center text-white text-3xl md:text-5xl font-bold fade-in">
                     Product Overview
                 </h2>
             </div>
@@ -134,13 +134,13 @@
             <!-- Content Area -->
             <div class="max-w-5xl mx-auto px-6 py-16 text-center text-gray-800">
 
-                <p class="text-md md:text-md mb-10 leading-relaxed">
+                <p class="text-md md:text-md mb-10 leading-relaxed fade-left">
                     Apex Dura TMT Steels Bars are 550 Grade thermo-mechanically treated (TMT) steel bars featuring a
                     distinctive C-Rib Pattern that ensures stronger bonding with concrete, increased load-bearing
                     capacity, and corrosion resistance.
                 </p>
 
-                <div class="space-y-8 text-md md:text-md leading-relaxed">
+                <div class="space-y-8 text-md md:text-md leading-relaxed fade-right">
 
                     <p>
                         Our TMT bars are manufactured under stringent quality control processes, ensuring superior
@@ -149,7 +149,7 @@
                         construction projects seeking the perfect blend of value, strength, and consistency.
                     </p>
 
-                    <p>
+                    <p class="fade-left">
                         Whether you’re building your dream home or managing a large-scale development, our TMT bars
                         provide the reliability and reinforcement your project demands.
                     </p>
@@ -167,18 +167,18 @@
 
 
         <!-- Why Choose Our 5mm TMT Bar -->
-        <section class="w-full  py-20">
+        <section class="w-full  py-20 ">
 
             <!-- Heading -->
             <div class="max-w-5xl mx-auto px-6 text-center mb-16">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight">
+               font-bold text-red-600 leading-tight fade-left">
                     Key Features of Apex Dura TMT Steel Bars
                 </h2>
             </div>
 
             <!-- Content -->
-            <section class="py-16">
+            <section class="py-16 animate-up">
                 <div class="max-w-7xl mx-auto px-6 relative">
 
                     <!-- Navigation Buttons (Top Right) -->
@@ -629,27 +629,27 @@
             <div class="max-w-6xl mx-auto px-6 text-center">
 
                 <!-- Heading -->
-                <h2 class="text-4xl md:text-5xl font-bold text-[#1f2757] mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-[#1f2757] mb-12 fade-down">
                     Technical Specifications
                 </h2>
 
                 <!-- TMT Bar Image -->
-                <div class="flex justify-center mb-16">
+                <div class="flex justify-center mb-16 fade-left">
                     <img src="Apex-Images/steel-full.jpg" alt="TMT Bar" class="w-full max-w-5xl object-contain">
                 </div>
 
                 <!-- Specifications -->
                 <div class="space-y-6 text-md md:text-md text-gray-700">
 
-                    <p><span class="font-semibold text-gray-900">Grade:</span> Fe 550</p>
+                    <p class="fade-right"><span class="font-semibold text-gray-900">Grade:</span> Fe 550</p>
 
-                    <p><span class="font-semibold text-gray-900">Pattern:</span> C–Rib</p>
+                    <p class="fade-left"><span class="font-semibold text-gray-900">Pattern:</span> C–Rib</p>
 
-                    <p><span class="font-semibold text-gray-900">Elongation:</span> High ductility for seismic zones</p>
+                    <p class="fade-right"><span class="font-semibold text-gray-900">Elongation:</span> High ductility for seismic zones</p>
 
-                    <p><span class="font-semibold text-gray-900">Bendability:</span> Excellent cold bend properties</p>
+                    <p class="fade-left"><span class="font-semibold text-gray-900">Bendability:</span> Excellent cold bend properties</p>
 
-                    <p><span class="font-semibold text-gray-900">Diameter Range:</span> Available in standard sizes (8mm
+                    <p class="fade-right"><span class="font-semibold text-gray-900">Diameter Range:</span> Available in standard sizes (8mm
                         to 32mm)</p>
 
                 </div>
@@ -714,13 +714,13 @@
             <div class="max-w-5xl">
 
                 <!-- Heading -->
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight fade-right">
                     Get in Touch with Apex Dura TMT <br class="hidden md:block">
                     Experts Today
                 </h2>
 
                 <!-- Description -->
-                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl">
+                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl fade-left">
                     Get expert guidance and premium Fe 500 and Fe550 TMT bars tailored to your
                     project needs.
                 </p>
@@ -730,7 +730,7 @@
 
 
         <!-- Get in touch form  -->
-        <section class="">
+        <section class="animate-up">
             <div class="max-w-xl mx-auto px-6">
 
                 <!-- Heading -->

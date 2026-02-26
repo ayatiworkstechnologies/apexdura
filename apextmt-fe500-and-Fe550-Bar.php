@@ -415,12 +415,12 @@
             <!-- Heading -->
             <div class="max-w-4xl mx-auto px-6 text-center mb-16">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight mb-6">
+               font-bold text-red-600 leading-tight mb-6 fade-left">
                     Engineered for Strength. Built <br>
                     for Reliability.
                 </h2>
 
-                <p class="text-gray-600 text-sm sm:text-base max-w-2xl mx-auto">
+                <p class="text-gray-600 text-md sm:text-base lg:text-md max-w-2xl mx-auto fade-right">
                     Apex Dura TMT Fe550 Bars are designed to deliver superior structural performance,
                     ensuring safety, durability, and long-term value for every construction project.
                 </p>
@@ -433,53 +433,53 @@
 
                     <!-- ITEM -->
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Ductility.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Ductility.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">Ductility</h3>
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">Ductility</h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/EarthquakeResistance.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/EarthquakeResistance.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Earthquake Resistance
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Weldability.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Weldability.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Weldability
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/PerfectWeight.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/PerfectWeight.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Perfect Weight
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/2XEnhancedRIBBonding.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/2XEnhancedRIBBonding.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             2X Enhanced RIB Bonding
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/SuperiorBuildQuality.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/SuperiorBuildQuality.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Superior Build Quality
                         </h3>
                     </div>
@@ -487,55 +487,55 @@
                     <!-- Row 2 -->
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Bendability.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Bendability.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Bendability
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/NoWastage.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/NoWastage.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             No Wastage
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Strength.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Strength.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Strength
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/IncreasedSavings.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/IncreasedSavings.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Increased Savings
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/OptimisedChemicalComposition.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/OptimisedChemicalComposition.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Optimised Chemical Composition
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/StandardLength.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/StandardLength.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Standard Length
                         </h3>
                     </div>
@@ -583,17 +583,17 @@
         </section>
 
         <!-- Get in Touch with Apex Dura TMT Experts Today -->
-        <section class=" py-20 px-6 md:px-12 lg:px-20">
+        <section class=" py-20 px-6 md:px-12 lg:px-20 ">
             <div class="max-w-5xl">
 
                 <!-- Heading -->
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight animate-up">
                     Get in Touch with Apex Dura TMT <br class="hidden md:block">
                     Experts Today
                 </h2>
 
                 <!-- Description -->
-                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl">
+                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl fade-right">
                     Get expert guidance and premium Fe 500 and Fe550 TMT bars tailored to your
                     project needs.
                 </p>
@@ -603,7 +603,7 @@
 
 
         <!-- Get in touch form  -->
-        <section class="">
+        <section class="animate-up">
             <div class="max-w-xl mx-auto px-6">
 
                 <!-- Heading -->

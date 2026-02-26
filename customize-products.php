@@ -74,13 +74,13 @@
       <div>
 
         <!-- Heading -->
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 fade-left leading-tight">
           Get in Touch with Apex Dura TMT <br class="hidden md:block">
           Experts Today
         </h2>
 
         <!-- Description -->
-        <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl">
+        <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed fade-right max-w-3xl">
           Get expert guidance and premium Fe 500 and Fe550 TMT bars tailored to your
           project needs.
         </p>
@@ -90,7 +90,7 @@
 
 
 <!-- Get in touch form -->
-<section class="py-12">
+<section class=" animate-up">
   <div class="max-w-2xl mx-auto px-6">
 
     <!-- Heading -->

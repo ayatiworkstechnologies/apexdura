@@ -82,13 +82,13 @@
 
                 <!-- LEFT CONTENT -->
                 <div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6 fade-right">
                         Unbreakable Strength, Unbeatable Quality
                     </h2>
 
 
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-left">
                         Mild steel billets, also known as MS billets, are produced in Apex Dura’s high efficiency
                         induction furnaces through processes that are IS 2830:2012 certified. These MS billets are
                         semi-complete steel products that have either square or rectangular cross-sections. They are
@@ -96,7 +96,7 @@
                         degree celsius.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed mt-4">
+                    <p class="text-gray-600 leading-relaxed mt-4 fade-up">
                         As part of its stringent quality assurance plan, Apex Dura has employed an advanced Metal
                         Spectrometer to test the quality of MS billets.
                     </p>
@@ -105,7 +105,7 @@
                 </div>
 
                 <!-- RIGHT IMAGE -->
-                <div class="relative hidden lg:flex justify-end">
+                <div class="relative hidden lg:flex justify-end animate-down">
                     <div class="w-full max-w-md">
                         <img src="Apex-Images/billet-product.png" alt="Steel Structure" class="w-full h-[350px] object-cover 
                 rounded-2xl shadow-xl">
@@ -407,13 +407,13 @@
             <div class="max-w-5xl">
 
                 <!-- Heading -->
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight fade-left">
                     Get in Touch with Apex Dura TMT <br class="hidden md:block">
                     Experts Today
                 </h2>
 
                 <!-- Description -->
-                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl">
+                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl fade-down">
                     Get expert guidance and premium Fe 500 and Fe550 TMT bars tailored to your
                     project needs.
                 </p>
@@ -423,7 +423,7 @@
 
 
         <!-- Get in touch form  -->
-        <section class="">
+        <section class="animate-up">
             <div class="max-w-xl mx-auto px-6">
 
                 <!-- Heading -->

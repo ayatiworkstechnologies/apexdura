@@ -692,7 +692,7 @@
     
     
     <!-- Apex grip -->
-     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden">
+     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
   <img 
     src="Apex-Images/apex-grip.jpg" 
     alt="Banner Image"
@@ -724,37 +724,37 @@
 
           <!-- Card 1 -->
           <div class="flex items-center gap-4 bg-white rounded-xl shadow-md px-6 py-5 fade-right">
-            <img src="Apex-icons/bend-icon.png" class="w-10 h-10" alt="icon" />
+            <img src="Apex-icons/bend-icon.png" class="w-12 h-12" alt="icon" />
             <p class="font-medium text-gray-800">Easy to Bend and Shape</p>
           </div>
 
           <!-- Card 2 -->
           <div class="flex items-center gap-4 bg-white rounded-xl shadow-md px-6 py-5 fade-left">
-            <img src="Apex-icons/carbon-icon.png" class="w-10 h-10" alt="icon" />
+            <img src="Apex-icons/carbon-icon.png" class="w-12 h-12" alt="icon" />
             <p class="font-medium text-gray-800">Reduced Carbon Footprint</p>
           </div>
 
           <!-- Card 3 -->
           <div class="flex items-center gap-4 bg-white rounded-xl shadow-md px-6 py-5 fade-right">
-            <img src="Apex-icons/grip-icon.png" class="w-10 h-10" alt="icon" />
+            <img src="Apex-icons/grip-icon.png" class="w-12 h-12" alt="icon" />
             <p class="font-medium text-gray-800">Best Grip</p>
           </div>
 
           <!-- Card 4 -->
           <div class="flex items-center gap-4 bg-white rounded-xl shadow-md px-6 py-5 fade-left">
-            <img src="Apex-icons/plant-icon.png" class="w-10 h-10" alt="icon" />
+            <img src="Apex-icons/plant-icon.png" class="w-12 h-12" alt="icon" />
             <p class="font-medium text-gray-800">Automated plant</p>
           </div>
 
           <!-- Card 5 -->
           <div class="flex items-center gap-4 bg-white rounded-xl shadow-md px-6 py-5 fade-right">
-            <img src="Apex-icons/thermex-icon.png" class="w-10 h-10" alt="icon" />
+            <img src="Apex-icons/thermex-icon.png" class="w-12 h-12" alt="icon" />
             <p class="font-medium text-gray-800">Thermex Technology</p>
           </div>
 
           <!-- Card 6 -->
           <div class="flex items-center gap-4 bg-white rounded-xl shadow-md px-6 py-5 fade-left">
-            <img src="Apex-icons/temperature-icon.png" class="w-10 h-10" alt="icon" />
+            <img src="Apex-icons/temperature-icon.png" class="w-12 h-12" alt="icon" />
             <p class="font-medium text-gray-800">Withstand high temperature</p>
           </div>
 

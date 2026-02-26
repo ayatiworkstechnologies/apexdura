@@ -78,21 +78,21 @@
 
                 <!-- LEFT CONTENT -->
                 <div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6 fade-left">
                         Premium TMT Bars for Strength and Durability
                     </h2>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6 fade-up">
                         At Apex Dura, we bring you a comprehensive range of TMT Bars designed for excellence and
                         reliability in construction. Our products include:
                     </h3>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-up">
                         5MM TMT Bar, 8MM TMT Bar, 10MM TMT Bar, 12MM TMT Bar, 16MM TMT Bar, 20MM TMT Bar, 25MM TMT Bar,
                         32MM TMT Bar
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-up">
                         Each bar is manufactured using state-of-the-art technology to deliver superior strength,
                         durability, and performance. These bars are engineered to meet the rigorous demands of modern
                         construction while ensuring safety, longevity, and sustainability. Whether it’s a small-scale
@@ -104,7 +104,7 @@
                 </div>
 
                 <!-- RIGHT IMAGE -->
-                <div class="relative flex justify-center hidden lg:block lg:justify-end">
+                <div class="relative flex justify-center hidden lg:block lg:justify-end animate-down">
 
 
 
@@ -124,13 +124,13 @@
             <!-- Heading -->
             <div class="max-w-6xl mx-auto px-6 text-center py-20">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight">
+               font-bold text-red-600 leading-tight fade-in">
                     Get the Best TMT Bars for Your Project
                 </h2>
             </div>
 
             <!-- Scroll Area -->
-            <div class="relative lg:h-[200vh]">
+            <div class="relative lg:h-[200vh]  fade-up">
 
                 <!-- CARD 01 -->
                 <div class="lg:sticky lg:top-20 lg:h-[50vh] 
@@ -244,7 +244,7 @@
         <section class="w-full  mt-7">
             <!-- Top Heading Bar -->
             <div class="w-full bg-red-600 py-6">
-                <h2 class="text-center text-white text-3xl md:text-5xl font-bold">
+                <h2 class="text-center text-white fade-in text-3xl md:text-5xl font-bold">
                     Versatile Uses of TMT Bars
                 </h2>
             </div>
@@ -252,28 +252,28 @@
             <!-- Content Area -->
             <div class="max-w-5xl mx-auto px-6 py-16 text-center text-gray-800">
 
-                <p class="text-lg md:text-xl mb-10 leading-relaxed">
+                <p class="text-lg md:text-xl mb-10 leading-relaxed fade-left">
                     Our TMT Bars are known for their versatility and are used across diverse construction applications.
                     Here’s how our range is categorized:
                 </p>
 
                 <div class="space-y-8 text-lg md:text-xl leading-relaxed">
 
-                    <p>
-                        <span class="font-bold text-black">5MM to 10MM TMT Bars:</span>
+                    <p class="fade-right">
+                        <span class="font-bold text-black ">5MM to 10MM TMT Bars:</span>
                         Ideal for small-scale construction like homes, fencing, and lightweight structures. These bars
                         provide
                         the necessary strength without overburdening smaller projects with excessive material.
                     </p>
 
-                    <p>
+                    <p class="fade-left">
                         <span class="font-bold text-black">12MM to 20MM TMT Bars:</span>
                         Commonly used in medium-scale projects like schools, hospitals, bridges, and commercial
                         complexes,
                         where structural integrity is paramount.
                     </p>
 
-                    <p>
+                    <p class="fade-right">
                         <span class="font-bold text-black">25MM to 32MM TMT Bars:</span>
                         Essential for heavy-duty infrastructure such as dams, industrial buildings, highways, and
                         high-rise towers.
@@ -296,13 +296,13 @@
             <!-- Heading -->
             <div class="max-w-5xl mx-auto px-6 text-center mb-16">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight">
+               font-bold text-red-600 leading-tight animate-down">
                     Benefits of Our TMT Bars
                 </h2>
             </div>
 
             <!-- Content -->
-            <section class="py-16">
+            <section class="py-16 fade-left">
                 <div class="max-w-7xl mx-auto px-6 relative">
 
                     <!-- Navigation Buttons (Top Right) -->
@@ -754,7 +754,7 @@
             <!-- Heading -->
             <div class="max-w-6xl mx-auto px-6 text-center mb-16">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight">
+               font-bold text-red-600 leading-tight fade-up">
                     Apex 5mm to 32mm TMT Bars <br>
                     Advantages
                 </h2>
@@ -769,53 +769,53 @@
 
                     <!-- ITEM -->
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Ductility.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Ductility.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">Ductility</h3>
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">Ductility</h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/EarthquakeResistance.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/EarthquakeResistance.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Earthquake Resistance
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Weldability.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Weldability.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Weldability
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/PerfectWeight.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/PerfectWeight.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Perfect Weight
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/2XEnhancedRIBBonding.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/2XEnhancedRIBBonding.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             2X Enhanced RIB Bonding
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/SuperiorBuildQuality.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/SuperiorBuildQuality.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Superior Build Quality
                         </h3>
                     </div>
@@ -823,55 +823,55 @@
                     <!-- Row 2 -->
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Bendability.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Bendability.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Bendability
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/NoWastage.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/NoWastage.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             No Wastage
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Strength.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Strength.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Strength
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/IncreasedSavings.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/IncreasedSavings.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Increased Savings
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/OptimisedChemicalComposition.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/OptimisedChemicalComposition.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Optimised Chemical Composition
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/StandardLength.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/StandardLength.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Standard Length
                         </h3>
                     </div>
@@ -925,13 +925,13 @@
             <div class="max-w-5xl">
 
                 <!-- Heading -->
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 fade-left leading-tight">
                     Get in Touch with Apex Dura TMT <br class="hidden md:block">
                     Experts Today
                 </h2>
 
                 <!-- Description -->
-                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl">
+                <p class="mt-8 text-gray-600 text-base md:text-lg fade-right leading-relaxed max-w-3xl">
                     Get expert guidance and premium Fe 500 and Fe550 TMT bars tailored to your
                     project needs.
                 </p>
@@ -941,7 +941,7 @@
 
 
         <!-- Get in touch form  -->
-        <section class="">
+        <section class="animate-up">
             <div class="max-w-xl mx-auto px-6">
 
                 <!-- Heading -->

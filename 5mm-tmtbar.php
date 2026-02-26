@@ -41,27 +41,29 @@
     <header class="w-full relative">
         <!-- bg-image -->
 
-          <div class="relative w-full pt-32 pb-8 bg-gray-50 overflow-hidden fade-up">
-      <!-- Breadcrumb -->
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex items-center gap-3">
-        <!-- Home -->
-        <a href="/" class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition hover:bg-gray-100">
-          <!-- Home Icon -->
-          <img src="Apex-icons/Home.png" alt="Home icon " class="w-4 h-4" />
-          Home
-        </a>
+        <div class="relative w-full pt-32 pb-8 bg-gray-50 overflow-hidden fade-up">
+            <!-- Breadcrumb -->
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex items-center gap-3">
+                <!-- Home -->
+                <a href="/"
+                    class="flex items-center gap-2 text-red-600 px-4 py-2 rounded-md text-sm font-medium transition hover:bg-gray-100">
+                    <!-- Home Icon -->
+                    <img src="Apex-icons/Home.png" alt="Home icon " class="w-4 h-4" />
+                    Home
+                </a>
 
-        <!-- Arrow -->
-        <span class="text-gray-500 text-lg">›</span>
+                <!-- Arrow -->
+                <span class="text-gray-500 text-lg">›</span>
 
-        <!-- About -->
-        <span class="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md">
-          <!-- User/About Icon -->
-          <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
-          5MM TMT Bar
-        </span>
-      </div>
-    </div>
+                <!-- About -->
+                <span
+                    class="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md">
+                    <!-- User/About Icon -->
+                    <img src="Apex-icons/user-circle.png" alt="user icon " class="w-4 h-4" />
+                    5MM TMT Bar
+                </span>
+            </div>
+        </div>
         <!-- Header Content Overlay -->
         <?php include "includes/header.php"; ?>
     </header>
@@ -74,23 +76,28 @@
 
                 <!-- LEFT CONTENT -->
                 <div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
-                       5mm TMT Bar – The Ideal Choice for Modern Construction
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6 fade-right">
+                        5mm TMT Bar – The Ideal Choice for Modern Construction
                     </h2>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
-                           Apex Dura Green 5mm TMT Bar
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6 fade-up">
+                        Apex Dura Green 5mm TMT Bar
                     </h3>
 
-                    <p class="text-gray-600 leading-relaxed mb-4">
-                        Unlock the potential of your construction projects with our 5mm TMT Bar – designed to provide exceptional strength, flexibility, and durability in a range of applications. Whether you’re reinforcing concrete structures, enhancing foundations, or working on specialized industrial and residential projects, our 5mm TMT Bars offer unmatched performance. Built to withstand challenging environmental conditions, our TMT bars are ideal for projects that require reliable, long-lasting materials without sacrificing cost-effectiveness.
+                    <p class="text-gray-600 leading-relaxed mb-4 fade-up">
+                        Unlock the potential of your construction projects with our 5mm TMT Bar – designed to provide
+                        exceptional strength, flexibility, and durability in a range of applications. Whether you’re
+                        reinforcing concrete structures, enhancing foundations, or working on specialized industrial and
+                        residential projects, our 5mm TMT Bars offer unmatched performance. Built to withstand
+                        challenging environmental conditions, our TMT bars are ideal for projects that require reliable,
+                        long-lasting materials without sacrificing cost-effectiveness.
                     </p>
 
-                    
+
                 </div>
 
                 <!-- RIGHT IMAGE -->
-                <div class="relative flex justify-center hidden lg:block lg:justify-end">
+                <div class="relative flex justify-center fade-right hidden lg:block lg:justify-end">
 
 
 
@@ -110,14 +117,14 @@
             <!-- Heading -->
             <div class="max-w-6xl mx-auto px-6 text-center py-20">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight">
+               font-bold text-red-600 leading-tight fade-in">
                     Advanced Features of 5mm <br>
                     TMT Bar
                 </h2>
             </div>
 
             <!-- Scroll Area -->
-            <div class="relative lg:h-[200vh]">
+            <div class="relative lg:h-[200vh] animate-up">
 
                 <!-- CARD 01 -->
                 <div class="lg:sticky lg:top-20 lg:h-[50vh] 
@@ -176,7 +183,11 @@
                                     Optimal for Lightweight Structures
                                 </h3>
                                 <p class="text-gray-600 leading-relaxed">
-                                    Despite their smaller diameter, 5mm TMT bars are engineered to deliver exceptional load-bearing capacity, making them perfect for lightweight and intricate structural reinforcements. They offer high bending capabilities, which is crucial for projects requiring flexibility and precision, such as small-scale residential and commercial applications.
+                                    Despite their smaller diameter, 5mm TMT bars are engineered to deliver exceptional
+                                    load-bearing capacity, making them perfect for lightweight and intricate structural
+                                    reinforcements. They offer high bending capabilities, which is crucial for projects
+                                    requiring flexibility and precision, such as small-scale residential and commercial
+                                    applications.
                                 </p>
                             </div>
 
@@ -210,7 +221,11 @@
                                     Corrosion Resistance for Longevity
                                 </h3>
                                 <p class="text-gray-600 leading-relaxed">
-                                    Our 5mm TMT bars are coated with a protective layer that shields them from rust, corrosion, and degradation over time. Ideal for areas with high humidity, extreme weather, or industrial environments, they ensure that your structure maintains its integrity and strength throughout its lifespan, reducing maintenance costs and ensuring safety.
+                                    Our 5mm TMT bars are coated with a protective layer that shields them from rust,
+                                    corrosion, and degradation over time. Ideal for areas with high humidity, extreme
+                                    weather, or industrial environments, they ensure that your structure maintains its
+                                    integrity and strength throughout its lifespan, reducing maintenance costs and
+                                    ensuring safety.
                                 </p>
                             </div>
 
@@ -245,7 +260,11 @@
                                     Heat Resistance for Safety
                                 </h3>
                                 <p class="text-gray-600 leading-relaxed">
-                                    These TMT bars are designed to withstand high temperatures, providing the necessary resilience in regions prone to extreme heat or fire hazards. This heat-resistant quality ensures that the bars maintain their strength and don’t lose their shape or performance under thermal stress, making them suitable for a variety of construction environments.
+                                    These TMT bars are designed to withstand high temperatures, providing the necessary
+                                    resilience in regions prone to extreme heat or fire hazards. This heat-resistant
+                                    quality ensures that the bars maintain their strength and don’t lose their shape or
+                                    performance under thermal stress, making them suitable for a variety of construction
+                                    environments.
                                 </p>
                             </div>
 
@@ -278,30 +297,30 @@
             <!-- Heading -->
             <div class="max-w-5xl mx-auto px-6 text-center mb-16">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight">
+               font-bold text-red-600 leading-tight fade-left">
                     Why Choose Our 5mm TMT <br>
                     Bar?
                 </h2>
             </div>
 
             <!-- Content -->
-            <section class="py-16">
+            <section class="py-16 animate-down">
                 <div class="max-w-7xl mx-auto px-6 relative">
 
                     <!-- Navigation Buttons (Top Right) -->
-<div class="absolute -top-20 right-10 flex gap-3 z-10">
-    
-    <button id="prevBtn"
-        class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
-        &#10094;
-    </button>
+                    <div class="absolute -top-20 right-10 flex gap-3 z-10">
 
-    <button id="nextBtn"
-        class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
-        &#10095;
-    </button>
+                        <button id="prevBtn"
+                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+                            &#10094;
+                        </button>
 
-</div>
+                        <button id="nextBtn"
+                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+                            &#10095;
+                        </button>
+
+                    </div>
 
                     <!-- Carousel Wrapper -->
                     <div class="overflow-hidden">
@@ -311,44 +330,55 @@
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Superior Strength & Durability</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Our 5mm TMT bars offer the highest tensile strength, capable of handling extreme loads and stresses, ensuring that your structures remain secure and stable for decades.
+                                    Our 5mm TMT bars offer the highest tensile strength, capable of handling extreme
+                                    loads and stresses, ensuring that your structures remain secure and stable for
+                                    decades.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Precision Manufacturing</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    With strict quality control and adherence to international standards, our bars are consistent in diameter and surface quality, ensuring the smoothest application possible in all projects.
+                                    With strict quality control and adherence to international standards, our bars are
+                                    consistent in diameter and surface quality, ensuring the smoothest application
+                                    possible in all projects.
                                 </p>
                             </div>
 
-                         
+
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Versatile Applications</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Whether you're constructing residential buildings, reinforcing industrial foundations, or working on agricultural setups, our 5mm TMT bars are engineered to meet a broad spectrum of requirements.
+                                    Whether you're constructing residential buildings, reinforcing industrial
+                                    foundations, or working on agricultural setups, our 5mm TMT bars are engineered to
+                                    meet a broad spectrum of requirements.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Eco-Friendly</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Produced with sustainable methods and materials, our 5mm TMT bars contribute to greener construction practices by reducing environmental impact without compromising on performance.
+                                    Produced with sustainable methods and materials, our 5mm TMT bars contribute to
+                                    greener construction practices by reducing environmental impact without compromising
+                                    on performance.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Enhanced Flexibility</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    The optimal combination of ductility and strength makes our TMT bars easy to shape and bend as required, making them ideal for both simple and complex designs.
+                                    The optimal combination of ductility and strength makes our TMT bars easy to shape
+                                    and bend as required, making them ideal for both simple and complex designs.
                                 </p>
                             </div>
 
                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
                                 <h3 class="font-semibold text-lg mb-4">Economical Choice</h3>
                                 <p class="text-gray-600 text-sm leading-relaxed">
-                                    Offering high performance at a competitive price, our 5mm TMT bars are a cost-effective solution that doesn’t sacrifice quality for affordability, making them suitable for both large and small-scale projects.
+                                    Offering high performance at a competitive price, our 5mm TMT bars are a
+                                    cost-effective solution that doesn’t sacrifice quality for affordability, making
+                                    them suitable for both large and small-scale projects.
                                 </p>
                             </div>
 
@@ -381,7 +411,8 @@
                         <div class="absolute left-8 top-20 bottom-0 w-[2px] bg-white/30"></div>
 
                         <p class="text-md  mb-10 pl-16 fade-up">
-                            5mm TMT Bars serve a wide array of applications across various industries due to their strength, flexibility, and corrosion resistance:</p>
+                            5mm TMT Bars serve a wide array of applications across various industries due to their
+                            strength, flexibility, and corrosion resistance:</p>
 
                         <!-- STEPS -->
                         <div id="steps" class="space-y-8 fade-in">
@@ -406,7 +437,9 @@
                                             Residential Construction
                                         </h4>
                                         <p class="text-md text-white/90 mt-1">
-                                            Perfect for reinforcing small residential buildings, walls, slabs, and fencing. Ideal for lightweight applications like decorative steel frameworks and structural support.
+                                            Perfect for reinforcing small residential buildings, walls, slabs, and
+                                            fencing. Ideal for lightweight applications like decorative steel frameworks
+                                            and structural support.
                                         </p>
                                     </div>
                                 </div>
@@ -431,7 +464,8 @@
                                     <div>
                                         <h4 class="font-semibold text-xl">Infrastructure Development</h4>
                                         <p class="text-md text-white/90 mt-1">
-                                            Widely used in infrastructure projects such as bridges, walkways, and roads where precision and durability are crucial for safety and functionality.
+                                            Widely used in infrastructure projects such as bridges, walkways, and roads
+                                            where precision and durability are crucial for safety and functionality.
                                         </p>
                                     </div>
                                 </div>
@@ -458,7 +492,9 @@
                                             Industrial Manufacturing
                                         </h4>
                                         <p class="text-md text-white/90 mt-1">
-                                           Essential in manufacturing plants, warehouses, and storage facilities, where they are used for reinforcement in the light to medium-load-bearing applications.
+                                            Essential in manufacturing plants, warehouses, and storage facilities, where
+                                            they are used for reinforcement in the light to medium-load-bearing
+                                            applications.
                                         </p>
                                     </div>
                                 </div>
@@ -483,7 +519,9 @@
                                     <div>
                                         <h4 class="font-semibold text-xl">Agricultural Uses</h4>
                                         <p class="text-md text-white/90 mt-1">
-                                            Excellent for reinforcing farming structures like greenhouses, irrigation systems, and fencing for crops or livestock, ensuring stability under diverse weather conditions.
+                                            Excellent for reinforcing farming structures like greenhouses, irrigation
+                                            systems, and fencing for crops or livestock, ensuring stability under
+                                            diverse weather conditions.
                                         </p>
                                     </div>
                                 </div>
@@ -507,7 +545,9 @@
                                     <div>
                                         <h4 class="font-semibold text-xl">Earthquake-Resistant Projects</h4>
                                         <p class="text-md text-white/90 mt-1">
-                                            Essential for earthquake-resistant construction in regions prone to seismic activity, offering the required flexibility and strength to absorb shocks and protect structures.
+                                            Essential for earthquake-resistant construction in regions prone to seismic
+                                            activity, offering the required flexibility and strength to absorb shocks
+                                            and protect structures.
                                         </p>
                                     </div>
                                 </div>
@@ -532,7 +572,9 @@
                                     <div>
                                         <h4 class="font-semibold text-xl">DIY and Crafts</h4>
                                         <p class="text-md text-white/90 mt-1">
-                                            Highly flexible, 5mm TMT bars are favored in DIY projects for creating custom furniture, fencing, and other small-scale structures, providing professional-level results with ease.
+                                            Highly flexible, 5mm TMT bars are favored in DIY projects for creating
+                                            custom furniture, fencing, and other small-scale structures, providing
+                                            professional-level results with ease.
                                         </p>
                                     </div>
                                 </div>
@@ -554,7 +596,7 @@
                 <img src="Apex-Images/process.png" class="w-full h-60 sm:h-80 object-cover rounded-lg mb-8 fade-in" />
 
                 <h2 class="text-2xl sm:text-3xl font-bold mb-8 fade-left">
-                   Key Applications of 5mm TMT Bar
+                    Key Applications of 5mm TMT Bar
                 </h2>
 
                 <!-- Steps stacked cards -->
@@ -567,7 +609,8 @@
                         <div>
                             <h4 class="font-semibold">Residential Construction</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Perfect for reinforcing small residential buildings, walls, slabs, and fencing. Ideal for lightweight applications like decorative steel frameworks and structural support.
+                                Perfect for reinforcing small residential buildings, walls, slabs, and fencing. Ideal
+                                for lightweight applications like decorative steel frameworks and structural support.
                             </p>
                         </div>
                     </div>
@@ -579,7 +622,8 @@
                         <div>
                             <h4 class="font-semibold">Infrastructure Development</h4>
                             <p class="text-sm text-white/80 mt-1">
-                               Widely used in infrastructure projects such as bridges, walkways, and roads where precision and durability are crucial for safety and functionality.
+                                Widely used in infrastructure projects such as bridges, walkways, and roads where
+                                precision and durability are crucial for safety and functionality.
                             </p>
                         </div>
                     </div>
@@ -591,7 +635,8 @@
                         <div>
                             <h4 class="font-semibold">Industrial Manufacturing</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Essential in manufacturing plants, warehouses, and storage facilities, where they are used for reinforcement in the light to medium-load-bearing applications.
+                                Essential in manufacturing plants, warehouses, and storage facilities, where they are
+                                used for reinforcement in the light to medium-load-bearing applications.
                             </p>
                         </div>
                     </div>
@@ -603,7 +648,8 @@
                         <div>
                             <h4 class="font-semibold">Agricultural Uses</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Excellent for reinforcing farming structures like greenhouses, irrigation systems, and fencing for crops or livestock, ensuring stability under diverse weather conditions.
+                                Excellent for reinforcing farming structures like greenhouses, irrigation systems, and
+                                fencing for crops or livestock, ensuring stability under diverse weather conditions.
                             </p>
                         </div>
                     </div>
@@ -615,7 +661,8 @@
                         <div>
                             <h4 class="font-semibold">Earthquake-Resistant Projects</h4>
                             <p class="text-sm text-white/80 mt-1">
-                               Essential for earthquake-resistant construction in regions prone to seismic activity, offering the required flexibility and strength to absorb shocks and protect structures.
+                                Essential for earthquake-resistant construction in regions prone to seismic activity,
+                                offering the required flexibility and strength to absorb shocks and protect structures.
                             </p>
                         </div>
                     </div>
@@ -627,7 +674,9 @@
                         <div>
                             <h4 class="font-semibold">DIY and Crafts</h4>
                             <p class="text-sm text-white/80 mt-1">
-                                Highly flexible, 5mm TMT bars are favored in DIY projects for creating custom furniture, fencing, and other small-scale structures, providing professional-level results with ease.
+                                Highly flexible, 5mm TMT bars are favored in DIY projects for creating custom furniture,
+                                fencing, and other small-scale structures, providing professional-level results with
+                                ease.
                             </p>
                         </div>
                     </div>
@@ -639,13 +688,13 @@
 
 
         <!-- Apex advantages -->
-       
+
         <section class="w-full bg-gray-100 py-20">
 
             <!-- Heading -->
             <div class="max-w-6xl mx-auto px-6 text-center mb-16">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl 
-               font-bold text-red-600 leading-tight">
+               font-bold text-red-600 leading-tight fade-in">
                     Apex 5mm TMT Bar <br>
                     Advantages
                 </h2>
@@ -660,53 +709,53 @@
 
                     <!-- ITEM -->
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Ductility.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Ductility.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">Ductility</h3>
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">Ductility</h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/EarthquakeResistance.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/EarthquakeResistance.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Earthquake Resistance
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Weldability.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Weldability.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Weldability
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/PerfectWeight.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/PerfectWeight.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Perfect Weight
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/2XEnhancedRIBBonding.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/2XEnhancedRIBBonding.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             2X Enhanced RIB Bonding
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/SuperiorBuildQuality.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/SuperiorBuildQuality.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Superior Build Quality
                         </h3>
                     </div>
@@ -714,55 +763,55 @@
                     <!-- Row 2 -->
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Bendability.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Bendability.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Bendability
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/NoWastage.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/NoWastage.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             No Wastage
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/Strength.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/Strength.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Strength
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/IncreasedSavings.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/IncreasedSavings.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Increased Savings
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/OptimisedChemicalComposition.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/OptimisedChemicalComposition.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Optimised Chemical Composition
                         </h3>
                     </div>
 
                     <div>
-                        <div class="mb-5 flex justify-center">
-                            <img src="Apex-icons/StandardLength.png" class="h-12 w-12" alt="">
+                        <div class="mb-5 flex justify-center fade-left">
+                            <img src="Apex-icons/StandardLength.png" class="h-15 w-15" alt="">
                         </div>
-                        <h3 class="font-semibold text-gray-800">
+                        <h3 class="font-semibold text-gray-800 text-lg fade-right">
                             Standard Length
                         </h3>
                     </div>
@@ -818,13 +867,13 @@
             <div class="max-w-5xl">
 
                 <!-- Heading -->
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 leading-tight fade-left">
                     Get in Touch with Apex Dura TMT <br class="hidden md:block">
                     Experts Today
                 </h2>
 
                 <!-- Description -->
-                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl">
+                <p class="mt-8 text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl fade-right">
                     Get expert guidance and premium Fe 500 and Fe550 TMT bars tailored to your
                     project needs.
                 </p>
@@ -834,7 +883,7 @@
 
 
         <!-- Get in touch form  -->
-        <section class="">
+        <section class="animate-up">
             <div class="max-w-xl mx-auto px-6">
 
                 <!-- Heading -->
@@ -980,72 +1029,72 @@
 
 
     <!-- carousel slides  -->
-   <script>
-const carousel = document.getElementById("carousel");
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
+    <script>
+        const carousel = document.getElementById("carousel");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
 
-let index = 0;
+        let index = 0;
 
-function getVisibleItems() {
-    if (window.innerWidth >= 1024) return 4;
-    if (window.innerWidth >= 640) return 2;
-    return 1;
-}
+        function getVisibleItems() {
+            if (window.innerWidth >= 1024) return 4;
+            if (window.innerWidth >= 640) return 2;
+            return 1;
+        }
 
-function updateButtons(maxIndex) {
-    // Fade Prev
-    if (index <= 0) {
-        prevBtn.classList.add("opacity-40", "cursor-not-allowed");
-    } else {
-        prevBtn.classList.remove("opacity-40", "cursor-not-allowed");
-    }
+        function updateButtons(maxIndex) {
+            // Fade Prev
+            if (index <= 0) {
+                prevBtn.classList.add("opacity-40", "cursor-not-allowed");
+            } else {
+                prevBtn.classList.remove("opacity-40", "cursor-not-allowed");
+            }
 
-    // Fade Next
-    if (index >= maxIndex) {
-        nextBtn.classList.add("opacity-40", "cursor-not-allowed");
-    } else {
-        nextBtn.classList.remove("opacity-40", "cursor-not-allowed");
-    }
-}
+            // Fade Next
+            if (index >= maxIndex) {
+                nextBtn.classList.add("opacity-40", "cursor-not-allowed");
+            } else {
+                nextBtn.classList.remove("opacity-40", "cursor-not-allowed");
+            }
+        }
 
-function updateCarousel() {
-    const visibleItems = getVisibleItems();
-    const totalItems = carousel.children.length;
-    const maxIndex = totalItems - visibleItems;
+        function updateCarousel() {
+            const visibleItems = getVisibleItems();
+            const totalItems = carousel.children.length;
+            const maxIndex = totalItems - visibleItems;
 
-    if (index > maxIndex) index = maxIndex;
-    if (index < 0) index = 0;
+            if (index > maxIndex) index = maxIndex;
+            if (index < 0) index = 0;
 
-    const slideWidth = carousel.children[0].offsetWidth;
-    carousel.style.transform = `translateX(-${index * slideWidth}px)`;
+            const slideWidth = carousel.children[0].offsetWidth;
+            carousel.style.transform = `translateX(-${index * slideWidth}px)`;
 
-    updateButtons(maxIndex);
-}
+            updateButtons(maxIndex);
+        }
 
-nextBtn.addEventListener("click", () => {
-    const visibleItems = getVisibleItems();
-    const totalItems = carousel.children.length;
-    const maxIndex = totalItems - visibleItems;
+        nextBtn.addEventListener("click", () => {
+            const visibleItems = getVisibleItems();
+            const totalItems = carousel.children.length;
+            const maxIndex = totalItems - visibleItems;
 
-    if (index < maxIndex) {
-        index++;
+            if (index < maxIndex) {
+                index++;
+                updateCarousel();
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (index > 0) {
+                index--;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener("resize", updateCarousel);
+
+        // Initialize
         updateCarousel();
-    }
-});
-
-prevBtn.addEventListener("click", () => {
-    if (index > 0) {
-        index--;
-        updateCarousel();
-    }
-});
-
-window.addEventListener("resize", updateCarousel);
-
-// Initialize
-updateCarousel();
-</script>
+    </script>
 
 
 
