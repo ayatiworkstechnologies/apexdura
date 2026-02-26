@@ -75,7 +75,7 @@
     </section>
 
     <!-- steel image  -->
-    <section class="w-full pb-10 animate-down">
+    <section class="w-full mt-[10px] pb-10 animate-down">
       <img src="Apex-Images/steel-full.png" alt="Apex Steel" class="w-full h-auto object-contain" />
     </section>
 
@@ -159,7 +159,7 @@
           </div>
 
           <!-- RIGHT IMAGE -->
-          <div class="flex justify-center lg:ml-8 fade-down">
+          <div class="flex justify-center hidden lg:flex lg:ml-8 fade-down">
             <svg viewBox="0 0 470 580" width="370" height="470" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <mask id="apexMask">
@@ -555,12 +555,14 @@
 
           <!-- Slide 01 -->
           <div class="min-w-full snap-center px-4">
-            <div class="relative h-[460px] sm:h-[520px] rounded-2xl overflow-hidden flex items-center justify-center">
+            <div class="relative h-[420px] sm:h-[520px] rounded-2xl overflow-hidden flex items-center justify-center">
 
               <img src="Apex-Images/slide-bg1.png" class="absolute inset-0 w-full h-full object-cover" />
 
               <div class="relative bg-white/80 rounded-2xl w-[90%] max-w-xl p-8 shadow-xl">
-                <div class="flex justify-between gap-6">
+
+                <div class="flex flex-col gap-6">
+
                   <div>
                     <h3 class="text-lg font-bold mb-2">Sustainable Approach</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -568,8 +570,13 @@
                       impact while increasing durability and longevity.
                     </p>
                   </div>
-                  <span class="text-red-600 font-black text-6xl">01</span>
+
+                  <span class="text-red-600 font-black text-6xl text-center">
+                    01
+                  </span>
+
                 </div>
+
               </div>
 
             </div>
@@ -578,12 +585,14 @@
 
           <!-- Slide 02 -->
           <div class="min-w-full snap-center px-4">
-            <div class="relative h-[460px] sm:h-[520px] rounded-2xl overflow-hidden flex items-center justify-center">
+            <div class="relative h-[420px] sm:h-[520px] rounded-2xl overflow-hidden flex items-center justify-center">
 
               <img src="Apex-Images/slide-bg2.png" class="absolute inset-0 w-full h-full object-cover" />
 
               <div class="relative bg-white/80 rounded-2xl w-[90%] max-w-xl p-8 shadow-xl">
-                <div class="flex justify-between gap-6">
+
+                <div class="flex flex-col gap-6">
+
                   <div>
                     <h3 class="text-lg font-bold mb-2">Innovative Technology</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -591,8 +600,13 @@
                       future-ready systems built to evolve with demand.
                     </p>
                   </div>
-                  <span class="text-red-600 font-black text-6xl">02</span>
+
+                  <span class="text-red-600 font-black text-6xl text-center">
+                    02
+                  </span>
+
                 </div>
+
               </div>
 
             </div>
@@ -601,12 +615,14 @@
 
           <!-- Slide 03 -->
           <div class="min-w-full snap-center px-4">
-            <div class="relative h-[460px] sm:h-[520px] rounded-2xl overflow-hidden flex items-center justify-center">
+            <div class="relative h-[420px] sm:h-[520px] rounded-2xl overflow-hidden flex items-center justify-center">
 
               <img src="Apex-Images/slide-bg3.png" class="absolute inset-0 w-full h-full object-cover" />
 
               <div class="relative bg-white/80 rounded-2xl w-[90%] max-w-xl p-8 shadow-xl">
-                <div class="flex justify-between gap-6">
+
+                <div class="flex flex-col gap-6">
+
                   <div>
                     <h3 class="text-lg font-bold mb-2">Expert Team</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -614,8 +630,13 @@
                       and consistent customer satisfaction.
                     </p>
                   </div>
-                  <span class="text-red-600 font-black text-6xl">03</span>
+
+                  <span class="text-red-600 font-black text-6xl text-center">
+                    03
+                  </span>
+
                 </div>
+
               </div>
 
             </div>
@@ -689,18 +710,13 @@
         </div>
       </div>
     </section> -->
-    
-    
-    <!-- Apex grip -->
-     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
-  <img 
-    src="Apex-Images/apex-grip.jpg" 
-    alt="Banner Image"
-    class="w-full h-full object-cover"
-  />
-</div>
-    
-    
+
+
+    <div class="relative w-full aspect-[16/9] overflow-hidden fade-up">
+      <img src="Apex-Images/apex-grip.jpg" alt="Apex Grip Banner" class="w-full h-full object-contain" />
+    </div>
+
+
     <!-- steel image  -->
 
 

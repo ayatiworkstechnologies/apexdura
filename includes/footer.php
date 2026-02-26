@@ -1,10 +1,10 @@
-<footer class="w-full bg-gray-50 pt-16 pb-8 fade-up">
+<footer class="w-full bg-gray-50  pb-8 fade-up">
   <!-- Top CTA -->
     <div class="max-w-4xl mx-auto text-center px-4 py-10">
     
     <!-- Heading -->
     <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-red-600 mb-3">
-      Ready to build with strength?
+      Ready to Build with Strength?
     </h2>
 
     <!-- Subtext -->
@@ -31,8 +31,8 @@
           <!-- LOGO -->
           <div class="mb-4">
             <!--  logo -->
-            <a href="#">
-              <img src="Apex-icons/Logo.png" class="h-10 sm:h-13 md:h-13 lg:h-15 cursor-pointer" alt="Apex Dura" />
+            <a href="/">
+              <img src="Apex-icons/Logo.png" class="h-10 sm:h-10 md:h-10 lg:h-10 cursor-pointer" alt="Apex Dura" />
             </a>
           </div>
 

@@ -32,7 +32,7 @@ $isProductPage = in_array($currentPage, $productPages);
 
     <!-- Logo -->
     <a href="index.php">
-      <img src="Apex-icons/Logo.png" alt="Apex Dura Logo" class="h-15 sm:h-14 w-auto md:h-12" />
+      <img src="Apex-icons/Logo.png" alt="Apex Dura Logo" class="h-10 sm:h-10 w-auto md:h-10" />
     </a>
 
     <!-- Desktop Navigation -->

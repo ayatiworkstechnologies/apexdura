@@ -297,47 +297,50 @@
     </section>
 
     <script>
-      let index = 0;
-      const carousel = document.getElementById("carousel");
-      const totalSlides = carousel.children.length; // auto count slides
-      let autoSlide;
+  let index = 0;
+  const carousel = document.getElementById("carousel");
+  const totalSlides = carousel.children.length;
+  let autoSlide;
 
-      function updateSlide() {
-        carousel.style.transform = `translateX(-${index * 100}%)`;
-      }
+  // Smooth transition speed (important)
+  carousel.style.transition = "transform 1s ease-in-out";
 
-      function nextSlide() {
-        index = (index + 1) % totalSlides;
-        updateSlide();
-      }
+  function updateSlide() {
+    carousel.style.transform = `translateX(-${index * 100}%)`;
+  }
 
-      function prevSlide() {
-        index = (index - 1 + totalSlides) % totalSlides;
-        updateSlide();
-      }
+  function nextSlide() {
+    index = (index + 1) % totalSlides;
+    updateSlide();
+  }
 
-      function startAutoSlide() {
-        autoSlide = setInterval(() => {
-          nextSlide();
-        }, 3000);
-      }
+  function prevSlide() {
+    index = (index - 1 + totalSlides) % totalSlides;
+    updateSlide();
+  }
 
-      function stopAutoSlide() {
-        clearInterval(autoSlide);
-      }
+  function startAutoSlide() {
+    stopAutoSlide(); // prevent multiple intervals
+    autoSlide = setInterval(() => {
+      nextSlide();
+    }, 3000); // 3 seconds (slower)
+  }
 
-      function handleResponsiveSlide() {
-        if (window.innerWidth < 1024) {
-          startAutoSlide();
-        } else {
-          stopAutoSlide();
-        }
-      }
+  function stopAutoSlide() {
+    clearInterval(autoSlide);
+  }
 
-      window.addEventListener("resize", handleResponsiveSlide);
-      window.addEventListener("load", handleResponsiveSlide);
-    </script>
+  function handleResponsiveSlide() {
+    if (window.innerWidth < 1024) {
+      startAutoSlide();
+    } else {
+      stopAutoSlide();
+    }
+  }
 
+  window.addEventListener("resize", handleResponsiveSlide);
+  window.addEventListener("load", handleResponsiveSlide);
+</script>
 
 
 

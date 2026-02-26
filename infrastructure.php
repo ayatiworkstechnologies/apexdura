@@ -231,80 +231,89 @@
         </div>
 
         <!-- RIGHT: CONTENT -->
-        <div class="space-y-20">
+        <div class="space-y-1 md:space-y-20">
 
-          <!-- TECHNOLOGY -->
-          <div class="group relative max-w-xl pb-6 md:pb-20
-           transition-all duration-500
-           hover:-translate-y-2 rounded-lg p-6">
-            <div class="flex flex-col sm:flex-row sm:items-start gap-6 sm:gap-10">
-              <h3 class="text-red-600 tracking-[6px] md:mt-5 text-sm font-semibold whitespace-nowrap">
-                Technology
-              </h3>
+  <!-- TECHNOLOGY -->
+  <div class="group relative max-w-xl pb-4 md:pb-20
+      transition-all duration-500
+      hover:-translate-y-2 rounded-lg p-4 md:p-6">
 
-              <p class="text-gray-700 text-[13px] leading-relaxed max-w-md">
-                Our Mysore Plant is completely automated and integrated for
-                manufacturing high quality TMT rebars and Billets using the
-                best technology in the industry. Apex Dura bars are produced
-                using patented quenching technology from Thermex – Germany.
-              </p>
-            </div>
+    <div class="flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-10">
 
-            <!-- Connector -->
-            <svg class="absolute left-2 sm:left-6 top-18 w-72 sm:w-80 h-24 hidden md:block" viewBox="0 0 360 120"
-              fill="none">
-              <defs>
-                <linearGradient id="techGradient" x1="0" y1="0" x2="1" y2="0">
-                  <stop offset="0%" stop-color="#dc2626" />
-                  <stop offset="100%" stop-color="#ffffff" />
-                </linearGradient>
-              </defs>
+      <h3 class="text-red-600 tracking-[4px] md:tracking-[6px] md:mt-5 text-sm font-semibold whitespace-nowrap">
+        Technology
+      </h3>
 
-              <!-- Dot -->
-              <circle cx="30" cy="30" r="8" fill="#dc2626" />
+      <p class="text-gray-700 text-[13px] leading-relaxed max-w-md">
+        Our Mysore Plant is completely automated and integrated for
+        manufacturing high quality TMT rebars and Billets using the
+        best technology in the industry. Apex Dura bars are produced
+        using patented quenching technology from Thermex – Germany.
+      </p>
 
-              <!-- Animated line -->
-              <path d="M30 30 L100 80 L360 80" stroke="url(#techGradient)" stroke-width="2" fill="none"
-                class="line-draw" />
-            </svg>
-          </div>
+    </div>
 
-          <!-- QUALITY -->
-          <div class="group relative max-w-xl ml-auto pb-6 md:pb-20
-           transition-all duration-500
-           hover:-translate-y-2  rounded-lg p-6">
-            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-end gap-6 sm:gap-10">
-              <p class="text-gray-700 text-[13px] leading-relaxed max-w-md order-2 sm:order-1">
-                Our finished products are tested as per BIS and Thermex
-                specifications at our well equipped chemical and physical
-                laboratories.
-              </p>
+    <!-- Connector -->
+    <svg class="absolute left-2 sm:left-6 top-16 w-60 sm:w-80 h-24 hidden md:block"
+         viewBox="0 0 360 120" fill="none">
 
-              <h3 class="text-red-600 tracking-[6px] text-sm font-semibold whitespace-nowrap order-1 sm:order-2">
-                QUALITY
-              </h3>
-            </div>
+      <defs>
+        <linearGradient id="techGradient" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#dc2626" />
+          <stop offset="100%" stop-color="#ffffff" />
+        </linearGradient>
+      </defs>
 
-            <!-- Connector -->
-            <svg class="absolute right-2 sm:right-6 top-10 w-72 sm:w-80 h-24 hidden md:block" viewBox="0 0 360 120"
-              fill="none">
-              <defs>
-                <linearGradient id="qualityGradient" x1="1" y1="0" x2="0" y2="0">
-                  <stop offset="0%" stop-color="#dc2626" />
-                  <stop offset="100%" stop-color="#ffffff" />
-                </linearGradient>
-              </defs>
+      <circle cx="30" cy="30" r="8" fill="#dc2626" />
+      <path d="M30 30 L100 80 L360 80"
+            stroke="url(#techGradient)"
+            stroke-width="2"
+            fill="none"
+            class="line-draw" />
+    </svg>
+  </div>
 
-              <!-- Dot -->
-              <circle cx="330" cy="30" r="8" fill="#dc2626" />
 
-              <!-- Animated line -->
-              <path d="M330 30 L260 80 L0 80" stroke="url(#qualityGradient)" stroke-width="2" fill="none"
-                class="line-draw" />
-            </svg>
-          </div>
+  <!-- QUALITY -->
+  <div class="group relative max-w-xl ml-auto pb-4 md:pb-20
+      transition-all duration-500
+      hover:-translate-y-2 rounded-lg p-4 md:p-6">
 
-        </div>
+    <div class="flex flex-col sm:flex-row sm:items-start sm:justify-end gap-4 sm:gap-10">
+
+      <p class="text-gray-700 text-[13px] leading-relaxed max-w-md order-2 sm:order-1">
+        Our finished products are tested as per BIS and Thermex
+        specifications at our well equipped chemical and physical
+        laboratories.
+      </p>
+
+      <h3 class="text-red-600 tracking-[4px] md:tracking-[6px] text-sm font-semibold whitespace-nowrap order-1 sm:order-2">
+        QUALITY
+      </h3>
+
+    </div>
+
+    <!-- Connector -->
+    <svg class="absolute right-2 sm:right-6 top-16 w-60 sm:w-80 h-24 hidden md:block"
+         viewBox="0 0 360 120" fill="none">
+
+      <defs>
+        <linearGradient id="qualityGradient" x1="1" y1="0" x2="0" y2="0">
+          <stop offset="0%" stop-color="#dc2626" />
+          <stop offset="100%" stop-color="#ffffff" />
+        </linearGradient>
+      </defs>
+
+      <circle cx="330" cy="30" r="8" fill="#dc2626" />
+      <path d="M330 30 L260 80 L0 80"
+            stroke="url(#qualityGradient)"
+            stroke-width="2"
+            fill="none"
+            class="line-draw" />
+    </svg>
+  </div>
+
+</div>
 
       </div>
     </section>
