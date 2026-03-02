@@ -81,17 +81,15 @@
         <!-- LEFT CONTENT -->
         <div>
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-red-600 mb-6">
-            Apex Dura Green Steel For A Sustainable Future
+            Apex Dura: Green-Powered TMT for Tomorrow's India
           </h2>
 
-          <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
+          <!-- <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-6">
             A Better Tomorrow!
-          </h3>
+          </h3> -->
 
           <p class="text-gray-600 leading-relaxed mb-4">
-            Apex Dura has exceeded energy reduction targets set by the Bureau of Energy Efficiency, Ministry of Power,
-            and Government of India. Our commitment to green steel manufacturing reflects our dedication to community,
-            national, and environmental sustainability.
+            Sustainably forged in Mysore with wind, solar, and zero waste—Fe500D/Fe550D bars that bond 20% stronger, bend without brittle failure.
           </p>
 
         </div>
@@ -107,6 +105,90 @@
 
       </div>
     </section>
+
+    <section class="py-12 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+
+    <!-- Heading -->
+    <h2 class="text-2xl font-semibold text-gray-900 mb-2">
+      Build Green. Build with Apex Dura.
+      <span class="italic font-normal text-gray-600">
+        – BIS-certified, Thermex quenched for seismic safety.
+      </span>
+    </h2>
+
+    <h3 class="text-lg font-semibold text-red-600 mb-6">
+      Sustainability Highlights
+    </h3>
+
+    <!-- Table Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left">
+
+          <!-- Header -->
+          <thead class="bg-green-700/80 text-white">
+            <tr>
+              <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
+                Feature
+              </th>
+              <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
+                Benefit
+              </th>
+              <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
+                Impact
+              </th>
+            </tr>
+          </thead>
+
+          <!-- Body -->
+          <tbody class="divide-y divide-gray-200">
+
+            <tr class="hover:bg-red-50 transition">
+              <td class="px-6 py-5 font-medium text-gray-800">
+                Captive Renewables
+              </td>
+              <td class="px-6 py-5 text-gray-600">
+                Cuts power costs 30%
+              </td>
+              <td class="px-6 py-5 text-gray-600">
+                CO₂ reduction: 1.2 tons/ton steel
+              </td>
+            </tr>
+
+            <tr class="bg-gray-50 hover:bg-red-50 transition">
+              <td class="px-6 py-5 font-medium text-gray-800">
+                Water Reuse
+              </td>
+              <td class="px-6 py-5 text-gray-600">
+                Zero discharge
+              </td>
+              <td class="px-6 py-5 text-gray-600">
+                Saves 500 KL/day
+              </td>
+            </tr>
+
+            <tr class="hover:bg-red-50 transition">
+              <td class="px-6 py-5 font-medium text-gray-800">
+                Zero Waste
+              </td>
+              <td class="px-6 py-5 text-gray-600">
+                Full recycling
+              </td>
+              <td class="px-6 py-5 text-gray-600">
+                100% landfill-free
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
     <!-- Carousel Section -->

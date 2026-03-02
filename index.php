@@ -51,25 +51,11 @@
     <!-- ================= RED BAR ================= -->
 
     <section class="w-full bg-red-600">
-      <div class="flex flex-col sm:flex-row sm:items-center px-4 sm:px-6 py-4 sm:py-0 sm:h-[70px]">
+      <div class="max-w-7xl mx-auto flex items-center justify-center px-4 sm:px-6 lg:px-8 py-4 sm:py-0 sm:h-[70px]">
 
-        <!-- Heading -->
-        <h2 class="text-white text-lg sm:text-xl md:text-xl font-bold whitespace-nowrap hidden md:block fade-left">
-          Welcome to Apex <br> Steel !
+        <h2 class="text-white text-center text-sm sm:text-base md:text-lg lg:text-xl font-bold leading-snug"> Build with
+          Strength. Build with Certainty.
         </h2>
-        <h2 class="text-white text-lg sm:text-xl md:text-xl font-bold whitespace-nowrap md:hidden fade-left">
-          Welcome to Apex Steel !
-        </h2>
-
-        <!-- Divider (hidden on mobile) -->
-        <div class="hidden sm:block h-10 w-px bg-white opacity-80 mx-4 md:mx-10 fade-right"></div>
-
-        <!-- Description -->
-        <p
-          class="text-white text-xs sm:text-sm md:text-[11px] lg:text-[14px] font-light leading-relaxed mt-2 sm:mt-0 max-w-6xl fade-right">
-          Powered by next-gen TMT technology, we deliver superior quality bars at the right price, supported by a
-          reliable network that keeps your projects moving seamlessly.
-        </p>
 
       </div>
     </section>
@@ -132,29 +118,43 @@
           <!-- LEFT CONTENT -->
           <div>
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-red-600 leading-tight mb-6 fade-left">
-              Engineering Strength Behind India's Modern Infrastructure Growth
-              Today
+              Steel's Supreme Trifecta – Before You Settle!
             </h1>
 
             <p class="text-gray-600 text-sm sm:text-base lg:text-lg max-w-xl mb-6 fade-left">
-              Precision manufacturing, world-class facilities, and uncompromising quality control.Built to deliver
-              consistency, scale, and strength across every project.
+              Demand SST (Strength that Shatters Limits, Sustainability that Saves Tomorrow, Technology that Tempers
+              Perfection) – or risk rusty regrets. Apex Dura delivers the unbeatable combo: Fe500D/550 earthquake-proof
+              grip, wind/solar-powered green forging, Thermex-quenched precision.
             </p>
 
             <div class="flex flex-wrap gap-3">
               <span
                 class="bg-red-600 text-white text-xs sm:text-sm px-3 py-1 rounded-sm font-light fade-left">Strength</span>
               <span
-                class="bg-red-600 text-white text-xs sm:text-sm px-3 py-1 rounded-sm font-light fade-left">Innovation</span>
+                class="bg-red-600 text-white text-xs sm:text-sm px-3 py-1 rounded-sm font-light fade-left">Sustainability</span>
               <span
-                class="bg-red-600 text-white text-xs sm:text-sm px-3 py-1 rounded-sm font-light fade-left">Durability</span>
+                class="bg-red-600 text-white text-xs sm:text-sm px-3 py-1 rounded-sm font-light fade-left">Technology</span>
             </div>
-            <div class="mt-10 fade-right">
-              <a href="aboutus.php"
-                class="inline-flex items-center gap-2  text-white bg-red-600 font-bold text-sm px-4 py-2 rounded-md transition hover:-translate-y-[2px] hover:shadow-lg">
-                <h3>Learn More</h3>
-                <img src="Apex-icons/next-white.png" alt="next" class="w-3" />
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 fade-right">
+
+              <!-- Primary Button -->
+              <a href="contact-us.php"
+                class="inline-flex items-center justify-center gap-2 bg-red-600 text-white font-semibold text-sm px-6 py-3 rounded-md transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:bg-red-700">
+
+                Request a Quote
+                <img src="Apex-icons/next-white.png" alt="next" class="w-4 h-4 object-contain" />
+
               </a>
+
+              <!-- Secondary Button -->
+              <a href="contact-us.php"
+                class="inline-flex items-center justify-center gap-2 border border-red-600 text-red-600 bg-white font-semibold text-sm px-6 py-3 rounded-md transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:bg-red-50">
+
+                Talk to a Technical Advisor
+                <img src="Apex-icons/Next-large.png" alt="next" class="w-4 h-4 object-contain " />
+
+              </a>
+
             </div>
           </div>
 
@@ -205,68 +205,134 @@
       </div>
     </section>
 
-    <!-- Cards section -->
-    <section>
-      <div class="relative max-w-7xl mx-auto mt-10 px-4 fade-right">
+
+    <!-- Cards Section -->
+    <section class="py-8">
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <!-- Prev Button -->
         <button id="apxPrevBtn"
-          class="absolute left-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center cursor-pointer xl:hidden">
-          <img src="Apex-icons/Prev-Arrow.png" class="w-5 h-5" alt="Prev" />
+          class="absolute cursor-pointer left-2 sm:left-[-20px] top-1/2 -translate-y-1/2 z-30 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center">
+          <img src="Apex-icons/Prev-Arrow.png" class="w-5 h-5 sm:w-6 sm:h-6 object-contain" alt="Prev" />
         </button>
 
         <!-- Next Button -->
         <button id="apxNextBtn"
-          class="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center cursor-pointer xl:hidden">
-          <img src="Apex-icons/next-Arrow.png" class="w-5 h-5" alt="Next" />
+          class="absolute right-2 cursor-pointer sm:right-[-20px] top-1/2 -translate-y-1/2 z-30 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center">
+          <img src="Apex-icons/next-Arrow.png" class="w-5 h-5 sm:w-6 sm:h-6 object-contain" alt="Next" />
         </button>
 
         <!-- Viewport -->
         <div class="overflow-hidden">
           <div id="apxCarouselTrack" class="flex transition-transform duration-500 ease-in-out">
 
-            <!-- Slide 1 -->
-            <div class="min-w-full md:min-w-1/2 lg:min-w-1/3 p-4 flex justify-center">
-              <div class="w-full max-w-xs bg-gray-100 rounded-2xl shadow-md p-5">
-                <img src="Apex-icons/Logo-icon.png" class="h-6 mb-8" />
-                <img src="Apex-icons/ConstructionBars-icon.png" class="h-8 w-8 mb-4 " />
-                <h3 class="text-lg font-semibold text-gray-800 mb-2">Construction Bars</h3>
-                <p class="text-sm text-gray-500 mb-6">
-                  TMT 500 and 550 Bars <br />
-                  (Anti Corrosion) EQR Bars <br>
-                  (Earthquake Resistant).
-                </p>
-                <img src="Apex-Images/card-bg-1.png" class="w-full object-contain" />
-              </div>
+            <!-- Slide -->
+            <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
+              <a href="apextmt-fe500-and-Fe550-Bar.php" class="w-full max-w-sm">
+                <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
+
+                  <div class="justify-start">
+                    <img src="Apex-icons/Logo-icon.png" class="h-5 sm:h-6 w-auto object-contain mb-6 sm:mb-8" />
+                  </div>
+
+
+
+                  <img src="Apex-icons/ConstructionBars-icon.png" class="h-7 w-7 sm:h-8 sm:w-8 mb-4" />
+
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-3">
+                    Construction Bars
+                  </h3>
+
+                  <div class="text-sm text-gray-500 space-y-2">
+                    <p>
+                      TMT 500 and 550 Bars <br>
+                      (Anti Corrosion) EQR Bars <br>
+                      (Earthquake Resistant).
+                    </p>
+                  </div>
+
+                  <img src="Apex-Images/card-bg-1.png" class="w-full object-contain mt-auto pt-6" />
+                </div>
+              </a>
             </div>
 
-            <!-- Slide 2 -->
-            <div class="min-w-full md:min-w-1/2 lg:min-w-1/3 p-4 flex justify-center">
-              <div class="w-full max-w-xs bg-gray-100 rounded-2xl shadow-md p-5">
-                <img src="Apex-icons/Logo-icon.png" class="h-6 mb-8" />
-                <img src="Apex-icons/Roundedbars-icon.png" class="h-8 w-8 mb-4" />
-                <h3 class="text-lg font-semibold text-gray-800 mb-2">Round Bars</h3>
-                <p class="text-sm text-gray-500 mb-6">
-                  Anti Corrosion EQR Bars<br />
-                  Earthquake Resistance
-                </p>
-                <img src="Apex-Images/card-bg-2.png" class="w-full object-contain" />
-              </div>
+            <!-- Slide -->
+            <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
+              <a href="apexround-Bar.php" class="w-full max-w-sm">
+                <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
+
+                  <div class="justify-start">
+                    <img src="Apex-icons/Logo-icon.png" class="h-5 sm:h-6 w-auto object-contain mb-6 sm:mb-8" />
+                  </div>
+
+                  <img src="Apex-icons/Roundedbars-icon.png" class="h-7 w-7 sm:h-8 sm:w-8 mb-4" />
+
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-3">
+                    Round Bars
+                  </h3>
+
+                  <div class="text-sm text-gray-500 space-y-2">
+                    <p>
+                      steel round bars deliver unmatched durability for machinery, construction, and fabrication. Black
+                      and bright finishes available—build stronger, faster.
+                    </p>
+                    <p>
+                      Fatigue-resistant, precise gauge control (+/-3% BIS), thermal stability up to 600°C
+                    </p>
+                  </div>
+
+                  <img src="Apex-Images/card-bg-2.png" class="w-full object-contain mt-auto pt-6" />
+                </div>
+              </a>
             </div>
 
-            <!-- Slide 3 -->
-            <div class="min-w-full md:min-w-1/2 lg:min-w-1/3 p-4 flex justify-center">
-              <div class="w-full max-w-xs bg-gray-100 rounded-2xl shadow-md p-5">
-                <img src="Apex-icons/Logo-icon.png" class="h-6 mb-8" />
-                <img src="Apex-icons/Billets-icon.png" class="h-8 w-8 mb-4" />
-                <h3 class="text-lg font-semibold text-gray-800 mb-2">Billets</h3>
-                <p class="text-sm text-gray-500 mb-6">
-                  Mild and Carbon Steel, Low <br />
-                  Alloy Steel IOOxlOO , IOx10 , <br>
-                  160 x l60 sq. mm.
-                </p>
-                <img src="Apex-Images/card-bg-3.png" class="w-full object-contain" />
-              </div>
+            <!-- Slide -->
+            <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
+              <a href="apex-billets.php" class="w-full max-w-sm">
+                <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
+
+                  <div class="justify-start">
+                    <img src="Apex-icons/Logo-icon.png" class="h-5 sm:h-6 w-auto object-contain mb-6 sm:mb-8" />
+                  </div>
+
+                  <img src="Apex-icons/Billets-icon.png" class="h-7 w-7 sm:h-8 sm:w-8 mb-4" />
+
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-3">
+                    Billets
+                  </h3>
+
+                  <div class="text-sm text-gray-500 space-y-2">
+                    <p>consistent quality, rapid delivery from our plants. BIS-grade billets powering your projects</p>
+                    <p>Low segregation, high ductility, cost-effective for re-rollers</p>
+                  </div>
+
+                  <img src="Apex-Images/card-bg-3.png" class="w-full object-contain mt-auto pt-6" />
+                </div>
+              </a>
+            </div>
+
+            <!-- Slide -->
+            <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
+              <a href="ms-Products.php" class="w-full max-w-sm">
+                <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
+
+                  <div class="justify-start">
+                    <img src="Apex-icons/Logo-icon.png" class="h-5 sm:h-6 w-auto object-contain mb-6 sm:mb-8" />
+                  </div>
+
+                  <img src="Apex-icons/Billets-icon.png" class="h-7 w-7 sm:h-8 sm:w-8 mb-4" />
+
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-3">
+                    MS Products
+                  </h3>
+
+                  <div class="text-sm text-gray-500">
+                    <p>Explore our MS product portfolio to power your constructions </p>
+                  </div>
+
+                  <img src="Apex-Images/card-bg-3.png" class="w-full object-contain mt-auto pt-6" />
+                </div>
+              </a>
             </div>
 
           </div>

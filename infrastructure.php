@@ -94,8 +94,8 @@
         <div class="max-w-[520px] text-gray-800">
           <!-- Title -->
           <h2 class="text-[20px] sm:text-[22px] font-semibold text-gray-900 fade-left">
-            M/s.
-            <span class="font-bold">Khayati Steel Industries Pvt. Ltd.</span>
+            M/S .
+            <span class="font-bold uppercase">KHAYTI STEEL INDUSTRIES LIMITED </span>
           </h2>
 
           <!-- Description -->

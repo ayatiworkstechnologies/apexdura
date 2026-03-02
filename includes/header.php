@@ -84,7 +84,7 @@ $isProductPage = in_array($currentPage, $productPages);
           <!-- MS PRODUCTS SUBMENU -->
           <div class="relative group/ms">
 
-            <a href="#"
+            <a href="ms-Products.php"
               class="flex justify-between items-center hover:text-red-500
         <?= (in_array($currentPage, ['ms-channels.php', 'ms-equalangles.php', 'ms-beams.php', 'ms-roundbars.php', 'ms-squarebars.php', 'ms-flatbars.php'])) ? 'text-red-600 font-semibold' : '' ?>">
               MS Products
@@ -183,7 +183,7 @@ $isProductPage = in_array($currentPage, $productPages);
       <a href="infrastructure.php"
         class="transition-all duration-300 hover:text-red-600
      <?= ($currentPage == 'infrastructure.php') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
-        Infrastructure
+        Our Infrastructure
       </a>
 
       <a href="investor-corner.php"
@@ -265,32 +265,71 @@ $isProductPage = in_array($currentPage, $productPages);
 
         <!-- MS PRODUCTS -->
         <div>
-          <button id="mobileMsBtn"
-            class="w-full text-left py-1 text-sm flex justify-between items-center hover:text-red-500 uppercase
-          <?= (in_array($currentPage, ['ms-channels.php', 'ms-equalangles.php', 'ms-beams.php', 'ms-roundbars.php', 'ms-squarebars.php', 'ms-flatbars.php'])) ? 'text-red-600 font-semibold' : '' ?>">
-            MS Products
-            <span>▸</span>
-          </button>
 
-          <div id="mobileMsMenu" class="hidden mt-2 ml-4 space-y-1">
-            <a href="ms-channels.php" class="block text-sm hover:text-red-500
-            <?= ($currentPage == 'ms-channels.php') ? 'text-red-600 font-semibold' : '' ?>">MS Channels</a>
+          <?php
+          $msPages = [
+            'ms-products.php',
+            'ms-channels.php',
+            'ms-equalangles.php',
+            'ms-beams.php',
+            'ms-roundbars.php',
+            'ms-squarebars.php',
+            'ms-flatbars.php'
+          ];
+          ?>
 
-            <a href="ms-equalangles.php" class="block text-sm hover:text-red-500
-            <?= ($currentPage == 'ms-equalangles.php') ? 'text-red-600 font-semibold' : '' ?>">MS Equal Angles</a>
+          <!-- Parent Row -->
+          <div class="flex justify-between items-center">
 
-            <a href="ms-beams.php" class="block text-sm hover:text-red-500
-            <?= ($currentPage == 'ms-beams.php') ? 'text-red-600 font-semibold' : '' ?>">MS Beams</a>
+            <!-- LEFT SIDE → Go to ms-products.php -->
+            <a href="ms-products.php" class="py-1 text-sm uppercase hover:text-red-500
+       <?= (in_array($currentPage, $msPages)) ? 'text-red-600 font-semibold' : '' ?>">
+              MS Products
+            </a>
 
-            <a href="ms-roundbars.php" class="block text-sm hover:text-red-500
-            <?= ($currentPage == 'ms-roundbars.php') ? 'text-red-600 font-semibold' : '' ?>">MS Round Bars</a>
+            <!-- RIGHT SIDE → Toggle submenu only -->
+            <button id="mobileMsBtn" class="text-sm px-2 transition-transform duration-300">
+              ▸
+            </button>
 
-            <a href="ms-squarebars.php" class="block text-sm hover:text-red-500
-            <?= ($currentPage == 'ms-squarebars.php') ? 'text-red-600 font-semibold' : '' ?>">MS Square Bars</a>
-
-            <a href="ms-flatbars.php" class="block text-sm hover:text-red-500
-            <?= ($currentPage == 'ms-flatbars.php') ? 'text-red-600 font-semibold' : '' ?>">MS Flat Bars</a>
           </div>
+
+          <!-- Submenu -->
+          <div id="mobileMsMenu" class="<?= (in_array($currentPage, $msPages) && $currentPage != 'ms-products.php') ? '' : 'hidden' ?>
+              mt-2 ml-4 space-y-2 text-sm">
+
+            <a href="ms-channels.php" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-channels.php') ? 'text-red-600 font-semibold' : '' ?>">
+              MS Channels
+            </a>
+
+            <a href="ms-equalangles.php" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-equalangles.php') ? 'text-red-600 font-semibold' : '' ?>">
+              MS Equal Angles
+            </a>
+
+            <a href="ms-beams.php" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-beams.php') ? 'text-red-600 font-semibold' : '' ?>">
+              MS Beams
+            </a>
+
+            <a href="ms-roundbars.php" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-roundbars.php') ? 'text-red-600 font-semibold' : '' ?>">
+              MS Round Bars
+            </a>
+
+            <a href="ms-squarebars.php" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-squarebars.php') ? 'text-red-600 font-semibold' : '' ?>">
+              MS Square Bars
+            </a>
+
+            <a href="ms-flatbars.php" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-flatbars.php') ? 'text-red-600 font-semibold' : '' ?>">
+              MS Flat Bars
+            </a>
+
+          </div>
+
         </div>
 
         <!-- TMT SIZES -->
@@ -302,8 +341,11 @@ $isProductPage = in_array($currentPage, $productPages);
           <button id="mobileSizesBtn"
             class="w-full text-left py-1 text-sm flex justify-between items-center hover:text-red-500 uppercase
   <?= ($currentPage == '5mm-tmtbar.php' || $currentPage == '5mm-to-32mm-tmtbar.php') ? 'text-red-600 font-semibold' : '' ?>">
-            All TMT Bar Sizes
-            <span>▸</span>
+
+            <span>All TMT Bar Sizes</span>
+
+            <span class="arrow transition-transform duration-300">▸</span>
+
           </button>
 
           <div id="mobileSizesMenu" class="hidden mt-2 ml-4 space-y-1">
@@ -343,7 +385,7 @@ $isProductPage = in_array($currentPage, $productPages);
     <a href="infrastructure.php" class="block px-4 py-2 rounded-full transition font-semibold
      hover:bg-white hover:text-red-600 hover:shadow
      <?= ($currentPage == 'infrastructure.php') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
-      Infrastructure
+      Our Infrastructure
     </a>
 
     <a href="investor-corner.php" class="block px-4 py-2 rounded-full transition font-semibold
@@ -445,23 +487,42 @@ $isProductPage = in_array($currentPage, $productPages);
     const mobileMsBtn = document.getElementById("mobileMsBtn");
     const mobileMsMenu = document.getElementById("mobileMsMenu");
 
-    if (mobileProductsBtn) {
-      mobileProductsBtn.addEventListener("click", () => {
+    // ===== PRODUCTS TOGGLE =====
+    if (mobileProductsBtn && mobileProductsMenu) {
+      mobileProductsBtn.addEventListener("click", function (e) {
+        e.stopPropagation();
         mobileProductsMenu.classList.toggle("hidden");
       });
     }
 
-    if (mobileSizesBtn) {
-      mobileSizesBtn.addEventListener("click", () => {
-        mobileMsMenu.classList.add("hidden");
+    // ===== TMT SIZES TOGGLE =====
+    if (mobileSizesBtn && mobileSizesMenu) {
+      mobileSizesBtn.addEventListener("click", function (e) {
+        e.stopPropagation();
+
         mobileSizesMenu.classList.toggle("hidden");
+
+        const arrow = mobileSizesBtn.querySelector(".arrow");
+        if (arrow) {
+          arrow.classList.toggle("rotate-90");
+        }
       });
     }
 
-    if (mobileMsBtn) {
-      mobileMsBtn.addEventListener("click", () => {
-        mobileSizesMenu.classList.add("hidden");
+    // ===== MS PRODUCTS TOGGLE =====
+    if (mobileMsBtn && mobileMsMenu) {
+      mobileMsBtn.addEventListener("click", function (e) {
+        e.stopPropagation();
+
+        // Close TMT submenu safely
+        if (mobileSizesMenu) {
+          mobileSizesMenu.classList.add("hidden");
+        }
+
         mobileMsMenu.classList.toggle("hidden");
+
+        // Rotate arrow
+        mobileMsBtn.classList.toggle("rotate-90");
       });
     }
 
