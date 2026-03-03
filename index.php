@@ -330,7 +330,7 @@
                     <p>Explore our MS product portfolio to power your constructions </p>
                   </div>
 
-                  <img src="Apex-Images/card-bg-3.png" class="w-full object-contain mt-auto pt-6" />
+                  <img src="Apex-Images/ms-products-img-3.png" class="w-full object-contain mt-auto pt-6" />
                 </div>
               </a>
             </div>

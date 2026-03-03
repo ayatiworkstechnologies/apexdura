@@ -117,7 +117,7 @@
 
 
                     <img src="Apex-Images/fe500-real.jpg" alt="Steel Structure"
-                        class="w-full max-w-md lg:max-w-lg object-cover shadow-xl">
+                        class="w-full max-w-md lg:max-w-lg object-cover shadow-xl rounded-[10px]">
                 </div>
 
             </div>

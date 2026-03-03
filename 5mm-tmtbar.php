@@ -101,7 +101,7 @@
 
 
 
-                    <img src="Apex-Images/5mm.jpg" alt="Steel Structure"
+                    <img src="Apex-Images/5mm.svg" alt="Steel Structure"
                         class="w-full max-w-md lg:max-w-lg object-cover">
                 </div>
 

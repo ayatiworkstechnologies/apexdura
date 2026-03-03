@@ -96,6 +96,8 @@
           <p class="text-red-600 font-semibold mb-8">
             75 x 40mm to 200 x 75mm (Light Wt. / Med. Wt. / STD .Wt.)
           </p>
+
+          <img src="Apex-Images/ms-products-img-1.png" class="w-full object-contain mt-auto pb-3" />
         </div>
 
         <div class="mt-auto">
@@ -125,9 +127,10 @@
            Explore our comprehensive range of high-quality Mild Steel (MS) Equal and Unequal Angles, designed for structural support and industrial applications.
           </p>
 
-          <p class="text-red-600 font-semibold mb-8">
+          <p class="text-red-600 font-semibold mb-20">
             25 x 25 x 3mm to 110 x 110 x 12mm
           </p>
+           <img src="Apex-Images/ms-products-img-2.png" class="w-full object-contain mt-auto pb-3" />
         </div>
 
         <div class="mt-auto">
@@ -160,6 +163,7 @@
           <p class="text-red-600 font-semibold mb-8">
             100 x 50mm to 200 x 100mm (Light Wt. / Med. Wt. / STD .Wt.)
           </p>
+           <img src="Apex-Images/ms-products-img-3.png" class="w-full object-contain mt-auto pb-3" />
         </div>
 
         <div class="mt-auto">
@@ -192,6 +196,7 @@
           <p class="text-red-600 font-semibold mb-8">
             10 mm to 125 mm
           </p>
+           <img src="Apex-Images/ms-products-img-4.png" class="w-full object-contain mt-auto pb-3" />
         </div>
 
         <div class="mt-auto">
@@ -224,6 +229,7 @@
           <p class="text-red-600 font-semibold mb-8">
             10 mm to 56 mm
           </p>
+           <img src="Apex-Images/ms-products-img-5.png" class="w-full object-contain mt-auto pb-3" />
         </div>
 
         <div class="mt-auto">
@@ -256,6 +262,7 @@
           <p class="text-red-600 font-semibold mb-8">
             Width 25 mm to 300 mm | Thickness 5 mm to 50 mm
           </p>
+           <img src="Apex-Images/ms-products-img-6.png" class="w-full object-contain mt-auto pb-3" />
         </div>
 
         <div class="mt-auto">

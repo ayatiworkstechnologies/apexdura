@@ -113,8 +113,8 @@
 
 
 
-                    <img src="Apex-Images/round-bar.jpg" alt="Steel Structure"
-                        class="w-full max-w-md lg:max-w-lg object-cover shadow-xl">
+                    <img src="Apex-Images/round-1-bar.jpg" alt="Steel Structure"
+                        class="w-full max-w-md lg:max-w-lg object-cover shadow-xl rounded-[10px]">
                 </div>
 
             </div>
