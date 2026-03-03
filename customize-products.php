@@ -98,7 +98,7 @@
       Get in touch with us
     </h2>
 
-    <form id="customize-Form" class="space-y-6" method="post" action="customize-form.php">
+    <form id="customize-Form" class="space-y-6" method="post" action="customize-form">
 
       <!-- Name -->
       <div>
@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
       button.disabled = true;
       button.innerText = "Submitting...";
 
-      fetch("customize-form.php", {
+      fetch("customize-form", {
         method: "POST",
         body: formData
       })

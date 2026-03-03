@@ -82,7 +82,7 @@
           <h2 class="text-2xl font-semibold mb-6 text-red-600">
             Leave a message
           </h2>
-          <form id="contact-form" class="space-y-4" action="contact-form.php" method="post">
+          <form id="contact-form" class="space-y-4" action="contact-form" method="post">
 
             <!-- Row 1 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -209,7 +209,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
     const form = this;
     const formData = new FormData(form);
 
-    fetch("contact-form.php", {
+    fetch("contact-form", {
         method: "POST",
         body: formData
     })

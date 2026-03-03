@@ -13,7 +13,7 @@
     </p>
 
     <!-- Button -->
-    <a href="estimator.php">
+    <a href="estimator">
       <button class="inline-flex items-center gap-2 border border-red-500 text-black font-semibold px-6 py-3 rounded-md hover:bg-red-500 hover:text-white transition cursor-pointer">
         Get A Free Estimate
         <img src="Apex-icons/Next-large.png" class="w-4" alt="arrow" />
@@ -77,32 +77,32 @@
           <h4 class="text-red-600 font-semibold mb-4">Quick Links</h4>
           <ul class="space-y-3 text-gray-700 text-sm">
             <li>
-              <a href="products.php" class="hover:text-red-500 cursor-pointer">
+              <a href="products" class="hover:text-red-500 cursor-pointer">
                 Products
               </a>
             </li>
             <li>
-              <a href="infrastructure.php" class="hover:text-red-500 cursor-pointer">
+              <a href="infrastructure" class="hover:text-red-500 cursor-pointer">
                 Infrastructure
               </a>
             </li>
             <li>
-              <a href="investor-corner.php" class="hover:text-red-500 cursor-pointer">
+              <a href="investor-corner" class="hover:text-red-500 cursor-pointer">
                 Investor Corner
               </a>
             </li>
             <li>
-              <a href="estimator.php" class="hover:text-red-500 cursor-pointer">
+              <a href="estimator" class="hover:text-red-500 cursor-pointer">
                 Estimator
               </a>
             </li>
             <li>
-              <a href="contact-us.php" class="hover:text-red-500 cursor-pointer">
+              <a href="contact-us" class="hover:text-red-500 cursor-pointer">
                 Contact Us
               </a>
             </li>
             <li>
-              <a href="sustainability.php" class="hover:text-red-500 cursor-pointer">
+              <a href="sustainability" class="hover:text-red-500 cursor-pointer">
                 Sustainability
               </a>
             </li>

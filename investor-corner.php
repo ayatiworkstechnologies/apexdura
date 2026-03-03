@@ -108,7 +108,7 @@
               Get in touch with us
             </h3>
 
-            <form id="investorForm" class="space-y-7 fade-left" action="investor.php" method="post" >
+            <form id="investorForm" class="space-y-7 fade-left" action="investor" method="post" >
 
               <div>
                 <label class="block text-md font-bold mb-1 ">Business Name</label>
@@ -170,7 +170,7 @@ document.getElementById("investorForm").addEventListener("submit", function(e) {
     const form = this;
     const formData = new FormData(form);
 
-    fetch("investor.php", {
+    fetch("investor", {
         method: "POST",
         body: formData
     })

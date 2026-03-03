@@ -99,7 +99,7 @@
         </div>
 
         <div class="mt-auto">
-          <a href="ms-channels.php"
+          <a href="ms-channels"
              class="inline-flex items-center gap-2 
                     bg-gradient-to-r from-red-600 to-red-700
                     text-white px-6 py-3 rounded-full
@@ -131,7 +131,7 @@
         </div>
 
         <div class="mt-auto">
-          <a href="ms-equalangles.php"
+          <a href="ms-equalangles"
              class="inline-flex items-center gap-2 
                     bg-gradient-to-r from-red-600 to-red-700
                     text-white px-6 py-3 rounded-full
@@ -163,7 +163,7 @@
         </div>
 
         <div class="mt-auto">
-          <a href="ms-beams.php"
+          <a href="ms-beams"
              class="inline-flex items-center gap-2 
                     bg-gradient-to-r from-red-600 to-red-700
                     text-white px-6 py-3 rounded-full
@@ -195,7 +195,7 @@
         </div>
 
         <div class="mt-auto">
-          <a href="ms-roundbars.php"
+          <a href="ms-roundbars"
              class="inline-flex items-center gap-2 
                     bg-gradient-to-r from-red-600 to-red-700
                     text-white px-6 py-3 rounded-full
@@ -227,7 +227,7 @@
         </div>
 
         <div class="mt-auto">
-          <a href="ms-squarebars.php"
+          <a href="ms-squarebars"
              class="inline-flex items-center gap-2 
                     bg-gradient-to-r from-red-600 to-red-700
                     text-white px-6 py-3 rounded-full
@@ -259,7 +259,7 @@
         </div>
 
         <div class="mt-auto">
-          <a href="ms-flatbars.php"
+          <a href="ms-flatbars"
              class="inline-flex items-center gap-2 
                     bg-gradient-to-r from-red-600 to-red-700
                     text-white px-6 py-3 rounded-full

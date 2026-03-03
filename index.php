@@ -138,7 +138,7 @@
             <div class="mt-10 flex flex-col sm:flex-row gap-4 fade-right">
 
               <!-- Primary Button -->
-              <a href="contact-us.php"
+              <a href="customize-products"
                 class="inline-flex items-center justify-center gap-2 bg-red-600 text-white font-semibold text-sm px-6 py-3 rounded-md transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:bg-red-700">
 
                 Request a Quote
@@ -147,7 +147,7 @@
               </a>
 
               <!-- Secondary Button -->
-              <a href="contact-us.php"
+              <a href="contact-us"
                 class="inline-flex items-center justify-center gap-2 border border-red-600 text-red-600 bg-white font-semibold text-sm px-6 py-3 rounded-md transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:bg-red-50">
 
                 Talk to a Technical Advisor
@@ -228,7 +228,7 @@
 
             <!-- Slide -->
             <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
-              <a href="apextmt-fe500-and-Fe550-Bar.php" class="w-full max-w-sm">
+              <a href="apextmt-fe500-and-Fe550-Bar" class="w-full max-w-sm">
                 <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
 
                   <div class="justify-start">
@@ -258,7 +258,7 @@
 
             <!-- Slide -->
             <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
-              <a href="apexround-Bar.php" class="w-full max-w-sm">
+              <a href="apexround-Bar" class="w-full max-w-sm">
                 <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
 
                   <div class="justify-start">
@@ -288,7 +288,7 @@
 
             <!-- Slide -->
             <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
-              <a href="apex-billets.php" class="w-full max-w-sm">
+              <a href="apex-billets" class="w-full max-w-sm">
                 <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
 
                   <div class="justify-start">
@@ -313,7 +313,7 @@
 
             <!-- Slide -->
             <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-3 sm:px-4 flex justify-center pb-2">
-              <a href="ms-Products.php" class="w-full max-w-sm">
+              <a href="ms-Products" class="w-full max-w-sm">
                 <div class="bg-gray-100 rounded-2xl shadow-md p-5 sm:p-6 flex flex-col h-full">
 
                   <div class="justify-start">
@@ -363,7 +363,7 @@
             high-stress structural environments.
           </p>
 
-          <a href="rib-technology.php">
+          <a href="rib-technology">
             <button
               class="mt-6 bg-red-600 cursor-pointer hover:bg-red-600 text-white text-sm font-semibold px-6 py-3 rounded-md transition-all duration-300 shadow-md hover:bg-red-700 fade-left">
               Explore Rib Technology →
@@ -868,7 +868,7 @@
               partnerships with our clients.
             </p>
 
-            <a href="aboutus.php"
+            <a href="aboutus"
               class="inline-flex items-center gap-2 bg-white text-red-600 font-bold text-sm px-6 py-3 rounded-md transition hover:-translate-y-[2px] hover:shadow-lg fade-right">
               Learn More
               <img src="Apex-icons/Next-large.png" alt="next" class="w-3" />

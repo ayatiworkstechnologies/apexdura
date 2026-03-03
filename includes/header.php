@@ -2,18 +2,19 @@
 $currentPage = basename($_SERVER['PHP_SELF']);
 
 $productPages = [
-  'apextmt-fe500-and-Fe550-Bar.php',
-  'apexround-Bar.php',
-  'apex-billets.php',
-  'ms-channels.php',
-  'ms-equalangles.php',
-  'ms-beams.php',
-  'ms-roundbars.php',
-  'ms-squarebars.php',
-  'ms-flatbars.php',
-  '5mm-tmtbar.php',
-  '5mm-to-32mm-tmtbar.php',
-  'customize-products.php'
+  'apextmt-fe500-and-Fe550-Bar',
+  'apexround-Bar',
+  'apex-billets',
+  'ms-channels',
+  'ms-equalangles',
+  'ms-beams',
+  'ms-roundbars',
+  'ms-squarebars',
+  'ms-flatbars',
+  '5mm-tmtbar',
+  '5mm-to-32mm-tmtbar',
+  'customize-products'
+
 ];
 
 $isProductPage = in_array($currentPage, $productPages);
@@ -31,7 +32,7 @@ $isProductPage = in_array($currentPage, $productPages);
               px-4 sm:px-6 md:px-8 py-3">
 
     <!-- Logo -->
-    <a href="index.php">
+    <a href="index">
       <img src="Apex-icons/Logo.png" alt="Apex Dura Logo" class="h-10 sm:h-10 w-auto md:h-10" />
     </a>
 
@@ -39,15 +40,15 @@ $isProductPage = in_array($currentPage, $productPages);
     <nav class="hidden xl:flex items-center gap-8
             text-white text-base lg:text-lg font-medium">
 
-      <a href="index.php"
+      <a href="index"
         class="transition-all duration-300 hover:text-red-600
-     <?= ($currentPage == 'index.php') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
+     <?= ($currentPage == 'index') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
         Home
       </a>
 
-      <a href="aboutus.php"
+      <a href="aboutus"
         class="transition-all duration-300 hover:text-red-600
-     <?= ($currentPage == 'aboutus.php') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
+     <?= ($currentPage == 'aboutus') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
         About Us
       </a>
 
@@ -66,27 +67,27 @@ $isProductPage = in_array($currentPage, $productPages);
     overflow-visible z-50 w-65 p-6 space-y-4">
 
           <!-- Apex Products -->
-          <a href="apextmt-fe500-and-Fe550-Bar.php" class="block hover:text-red-500
-      <?= ($currentPage == 'apextmt-fe500-and-Fe550-Bar.php') ? 'text-red-600 font-semibold' : '' ?>">
+          <a href="apextmt-fe500-and-Fe550-Bar" class="block hover:text-red-500
+      <?= ($currentPage == 'apextmt-fe500-and-Fe550-Bar') ? 'text-red-600 font-semibold' : '' ?>">
             Apex TMT Fe 500 and Fe 550 Bar
           </a>
 
-          <a href="apexround-Bar.php" class="block hover:text-red-500
-      <?= ($currentPage == 'apexround-Bar.php') ? 'text-red-600 font-semibold' : '' ?>">
+          <a href="apexround-Bar" class="block hover:text-red-500
+      <?= ($currentPage == 'apexround-Bar') ? 'text-red-600 font-semibold' : '' ?>">
             Apex Round Bar
           </a>
 
-          <a href="apex-billets.php" class="block hover:text-red-500
-      <?= ($currentPage == 'apex-billets.php') ? 'text-red-600 font-semibold' : '' ?>">
+          <a href="apex-billets" class="block hover:text-red-500
+      <?= ($currentPage == 'apex-billets') ? 'text-red-600 font-semibold' : '' ?>">
             Apex Billets
           </a>
 
           <!-- MS PRODUCTS SUBMENU -->
           <div class="relative group/ms">
 
-            <a href="ms-Products.php"
+            <a href="ms-Products"
               class="flex justify-between items-center hover:text-red-500
-        <?= (in_array($currentPage, ['ms-channels.php', 'ms-equalangles.php', 'ms-beams.php', 'ms-roundbars.php', 'ms-squarebars.php', 'ms-flatbars.php'])) ? 'text-red-600 font-semibold' : '' ?>">
+        <?= (in_array($currentPage, ['ms-channels', 'ms-equalangles', 'ms-beams', 'ms-roundbars', 'ms-squarebars', 'ms-flatbars'])) ? 'text-red-600 font-semibold' : '' ?>">
               MS Products
               <span>›</span>
             </a>
@@ -96,33 +97,33 @@ $isProductPage = in_array($currentPage, $productPages);
             border border-white/20 w-60 p-6 space-y-3
             rounded-xl shadow-2xl border border-white/10">
 
-              <a href="ms-channels.php" class="block hover:text-red-500
-          <?= ($currentPage == 'ms-channels.php') ? 'text-red-600 font-semibold' : '' ?>">
+              <a href="ms-channels" class="block hover:text-red-500
+          <?= ($currentPage == 'ms-channels') ? 'text-red-600 font-semibold' : '' ?>">
                 MS Channels
               </a>
 
-              <a href="ms-equalangles.php" class="block hover:text-red-500
-          <?= ($currentPage == 'ms-equalangles.php') ? 'text-red-600 font-semibold' : '' ?>">
+              <a href="ms-equalangles" class="block hover:text-red-500
+          <?= ($currentPage == 'ms-equalangles') ? 'text-red-600 font-semibold' : '' ?>">
                 MS Equal Angles
               </a>
 
-              <a href="ms-beams.php" class="block hover:text-red-500
-          <?= ($currentPage == 'ms-beams.php') ? 'text-red-600 font-semibold' : '' ?>">
+              <a href="ms-beams" class="block hover:text-red-500
+          <?= ($currentPage == 'ms-beams') ? 'text-red-600 font-semibold' : '' ?>">
                 MS Beams
               </a>
 
-              <a href="ms-roundbars.php" class="block hover:text-red-500
-          <?= ($currentPage == 'ms-roundbars.php') ? 'text-red-600 font-semibold' : '' ?>">
+              <a href="ms-roundbars" class="block hover:text-red-500
+          <?= ($currentPage == 'ms-roundbars') ? 'text-red-600 font-semibold' : '' ?>">
                 MS Round Bars
               </a>
 
-              <a href="ms-squarebars.php" class="block hover:text-red-500
-          <?= ($currentPage == 'ms-squarebars.php') ? 'text-red-600 font-semibold' : '' ?>">
+              <a href="ms-squarebars" class="block hover:text-red-500
+          <?= ($currentPage == 'ms-squarebars') ? 'text-red-600 font-semibold' : '' ?>">
                 MS Square Bars
               </a>
 
-              <a href="ms-flatbars.php" class="block hover:text-red-500
-          <?= ($currentPage == 'ms-flatbars.php') ? 'text-red-600 font-semibold' : '' ?>">
+              <a href="ms-flatbars" class="block hover:text-red-500
+          <?= ($currentPage == 'ms-flatbars') ? 'text-red-600 font-semibold' : '' ?>">
                 MS Flat Bars
               </a>
 
@@ -138,7 +139,7 @@ $isProductPage = in_array($currentPage, $productPages);
 
             <a href="#"
               class="flex justify-between items-center hover:text-red-500
-  <?= ($currentPage == '5mm-tmtbar.php' || $currentPage == '5mm-to-32mm-tmtbar.php') ? 'text-red-600 font-semibold' : '' ?>">
+  <?= ($currentPage == '5mm-tmtbar' || $currentPage == '5mm-to-32mm-tmtbar') ? 'text-red-600 font-semibold' : '' ?>">
               All TMT Bar Sizes
               <span>›</span>
             </a>
@@ -154,11 +155,11 @@ $isProductPage = in_array($currentPage, $productPages);
               foreach ($sizes as $size):
 
                 if ($size == '5') {
-                  $file = '5mm-tmtbar.php';
-                  $isActive = ($currentPage == '5mm-tmtbar.php');
+                  $file = '5mm-tmtbar';
+                  $isActive = ($currentPage == '5mm-tmtbar');
                 } else {
-                  $file = '5mm-to-32mm-tmtbar.php?size=' . $size;
-                  $isActive = ($currentPage == '5mm-to-32mm-tmtbar.php' && $currentSize == $size);
+                  $file = '5mm-to-32mm-tmtbar?size=' . $size;
+                  $isActive = ($currentPage == '5mm-to-32mm-tmtbar' && $currentSize == $size);
                 }
                 ?>
 
@@ -172,35 +173,32 @@ $isProductPage = in_array($currentPage, $productPages);
             </div>
           </div>
 
-          <a href="customize-products.php" class="block hover:text-red-500
-      <?= ($currentPage == 'customize-products.php') ? 'text-red-600 font-semibold' : '' ?>">
+          <a href="customize-products" class="block hover:text-red-500
+      <?= ($currentPage == 'customize-products') ? 'text-red-600 font-semibold' : '' ?>">
             Customize Products
           </a>
 
         </div>
       </div>
 
-      <a href="infrastructure.php"
-        class="transition-all duration-300 hover:text-red-600
-     <?= ($currentPage == 'infrastructure.php') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
+      <a href="infrastructure" class="transition-all duration-300 hover:text-red-600
+     <?= ($currentPage == 'infrastructure') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
         Our Infrastructure
       </a>
 
-      <a href="investor-corner.php"
-        class="transition-all duration-300 hover:text-red-600
-     <?= ($currentPage == 'investor-corner.php') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
+      <a href="investor-corner" class="transition-all duration-300 hover:text-red-600
+     <?= ($currentPage == 'investor-corner') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
         Investor Corner
       </a>
 
-      <a href="estimator.php"
-        class="transition-all duration-300 hover:text-red-600
-     <?= ($currentPage == 'estimator.php') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
+      <a href="estimator" class="transition-all duration-300 hover:text-red-600
+     <?= ($currentPage == 'estimator') ? 'bg-white text-red-600 px-5 py-2 rounded-full shadow-md font-semibold' : '' ?>">
         Estimator
       </a>
 
-      <a href="contact-us.php" class="ml-2 px-6 py-2 rounded-full
+      <a href="contact-us" class="ml-2 px-6 py-2 rounded-full
     transition-all duration-300 shadow-md
-    <?= ($currentPage == 'contact-us.php')
+    <?= ($currentPage == 'contact-us')
       ? 'bg-white text-red-600'
       : 'bg-red-600 text-white hover:bg-red-700' ?>">
         Contact Us
@@ -222,15 +220,15 @@ $isProductPage = in_array($currentPage, $productPages);
             rounded-b-2xl
             max-h-[80vh] overflow-y-auto">
 
-    <a href="index.php" class="block px-4 py-2 rounded-full transition font-semibold
+    <a href="index" class="block px-4 py-2 rounded-full transition font-semibold
      hover:bg-white hover:text-red-600 hover:shadow
-     <?= ($currentPage == 'index.php') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
+     <?= ($currentPage == 'index') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
       Home
     </a>
 
-    <a href="aboutus.php" class="block px-4 py-2 rounded-full transition font-semibold
+    <a href="aboutus" class="block px-4 py-2 rounded-full transition font-semibold
      hover:bg-white hover:text-red-600 hover:shadow
-     <?= ($currentPage == 'aboutus.php') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
+     <?= ($currentPage == 'aboutus') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
       About Us
     </a>
 
@@ -248,18 +246,18 @@ $isProductPage = in_array($currentPage, $productPages);
       <!-- Products Dropdown -->
       <div id="mobileProductsMenu" class="hidden mt-2 ml-4 space-y-2">
 
-        <a href="apextmt-fe500-and-Fe550-Bar.php" class="block py-1 text-sm hover:text-red-500 uppercase
-        <?= ($currentPage == 'apextmt-fe500-and-Fe550-Bar.php') ? 'text-red-600 font-semibold' : '' ?>">
+        <a href="apextmt-fe500-and-Fe550-Bar" class="block py-1 text-sm hover:text-red-500 uppercase
+        <?= ($currentPage == 'apextmt-fe500-and-Fe550-Bar') ? 'text-red-600 font-semibold' : '' ?>">
           Apex TMT Fe 500 and Fe 550 Bar
         </a>
 
-        <a href="apexround-Bar.php" class="block py-1 text-sm hover:text-red-500 uppercase
-        <?= ($currentPage == 'apexround-Bar.php') ? 'text-red-600 font-semibold' : '' ?>">
+        <a href="apexround-Bar" class="block py-1 text-sm hover:text-red-500 uppercase
+        <?= ($currentPage == 'apexround-Bar') ? 'text-red-600 font-semibold' : '' ?>">
           Apex Round Bar
         </a>
 
-        <a href="apex-billets.php" class="block py-1 text-sm hover:text-red-500 uppercase
-        <?= ($currentPage == 'apex-billets.php') ? 'text-red-600 font-semibold' : '' ?>">
+        <a href="apex-billets" class="block py-1 text-sm hover:text-red-500 uppercase
+        <?= ($currentPage == 'apex-billets') ? 'text-red-600 font-semibold' : '' ?>">
           Apex Billets
         </a>
 
@@ -268,21 +266,21 @@ $isProductPage = in_array($currentPage, $productPages);
 
           <?php
           $msPages = [
-            'ms-products.php',
-            'ms-channels.php',
-            'ms-equalangles.php',
-            'ms-beams.php',
-            'ms-roundbars.php',
-            'ms-squarebars.php',
-            'ms-flatbars.php'
+            'ms-products',
+            'ms-channels',
+            'ms-equalangles',
+            'ms-beams',
+            'ms-roundbars',
+            'ms-squarebars',
+            'ms-flatbars'
           ];
           ?>
 
           <!-- Parent Row -->
           <div class="flex justify-between items-center">
 
-            <!-- LEFT SIDE → Go to ms-products.php -->
-            <a href="ms-products.php" class="py-1 text-sm uppercase hover:text-red-500
+            <!-- LEFT SIDE → Go to ms-products -->
+            <a href="ms-products" class="py-1 text-sm uppercase hover:text-red-500
        <?= (in_array($currentPage, $msPages)) ? 'text-red-600 font-semibold' : '' ?>">
               MS Products
             </a>
@@ -295,36 +293,36 @@ $isProductPage = in_array($currentPage, $productPages);
           </div>
 
           <!-- Submenu -->
-          <div id="mobileMsMenu" class="<?= (in_array($currentPage, $msPages) && $currentPage != 'ms-products.php') ? '' : 'hidden' ?>
+          <div id="mobileMsMenu" class="<?= (in_array($currentPage, $msPages) && $currentPage != 'ms-products') ? '' : 'hidden' ?>
               mt-2 ml-4 space-y-2 text-sm">
 
-            <a href="ms-channels.php" class="block hover:text-red-500
-       <?= ($currentPage == 'ms-channels.php') ? 'text-red-600 font-semibold' : '' ?>">
+            <a href="ms-channels" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-channels') ? 'text-red-600 font-semibold' : '' ?>">
               MS Channels
             </a>
 
-            <a href="ms-equalangles.php" class="block hover:text-red-500
-       <?= ($currentPage == 'ms-equalangles.php') ? 'text-red-600 font-semibold' : '' ?>">
+            <a href="ms-equalangles" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-equalangles') ? 'text-red-600 font-semibold' : '' ?>">
               MS Equal Angles
             </a>
 
-            <a href="ms-beams.php" class="block hover:text-red-500
-       <?= ($currentPage == 'ms-beams.php') ? 'text-red-600 font-semibold' : '' ?>">
+            <a href="ms-beams" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-beams') ? 'text-red-600 font-semibold' : '' ?>">
               MS Beams
             </a>
 
-            <a href="ms-roundbars.php" class="block hover:text-red-500
-       <?= ($currentPage == 'ms-roundbars.php') ? 'text-red-600 font-semibold' : '' ?>">
+            <a href="ms-roundbars" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-roundbars') ? 'text-red-600 font-semibold' : '' ?>">
               MS Round Bars
             </a>
 
-            <a href="ms-squarebars.php" class="block hover:text-red-500
-       <?= ($currentPage == 'ms-squarebars.php') ? 'text-red-600 font-semibold' : '' ?>">
+            <a href="ms-squarebars" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-squarebars') ? 'text-red-600 font-semibold' : '' ?>">
               MS Square Bars
             </a>
 
-            <a href="ms-flatbars.php" class="block hover:text-red-500
-       <?= ($currentPage == 'ms-flatbars.php') ? 'text-red-600 font-semibold' : '' ?>">
+            <a href="ms-flatbars" class="block hover:text-red-500
+       <?= ($currentPage == 'ms-flatbars') ? 'text-red-600 font-semibold' : '' ?>">
               MS Flat Bars
             </a>
 
@@ -340,7 +338,7 @@ $isProductPage = in_array($currentPage, $productPages);
 
           <button id="mobileSizesBtn"
             class="w-full text-left py-1 text-sm flex justify-between items-center hover:text-red-500 uppercase
-  <?= ($currentPage == '5mm-tmtbar.php' || $currentPage == '5mm-to-32mm-tmtbar.php') ? 'text-red-600 font-semibold' : '' ?>">
+  <?= ($currentPage == '5mm-tmtbar' || $currentPage == '5mm-to-32mm-tmtbar') ? 'text-red-600 font-semibold' : '' ?>">
 
             <span>All TMT Bar Sizes</span>
 
@@ -356,11 +354,11 @@ $isProductPage = in_array($currentPage, $productPages);
             foreach ($sizes as $size):
 
               if ($size == '5') {
-                $file = '5mm-tmtbar.php';
-                $isActive = ($currentPage == '5mm-tmtbar.php');
+                $file = '5mm-tmtbar';
+                $isActive = ($currentPage == '5mm-tmtbar');
               } else {
-                $file = '5mm-to-32mm-tmtbar.php?size=' . $size;
-                $isActive = ($currentPage == '5mm-to-32mm-tmtbar.php' && $currentSize == $size);
+                $file = '5mm-to-32mm-tmtbar?size=' . $size;
+                $isActive = ($currentPage == '5mm-to-32mm-tmtbar' && $currentSize == $size);
               }
               ?>
 
@@ -374,34 +372,34 @@ $isProductPage = in_array($currentPage, $productPages);
           </div>
         </div>
 
-        <a href="customize-products.php" class="block py-1 text-sm hover:text-red-500 uppercase
-        <?= ($currentPage == 'customize-products.php') ? 'text-red-600 font-semibold' : '' ?>">
+        <a href="customize-products" class="block py-1 text-sm hover:text-red-500 uppercase
+        <?= ($currentPage == 'customize-products') ? 'text-red-600 font-semibold' : '' ?>">
           Customize Products
         </a>
 
       </div>
     </div>
 
-    <a href="infrastructure.php" class="block px-4 py-2 rounded-full transition font-semibold
+    <a href="infrastructure" class="block px-4 py-2 rounded-full transition font-semibold
      hover:bg-white hover:text-red-600 hover:shadow
-     <?= ($currentPage == 'infrastructure.php') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
+     <?= ($currentPage == 'infrastructure') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
       Our Infrastructure
     </a>
 
-    <a href="investor-corner.php" class="block px-4 py-2 rounded-full transition font-semibold
+    <a href="investor-corner" class="block px-4 py-2 rounded-full transition font-semibold
      hover:bg-white hover:text-red-600 hover:shadow
-     <?= ($currentPage == 'investor-corner.php') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
+     <?= ($currentPage == 'investor-corner') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
       Investor Corner
     </a>
 
-    <a href="estimator.php" class="block px-4 py-2 rounded-full transition font-semibold
+    <a href="estimator" class="block px-4 py-2 rounded-full transition font-semibold
      hover:bg-white hover:text-red-600 hover:shadow
-     <?= ($currentPage == 'estimator.php') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
+     <?= ($currentPage == 'estimator') ? 'bg-white text-red-600 shadow font-bold' : '' ?>">
       Estimator
     </a>
 
-    <a href="contact-us.php" class="block px-4 py-2 rounded-full transition font-semibold
-     <?= ($currentPage == 'contact-us.php')
+    <a href="contact-us" class="block px-4 py-2 rounded-full transition font-semibold
+     <?= ($currentPage == 'contact-us')
        ? 'bg-white text-red-600 shadow font-bold'
        : 'hover:bg-red-600 hover:text-white' ?>">
       Contact Us

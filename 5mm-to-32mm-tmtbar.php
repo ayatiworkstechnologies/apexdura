@@ -949,7 +949,7 @@
                     Get in touch with us
                 </h2>
 
-                <form id="productForm" class="space-y-6" action="product-form.php" method="post">
+                <form id="productForm" class="space-y-6" action="product-form" method="post">
 
                     <!-- Name -->
                     <div>
@@ -1041,7 +1041,7 @@
             button.disabled = true;
             button.innerText = "Submitting...";
 
-            fetch("product-form.php", {
+            fetch("product-form", {
                 method: "POST",
                 body: formData
             })
