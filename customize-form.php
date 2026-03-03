@@ -97,10 +97,38 @@ $emailBody = '
 style="background:#ffffff;border-radius:8px;overflow:hidden;">
 
 <tr>
-<td style="background:#c40000;padding:25px;text-align:center;color:#ffffff;">
-<h2 style="margin:0;">New Customize Product Enquiry</h2>
-</td>
+  <td style="padding:30px 20px;">
+    
+    <!-- Glass Container -->
+    <table width="100%" cellpadding="0" cellspacing="0" 
+           style="max-width:600px;margin:0 auto;
+                  background:rgba(255,255,255,0.08);
+                 border:1px solid rgba(0, 0, 0, 0.2);
+                  border-radius:12px;">
+      <tr>
+        
+        <!-- Left Logo -->
+        <td style="padding:15px 20px;text-align:left;">
+          <img src="https://apexdura.ayatiworks.com/Apex-icons/Logo.png"
+               alt="Apex Dura Logo"
+               style="max-width:120px;height:auto;display:block;">
+        </td>
+        
+        <!-- Right Title -->
+        <td style="padding:15px 20px;text-align:right;
+                   color:#DC2626;
+                   font-family:Arial, sans-serif;
+                   font-size:20px;
+                   font-weight:600;">
+         New Customize Product Enquiry
+        </td>
+
+      </tr>
+    </table>
+
+  </td>
 </tr>
+
 
 <tr>
 <td style="padding:30px;">
@@ -142,7 +170,7 @@ style="background:#ffffff;border-radius:8px;overflow:hidden;">
 
 <tr>
 <td style="background:#f9f9f9;padding:20px;text-align:center;font-size:12px;color:#777;">
-© '.date("Y").' Your Company Name. All rights reserved.
+'.date("Y").' Apex Dura. All rights reserved.
 </td>
 </tr>
 

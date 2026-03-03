@@ -13,9 +13,9 @@ require 'mailer/SMTP.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Get form values
-    $name    = trim($_POST['businessname'] ?? '');
-    $email   = trim($_POST['business_email'] ?? '');
-    $mobile  = trim($_POST['mobile_number'] ?? '');
+    $name = trim($_POST['businessname'] ?? '');
+    $email = trim($_POST['business_email'] ?? '');
+    $mobile = trim($_POST['mobile_number'] ?? '');
     $message = trim($_POST['message'] ?? '');
 
     // Validation
@@ -61,11 +61,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         style="background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 3px 10px rgba(0,0,0,0.05);">
 
         <tr>
-        <td style="background:#c40000;padding:20px;text-align:center;color:#ffffff;">
-        <h2 style="margin:0;">New Investor Enquiry</h2>
-        <p style="margin:5px 0 0;font-size:14px;">A new enquiry has been submitted</p>
+  <td style="padding:30px 20px;">
+    
+    <!-- Glass Container -->
+    <table width="100%" cellpadding="0" cellspacing="0" 
+           style="max-width:600px;margin:0 auto;
+                  background:rgba(255,255,255,0.08);
+                  border:1px solid rgba(0, 0, 0, 0.2);
+                  border-radius:12px;">
+      <tr>
+        
+        <!-- Left Logo -->
+        <td style="padding:15px 20px;text-align:left;">
+          <img src="https://apexdura.ayatiworks.com/Apex-icons/Logo.png"
+               alt="Apex Dura Logo"
+               style="max-width:120px;height:auto;display:block;">
         </td>
-        </tr>
+        
+        <!-- Right Title -->
+        <td style="padding:15px 20px;text-align:right;
+                   color:#DC2626;
+                   font-family:Arial, sans-serif;
+                   font-size:20px;
+                   font-weight:600;">
+          New Investor Enquiry
+        </td>
+
+      </tr>
+    </table>
+
+  </td>
+</tr>
+
+        
 
         <tr>
         <td style="padding:30px;">
@@ -97,8 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <tr>
         <td style="background:#f9f9f9;padding:20px;text-align:center;font-size:12px;color:#777;">
-        This enquiry was submitted from your website investor form.<br>
-        © ' . date("Y") . ' Your Company Name. All rights reserved.
+        ' . date("Y") . ' Apex Dura. All rights reserved.
         </td>
         </tr>
 
@@ -114,12 +141,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         try {
             $mail->isSMTP();
-            $mail->Host       = 'mail.ayatiworks.com';
-            $mail->SMTPAuth   = true;
-            $mail->Username   = 'emailsmtp@ayatiworks.com';
-            $mail->Password   = 'hYd@W,$nwNjC';  // Change immediately
+            $mail->Host = 'mail.ayatiworks.com';
+            $mail->SMTPAuth = true;
+            $mail->Username = 'emailsmtp@ayatiworks.com';
+            $mail->Password = 'hYd@W,$nwNjC';  // Change immediately
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-            $mail->Port       = 465;
+            $mail->Port = 465;
 
             $mail->setFrom('emailsmtp@ayatiworks.com', 'Investor Enquiry');
             $mail->addAddress('balaji@ayatiworks.com');
@@ -127,7 +154,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $mail->isHTML(true);
             $mail->Subject = 'New Investor Enquiry Received';
-            $mail->Body    = $body;
+            $mail->Body = $body;
 
             $mail->send();
 
