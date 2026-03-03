@@ -70,64 +70,113 @@
 
   <main>
     <!-- About section -->
-    <section>
-      <div class="w-full overflow-hidden hidden md:block">
-        <!-- TOP WHITE SECTION -->
-        <div class="relative bg-white">
-          <div class="max-w-7xl mx-auto px-6 md:px-16 py-14 md:py-20 relative z-10">
-            <!-- Text -->
-            <div class="max-w-xl">
-              <h1 class="text-4xl md:text-5xl font-bold text-black mb-5 fade-left">
-                About <span class="text-red-600">Apex Dura</span>
-              </h1>
+    <section class="relative  overflow-hidden pt-10">
 
-              <p class="text-gray-600 leading-relaxed text-base md:text-lg fade-right">
-                Apex Dura is a trusted name in high-quality, BIS-certified TMT
-                bars, engineered to deliver strength, durability, and safety
-                for modern construction needs. Built using advanced
-                manufacturing technology, Apex Dura ensures consistent quality
-                and superior performance in every bar.
-              </p>
-            </div>
-          </div>
+      <div class="max-w-7xl mx-auto px-6 lg:px-16">
 
-          <!-- Hand Image (perfect overlap like design) -->
-          <img src="Apex-Images/steel-holding.png" alt="Steel rod hand"
-            class="absolute right-0 bottom-[-40px] md:bottom-[-60px] md:bottom-[-320px] h-56 md:h-100 lg:h-175 object-contain z-20 pointer-events-none animate-up" />
-        </div>
+        <!-- Left Content -->
+        <div class="max-w-3xl lg:max-w-2xl xl:max-w-3xl">
 
-        <!-- BOTTOM STEEL BANNER -->
-        <div class="w-full h-[260px] md:h-[320px] fade-left">
-          <img src="Apex-Images/steel-banner-2.png" alt="Steel rods banner" class="w-full h-full object-cover" />
-        </div>
-      </div>
-      <!-- mobile section -->
-      <div class="md:hidden mt-5">
-        <div class="w-full bg-white overflow-hidden">
-          <!-- Top Content -->
-          <div class="p-4 text-center fade-down">
-            <h2 class="text-xl font-bold mb-1 text-black">
-              About <span class="text-red-600">Apex Dura</span>
-            </h2>
+          <h2 class="text-4xl font-bold text-red-600 mb-6 leading-tight fade-right">
+            Forged in Mysore, Built for India's Future
+          </h2>
 
-            <p class="text-sm text-gray-600 leading-relaxed mb-3">
-              Apex Dura is a trusted name in high-quality, BIS-certified TMT
-              bars, engineered to deliver strength, durability, and safety for
-              modern construction needs. Built using advanced manufacturing
-              technology, Apex Dura ensures consistent quality and superior
-              performance in every bar.
+          <div class="space-y-4 text-gray-600 text-[15px] leading-7 fade-left">
+            <p class="fade-left">
+              At the heart of South India stands Mysore, a city perfectly positioned as the strategic hub connecting
+              Karnataka's powerhouse districts—Bengaluru's tech boom, Mangaluru's coastal trade gateways, and the
+              industrial corridors of Tumakuru and Hassan. With seamless access to NH-275, the Bengaluru-Mysore
+              Expressway, and upcoming rail networks linking to Chennai and Kochi, Mysore serves as the vital nerve
+              center for infrastructure projects across the region. It's here, in this crossroads of progress, that
+              Khayati Steel Industries Ltd. crafts Apex Dura TMT Bars—engineered for unmatched strength, ductility, and
+              corrosion resistance, meeting BIS standards with grades from Fe 500 to Fe 550 and a whole range of mild
+              steel products.
+            </p>
+
+            <p class="fade-left">
+              Made in Mysore, for India. Every bar emerges from our state-of-the-art facility, infused with the city's
+              timeless spirit of innovation and resilience. Feel the pride of a product born in the cultural capital of
+              Karnataka, where tradition meets cutting-edge technology—supporting the bridges, skyscrapers, and homes
+              that define our nation's skyline.
+            </p>
+
+            <p class="fade-left">
+              Khayati Steel Industries champions the Make in India vision, empowering local talent, reducing import
+              dependency, and fueling self-reliant growth.
+            </p>
+
+            <p class="fade-left">
+              We're not just building steel; we're constructing India's tomorrow, one durable beam at a time.
             </p>
           </div>
 
-          <!-- Bottom Image -->
-          <img src="Apex-Images/mobile-steel-banner.png" alt="Steel TMT Bar"
-            class="w-full h-64 object-cover fade-left" />
+          <p class="mt-8 font-semibold text-gray-900 text-lg fade-left">
+            Choose Apex Dura TMT Bars—reliable, robust, and rooted in Mysore's promise.
+          </p>
+
         </div>
       </div>
+
+      <!-- Right Overlapping Image -->
+      <img src="Apex-Images/hand-steel.png" alt="Steel rod hand" class="absolute right-0 lg:-right-10 xl:right-0 top-1/3 -translate-y-1/2 
+           h-[420px] lg:h-[520px] 
+           object-contain 
+           pointer-events-none select-none hidden lg:flex fade-right" />
+
     </section>
 
+    <!-- Product Highlight Section -->
+    <section class="py-16 bg-white animate-up">
+
+      <div class="max-w-6xl mx-auto px-6">
+
+        <!-- Main Card Container -->
+        <div class=" rounded-2xl shadow-[0_0_40px_rgba(0,0,0,0.22)]
+                grid grid-cols-1 md:grid-cols-3 
+                overflow-hidden  ">
+
+          <!-- Column 1 -->
+          <div class="p-8 md:p-10 border-b md:border-b-0 md:border-r border-gray-300 ">
+            <h3 class="text-xl font-bold text-red-600 mb-4">
+              Apex Dura Fe 500 <br> TMT Bars
+            </h3>
+            <p class="text-gray-700 text-sm leading-6">
+              Superior yield strength, earthquake-resistant ductility.
+              Perfect for high-rise buildings & bridges.
+            </p>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="p-8 md:p-10 border-b md:border-b-0 md:border-r border-gray-300">
+            <h3 class="text-xl font-bold text-red-600 mb-4">
+              Apex Dura Fe 550 <br> TMT Bars
+            </h3>
+            <p class="text-gray-700 text-sm leading-6">
+              Ultra-high strength for extreme loads.
+              Ideal for infrastructure megaprojects.
+            </p>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="p-8 md:p-10">
+            <h3 class="text-xl font-bold text-red-600 mb-4">
+              Premium Mild Steel <br> Range
+            </h3>
+            <p class="text-gray-700 text-sm leading-6">
+              Versatile MS rounds, squares, flats & angles.
+              Reliable for fabrication, gates, and structural work.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
     <!-- vision and mission section -->
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 mt-7">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 mt-10">
       <!-- VISION CARD -->
       <div class="relative bg-gray-50 p-8 pl-12 border-l-4 border-red-600 fade-left">
         <!-- ICON (PUT HERE) -->
@@ -175,8 +224,123 @@
       </div>
     </div>
 
+
+    <!-- redbar -->
+    <!-- Feature Strip -->
+    <section class="bg-red-600 w-full mt-10">
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="py-4
+                flex flex-col sm:flex-row
+                items-center justify-center
+                gap-3 sm:gap-8
+                text-white
+                text-sm sm:text-base lg:text-lg
+                font-semibold
+                text-center">
+
+          <!-- Item 1 -->
+          <div class="flex items-center gap-2 fade-left">
+            <span class="text-white/80 text-lg leading-none">•</span>
+            <span>BIS Certified</span>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="flex items-center gap-2 fade-right">
+            <span class="text-white/80 text-lg leading-none">•</span>
+            <span>Corrosion-Free</span>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="flex items-center gap-2 fade-left">
+            <span class="text-white/80 text-lg leading-none">•</span>
+            <span>Precision-Ribbed for Superior Bonding</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Why Choose Section -->
+    <section class=" py-15">
+
+      <div class="max-w-6xl mx-auto px-6">
+
+        <!-- Heading -->
+        <h2 class="text-3xl sm:text-4xl font-bold text-center text-red-600 mb-16 fade-in ">
+          Why Choose Apex Dura?
+        </h2>
+
+        <!-- 3 Columns -->
+        <div class="grid grid-cols-1 md:grid-cols-3 text-center">
+
+          <!-- Column 1 -->
+          <div class="px-8 py-6 fade-left">
+
+            <!-- Icon -->
+            <div class="flex justify-center mb-6">
+              <img src="Apex-icons/wca-1.png" alt="location icon" class="w-10 h-10">
+            </div>
+
+            <h3 class="font-semibold text-lg text-gray-900 mb-2">
+              Strategic Mysore Location
+            </h3>
+            <p class="text-gray-500 text-sm">
+              Quick delivery, lower costs
+            </p>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="px-8 py-6 fade-up">
+
+            <!-- Icon -->
+            <div class="flex justify-center mb-6">
+              <img src="Apex-icons/wca-2.png" alt="shield icon" class="w-10 h-10">
+            </div>
+
+            <h3 class="font-semibold text-lg text-gray-900 mb-2">
+              Make in India Pride
+            </h3>
+            <p class="text-gray-500 text-sm">
+              Quality you trust, economy you build
+            </p>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="px-8 py-6 fade-right">
+
+            <!-- Icon -->
+            <div class="flex justify-center mb-6">
+              <img src="Apex-icons/wca-3.png" alt="barchart icon" class="w-10 h-10">
+            </div>
+
+            <h3 class="font-semibold text-lg text-gray-900 mb-2">
+              Proven Performance
+            </h3>
+            <p class="text-gray-500 text-sm">
+              100% satisfaction in real projects
+            </p>
+          </div>
+
+        </div>
+
+        <h2 class="text-3xl sm:text-3xl lg:text-4xl font-bold text-center text-red-600 mt-16 animate-down">Made
+          in Mysore. Made for India.</h2>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- core values -->
+
     <section
-      class="w-full h-[270px] sm:h-[420px] md:h-[350px] lg:h-[450px] xl:h-[550px] bg-red-600 mt-7 flex items-center justify-center text-center">
+      class="w-full h-[270px] sm:h-[420px] md:h-[350px] lg:h-[450px] xl:h-[500px] bg-red-600 mt-7 flex items-center justify-center text-center">
       <h1 class="text-white font-semibold text-4xl sm:text-6xl md:text-7xl lg:text-8xl animate-up">
         Core Values
       </h1>
@@ -239,131 +403,129 @@
       </div>
     </section>
 
-      <!-- Quality Control Process -->
-        <section class="w-full  ">
+    <!-- Quality Control Process -->
+    <section class="w-full pt-10 ">
 
-            <!-- Heading -->
-            <div class="max-w-5xl mx-auto px-6 text-center mb-16">
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl 
+      <!-- Heading -->
+      <div class="max-w-5xl mx-auto px-6 text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl 
                font-bold text-red-600 leading-tight animate-down">
-                    Quality Control Process
-                </h2>
+          Quality Control Process
+        </h2>
+      </div>
+
+      <!-- Content -->
+      <section class="py-16 fade-left">
+        <div class="max-w-7xl mx-auto px-6 relative">
+
+          <!-- Navigation Buttons (Top Right) -->
+          <div class="absolute -top-20 right-10 flex gap-3 z-10">
+
+            <button id="prevBtn" class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+              &#10094;
+            </button>
+
+            <button id="nextBtn" class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
+              &#10095;
+            </button>
+
+          </div>
+
+          <!-- Carousel Wrapper -->
+          <div class="overflow-hidden">
+            <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+
+              <!-- ITEM -->
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Material Procurement</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Incoming raw material inspection: Yield, chemistry test, inclusion, screening & sorting.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Material Chemical Analysis</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Chemical testing as per IS:1786 to approve raw material before production.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Induction Furnace</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Melting of selected raw materials under controlled conditions.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Hot Metal Chemical Analysis</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Continuous monitoring of molten metal chemistry to maintain required composition.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Billet Concaster</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Casting molten steel into billets with online chemistry check & alloy correction.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Billet Yard</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Segregation of non-conforming billets and final billet inspection.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Billet Analysis</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Final billet quality tests: Etching, grain structure, surface finish, rhomboidity.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Reheating Furnace</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Billets reheated uniformly before rolling process.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Finishing Mill</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Rolling through roughing, intermediate & finishing stands to achieve final size.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Straightening</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Section weight check and physical testing (UTM) + chemical verification (Spectrometer).
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Stockyard</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Finished products stored in controlled environment to prevent corrosion.
+                </p>
+              </div>
+
+              <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
+                <h3 class="font-semibold text-lg mb-4">Labelling</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Quality tags, batch numbers & dispatch identification.
+                </p>
+              </div>
+
             </div>
+          </div>
+        </div>
+      </section>
 
-            <!-- Content -->
-            <section class="py-16 fade-left">
-                <div class="max-w-7xl mx-auto px-6 relative">
-
-                    <!-- Navigation Buttons (Top Right) -->
-                    <div class="absolute -top-20 right-10 flex gap-3 z-10">
-
-                        <button id="prevBtn"
-                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
-                            &#10094;
-                        </button>
-
-                        <button id="nextBtn"
-                            class="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
-                            &#10095;
-                        </button>
-
-                    </div>
-
-                    <!-- Carousel Wrapper -->
-                    <div class="overflow-hidden">
-                        <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
-
-                            <!-- ITEM -->
-                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Material Procurement</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                   Incoming raw material inspection: Yield, chemistry test, inclusion, screening & sorting.
-                                </p>
-                            </div>
-
-                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Material Chemical Analysis</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                    Chemical testing as per IS:1786 to approve raw material before production.
-                                </p>
-                            </div>
-
-                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Induction Furnace</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                    Melting of selected raw materials under controlled conditions.
-                                </p>
-                            </div>
-
-                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Hot Metal Chemical Analysis</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                    Continuous monitoring of molten metal chemistry to maintain required composition.
-                                </p>
-                            </div>
-
-                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Billet Concaster</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                    Casting molten steel into billets with online chemistry check & alloy correction.
-                                </p>
-                            </div>
-
-                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Billet Yard</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                   Segregation of non-conforming billets and final billet inspection.
-                                </p>
-                            </div>
-
-                            <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Billet Analysis</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                   Final billet quality tests: Etching, grain structure, surface finish, rhomboidity.
-                                </p>
-                            </div>
-
-                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Reheating Furnace</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                   Billets reheated uniformly before rolling process.
-                                </p>
-                            </div>
-
-                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Finishing Mill</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                  Rolling through roughing, intermediate & finishing stands to achieve final size.
-                                </p>
-                            </div>
-
-                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Straightening</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                   Section weight check and physical testing (UTM) + chemical verification (Spectrometer).
-                                </p>
-                            </div>
-
-                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Stockyard</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                   Finished products stored in controlled environment to prevent corrosion.
-                                </p>
-                            </div>
-
-                             <div class="min-w-full sm:min-w-1/2 lg:min-w-1/4 px-6">
-                                <h3 class="font-semibold text-lg mb-4">Labelling</h3>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                   Quality tags, batch numbers & dispatch identification.
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </section>
+    </section>
 
 
 
@@ -490,73 +652,73 @@
   <script src="Js/bottom-up-arrow-script.js"></script>
 
 
-   <!-- carousel slides  -->
-    <script>
-        const carousel = document.getElementById("carousel");
-        const prevBtn = document.getElementById("prevBtn");
-        const nextBtn = document.getElementById("nextBtn");
+  <!-- carousel slides  -->
+  <script>
+    const carousel = document.getElementById("carousel");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
 
-        let index = 0;
+    let index = 0;
 
-        function getVisibleItems() {
-            if (window.innerWidth >= 1024) return 4;
-            if (window.innerWidth >= 640) return 2;
-            return 1;
-        }
+    function getVisibleItems() {
+      if (window.innerWidth >= 1024) return 4;
+      if (window.innerWidth >= 640) return 2;
+      return 1;
+    }
 
-        function updateButtons(maxIndex) {
-            // Fade Prev
-            if (index <= 0) {
-                prevBtn.classList.add("opacity-40", "cursor-not-allowed");
-            } else {
-                prevBtn.classList.remove("opacity-40", "cursor-not-allowed");
-            }
+    function updateButtons(maxIndex) {
+      // Fade Prev
+      if (index <= 0) {
+        prevBtn.classList.add("opacity-40", "cursor-not-allowed");
+      } else {
+        prevBtn.classList.remove("opacity-40", "cursor-not-allowed");
+      }
 
-            // Fade Next
-            if (index >= maxIndex) {
-                nextBtn.classList.add("opacity-40", "cursor-not-allowed");
-            } else {
-                nextBtn.classList.remove("opacity-40", "cursor-not-allowed");
-            }
-        }
+      // Fade Next
+      if (index >= maxIndex) {
+        nextBtn.classList.add("opacity-40", "cursor-not-allowed");
+      } else {
+        nextBtn.classList.remove("opacity-40", "cursor-not-allowed");
+      }
+    }
 
-        function updateCarousel() {
-            const visibleItems = getVisibleItems();
-            const totalItems = carousel.children.length;
-            const maxIndex = totalItems - visibleItems;
+    function updateCarousel() {
+      const visibleItems = getVisibleItems();
+      const totalItems = carousel.children.length;
+      const maxIndex = totalItems - visibleItems;
 
-            if (index > maxIndex) index = maxIndex;
-            if (index < 0) index = 0;
+      if (index > maxIndex) index = maxIndex;
+      if (index < 0) index = 0;
 
-            const slideWidth = carousel.children[0].offsetWidth;
-            carousel.style.transform = `translateX(-${index * slideWidth}px)`;
+      const slideWidth = carousel.children[0].offsetWidth;
+      carousel.style.transform = `translateX(-${index * slideWidth}px)`;
 
-            updateButtons(maxIndex);
-        }
+      updateButtons(maxIndex);
+    }
 
-        nextBtn.addEventListener("click", () => {
-            const visibleItems = getVisibleItems();
-            const totalItems = carousel.children.length;
-            const maxIndex = totalItems - visibleItems;
+    nextBtn.addEventListener("click", () => {
+      const visibleItems = getVisibleItems();
+      const totalItems = carousel.children.length;
+      const maxIndex = totalItems - visibleItems;
 
-            if (index < maxIndex) {
-                index++;
-                updateCarousel();
-            }
-        });
-
-        prevBtn.addEventListener("click", () => {
-            if (index > 0) {
-                index--;
-                updateCarousel();
-            }
-        });
-
-        window.addEventListener("resize", updateCarousel);
-
-        // Initialize
+      if (index < maxIndex) {
+        index++;
         updateCarousel();
-    </script>
+      }
+    });
+
+    prevBtn.addEventListener("click", () => {
+      if (index > 0) {
+        index--;
+        updateCarousel();
+      }
+    });
+
+    window.addEventListener("resize", updateCarousel);
+
+    // Initialize
+    updateCarousel();
+  </script>
 
   <script>
     (function () {
