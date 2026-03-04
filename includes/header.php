@@ -1,5 +1,5 @@
 <?php
-$currentPage = basename($_SERVER['PHP_SELF']);
+$currentPage = basename($_SERVER['PHP_SELF'], ".php");
 
 $productPages = [
   'apextmt-fe500-and-Fe550-Bar',
