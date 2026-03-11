@@ -123,7 +123,7 @@
 
             <p class="text-gray-600 text-sm sm:text-base lg:text-lg max-w-xl mb-6 fade-left">
               Demand SST (Strength that Shatters Limits, Sustainability that Saves Tomorrow, Technology that Tempers
-              Perfection) – or risk rusty regrets. Apex Dura delivers the unbeatable combo: Fe500D/550 earthquake-proof
+              Perfection) – or risk rusty regrets. Apex Dura delivers the unbeatable combo: Fe500/550 earthquake-proof
               grip, wind/solar-powered green forging, Thermex-quenched precision.
             </p>
 

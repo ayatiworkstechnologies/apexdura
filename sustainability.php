@@ -89,7 +89,7 @@
           </h3> -->
 
           <p class="text-gray-600 leading-relaxed mb-4">
-            Sustainably forged in Mysore with wind, solar, and zero waste—Fe500D/Fe550D bars that bond 20% stronger, bend without brittle failure.
+            Sustainably forged in Mysore with wind, solar, and zero waste—Fe500/Fe550 bars that bond 20% stronger, bend without brittle failure.
           </p>
 
         </div>
