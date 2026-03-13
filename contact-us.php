@@ -113,7 +113,7 @@
             </button>
 
           </form>
-          
+
         </div>
 
 
@@ -181,6 +181,158 @@
       </div>
       <div id="toast" class="hidden"></div>
     </section>
+    <!-- Download brochure section  -->
+    <section class="py-16 px-6 bg-white">
+      <div class="max-w-3xl mx-auto text-center">
+
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold leading-tight mb-4 text-red-600">
+          Download Brochure
+        </h2>
+
+        <!-- Paragraph -->
+        <p class="text-gray-600 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+          Get our brochure to discover our steel products, industrial solutions, production strength, and commitment to
+          quality.
+        </p>
+
+        <!-- Button -->
+        <button id="openBrochureModal"
+          class="inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3 cursor-pointer rounded-full shadow-lg transition duration-300">
+          Download Now
+        </button>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="brochureModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 px-4">
+      <div class="relative w-full max-w-md rounded-2xl bg-white p-8 shadow-2xl">
+
+        <!-- Close -->
+        <button id="closeBrochureModal"
+          class="absolute right-4 top-4 text-gray-500 hover:text-red-600 text-2xl leading-none" aria-label="Close">
+          &times;
+        </button>
+
+        <!-- Title -->
+        <div class="flex flex-col items-center text-center px-4 py-6">
+
+          <!-- Logo -->
+          <img src="Apex-icons/Apex-logo.png" alt="Apex Logo" class="w-34 sm:w-38 md:w-38 lg:w-36 mb-4" />
+
+          <!-- Heading -->
+          <h3 class="text-xl sm:text-2xl font-bold text-gray-800 mb-2">
+            Download Brochure
+          </h3>
+
+          <!-- Paragraph -->
+          <p class="text-sm sm:text-base text-gray-500 max-w-md">
+            Fill in your details to download the brochure.
+          </p>
+
+        </div>
+
+        <!-- Form -->
+        <!-- Form -->
+        <form id="brochureForm" action="save-brochure-form.php" class="space-y-4">
+          <div>
+            <input type="text" id="name" name="name" placeholder="Your Name" required
+              class="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-red-500 focus:ring-2 focus:ring-red-200" />
+          </div>
+
+          <div>
+            <input type="email" id="email" name="email" placeholder="Your Email" required
+              class="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-red-500 focus:ring-2 focus:ring-red-200" />
+          </div>
+
+          <div>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required pattern="[0-9]{10}"
+              class="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-red-500 focus:ring-2 focus:ring-red-200" />
+          </div>
+
+          <button type="submit"
+            class="w-full bg-red-600 hover:bg-red-700 cursor-pointer text-white font-semibold py-3 rounded-xl transition duration-300">
+            Submit & Download
+          </button>
+        </form>
+
+        <!-- Toast below form -->
+        <!-- <div id="toast-container" class="mt-4 flex flex-col gap-3"></div> -->
+
+
+      </div>
+
+    </div>
+    <script>
+      const openModalBtn = document.getElementById("openBrochureModal");
+      const closeModalBtn = document.getElementById("closeBrochureModal");
+      const brochureModal = document.getElementById("brochureModal");
+      const brochureForm = document.getElementById("brochureForm");
+
+      openModalBtn.addEventListener("click", () => {
+        brochureModal.classList.remove("hidden");
+        brochureModal.classList.add("flex");
+      });
+
+      closeModalBtn.addEventListener("click", () => {
+        brochureModal.classList.add("hidden");
+        brochureModal.classList.remove("flex");
+      });
+
+      brochureModal.addEventListener("click", (e) => {
+        if (e.target === brochureModal) {
+          brochureModal.classList.add("hidden");
+          brochureModal.classList.remove("flex");
+        }
+      });
+
+      brochureForm.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+
+        if (!name || !email || !phone) {
+          return;
+        }
+
+        if (!/^[0-9]{10}$/.test(phone)) {
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("name", name);
+        formData.append("email", email);
+        formData.append("phone", phone);
+
+        try {
+          const response = await fetch("save-brochure-form.php", {
+            method: "POST",
+            body: formData
+          });
+
+          const result = await response.json();
+
+          if (result.status === "success" || result.status === "warning") {
+
+            const link = document.createElement("a");
+            link.href = "pdf/Apex-Steel-Brochure.pdf";
+            link.download = "ApexDura-Brochure.pdf";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            brochureModal.classList.add("hidden");
+            brochureModal.classList.remove("flex");
+            brochureForm.reset();
+          }
+
+        } catch (error) {
+          console.error(error);
+        }
+      });
+    </script>
 
     <!-- location -->
     <section class="w-full">
@@ -191,6 +343,7 @@
         </iframe>
       </div>
     </section>
+
   </main>
 
   <!-- footer section -->
@@ -202,51 +355,51 @@
   <script src="Js/Animation.js"></script>
   <script src="Js/progressbar-script.js"></script>
   <script src="Js/bottom-up-arrow-script.js"></script>
-<script>
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-    e.preventDefault();
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
 
-    const form = this;
-    const formData = new FormData(form);
+      const form = this;
+      const formData = new FormData(form);
 
-    fetch("contact-form", {
+      fetch("contact-form", {
         method: "POST",
         body: formData
-    })
-    .then(res => res.json())
-    .then(data => {
-        showToast(data.status, data.message);
+      })
+        .then(res => res.json())
+        .then(data => {
+          showToast(data.status, data.message);
 
-        if (data.status === "success") {
+          if (data.status === "success") {
             form.reset();
-        }
-    })
-    .catch(() => {
-        showToast("error", "Something went wrong!");
+          }
+        })
+        .catch(() => {
+          showToast("error", "Something went wrong!");
+        });
     });
-});
 
-function showToast(status, message) {
-    const toast = document.getElementById("toast");
+    function showToast(status, message) {
+      const toast = document.getElementById("toast");
 
-    toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
+      toast.className = "fixed bottom-5 right-5 px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition-all duration-500 z-50";
 
-    if (status === "success") {
+      if (status === "success") {
         toast.classList.add("bg-green-600");
-    } else if (status === "warning") {
+      } else if (status === "warning") {
         toast.classList.add("bg-yellow-500");
-    } else {
+      } else {
         toast.classList.add("bg-red-600");
-    }
+      }
 
-    toast.innerText = message;
-    toast.classList.remove("hidden");
+      toast.innerText = message;
+      toast.classList.remove("hidden");
 
-    setTimeout(() => {
+      setTimeout(() => {
         toast.classList.add("hidden");
-    }, 4000);
-}
-</script>
+      }, 4000);
+    }
+  </script>
 
 </body>
 

@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Prepare email
         $body = '
         <div style="text-align:center;">
-            <img src="https://www.apextmt.com/images/logo.png" alt="Logo" style="margin-bottom:10px;" />
+            <img src="https://apexdura.apextmt.com/Apex-icons/Logo.png" alt="Logo" style="margin-bottom:10px;" />
         </div>
         <table rules="all" style="border-color: #666; width: 500px; margin: 0 auto; border: 1px solid #eee;" cellpadding="10">
             <tr><td colspan="2" style="text-align:center;"><h3>Enquiry Details</h3></td></tr>

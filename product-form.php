@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         <!-- Left Logo -->
         <td style="padding:15px 20px;text-align:left;">
-          <img src="https://apexdura.ayatiworks.com/Apex-icons/Logo.png"
+          <img src="https://apexdura.apextmt.com/Apex-icons/Logo.png"
                alt="Apex Dura Logo"
                style="max-width:120px;height:auto;display:block;">
         </td>
