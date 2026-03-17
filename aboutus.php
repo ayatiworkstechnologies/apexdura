@@ -88,7 +88,7 @@
               industrial corridors of Tumakuru and Hassan. With seamless access to NH-275, the Bengaluru-Mysore
               Expressway, and upcoming rail networks linking to Chennai and Kochi, Mysore serves as the vital nerve
               center for infrastructure projects across the region. It's here, in this crossroads of progress, that
-              Khayati Steel Industries Ltd. crafts Apex Dura TMT Bars—engineered for unmatched strength, ductility, and
+              Khayti Steel Industries Limited. crafts Apex Dura TMT Bars—engineered for unmatched strength, ductility, and
               corrosion resistance, meeting BIS standards with grades from Fe 500 to Fe 550 and a whole range of mild
               steel products.
             </p>
@@ -101,7 +101,7 @@
             </p>
 
             <p class="fade-left">
-              Khayati Steel Industries champions the Make in India vision, empowering local talent, reducing import
+              Khayti Steel Industries Limited. champions the Make in India vision, empowering local talent, reducing import
               dependency, and fueling self-reliant growth.
             </p>
 

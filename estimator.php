@@ -74,7 +74,7 @@
         Welcome to Our Investor Relations
       </h1>
       <p class="text-gray-500 max-w-6xl text-sm mb-10 fade-right">
-        M/S. Khayati Steel Industries Pvt. Ltd. Upholds a Steadfast Commitment
+        M/S. Khayti Steel Industries Limited. Upholds a Steadfast Commitment
         To Delivering Sustainable Value For All Stakeholders. Its Remarkable
         Track Record Of Financial Discipline Attests To Its Continuous Pursuit
         Of Excellence As A World-Class Organisation.
@@ -117,7 +117,7 @@
       <!-- Results Section -->
       <h2 class="text-3xl font-bold text-red-600 mb-4 fade-right ">Estimated Area</h2>
       <p class="text-gray-500 text-sm mb-8 max-w-6xl fade-left">
-        M/S. Khayati Steel Industries Pvt. Ltd. Upholds A Steadfast Commitment
+        M/S. Khayti Steel Industries Limited. Upholds A Steadfast Commitment
         To Delivering Sustainable Value For All Stakeholders. Its Remarkable
       </p>
 

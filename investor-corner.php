@@ -80,7 +80,7 @@
             </h2>
 
             <p class="text-gray-600 leading-relaxed mb-10 max-w-lg">
-              M/s. Khayati Steel Industries Pvt. Ltd. upholds a steadfast
+              M/s. Khayti Steel Industries Limited. upholds a steadfast
               commitment to delivering sustainable value for all stakeholders.
               Its remarkable track record of financial discipline attests to
               its continuous pursuit of excellence as a world-class
