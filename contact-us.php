@@ -148,7 +148,7 @@
             <!-- New York -->
             <div class="fade-down">
               <h3 class="font-semibold text-lg mb-4">
-                Khayati Steel Industries Private Limited
+                Khayti Steel Industries Limited
               </h3>
               <ul class="space-y-3 text-gray-600 text-sm">
                 <li>
