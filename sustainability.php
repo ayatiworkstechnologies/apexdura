@@ -42,8 +42,7 @@
     <!-- bg-image -->
     <div class="relative w-full h-[320px] sm:h-[420px] md:h-[520px] overflow-hidden fade-up">
       <!-- Banner Image -->
-      <img src="Apex-Images/sustainability.jpg" class="w-full h-full object-cover"
-        alt="Investor Corner Banner" />
+      <img src="Apex-Images/sustainability.jpg" class="w-full h-full object-cover" alt="Investor Corner Banner" />
 
       <!-- Breadcrumb -->
       <div class="absolute bottom-6 left-6 flex items-center gap-3">
@@ -89,13 +88,14 @@
           </h3> -->
 
           <p class="text-gray-600 leading-relaxed mb-4">
-            Sustainably forged in Mysore with wind, solar, and zero waste—Fe500/Fe550 bars that bond 20% stronger, bend without brittle failure.
+            Sustainably forged in Mysore with wind, solar, and zero waste—Fe500/Fe550 bars that bond 20% stronger, bend
+            without brittle failure.
           </p>
 
         </div>
 
         <!-- RIGHT IMAGE -->
-        
+
         <div class="relative  justify-end">
           <div class="w-full max-w-md">
             <img src="Apex-Images/sustainabilty-image.png" alt="Steel Structure" class="w-full h-[350px] object-cover 
@@ -107,322 +107,330 @@
     </section>
 
     <section class="py-12 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-4">
+      <div class="max-w-7xl mx-auto px-4">
 
-    <!-- Heading -->
-    <h2 class="text-2xl font-semibold text-gray-900 mb-2">
-      Build Green. Build with Apex Dura.
-      <span class="italic font-normal text-gray-600">
-        – BIS-certified, Thermex quenched for seismic safety.
-      </span>
-    </h2>
+        <!-- Heading -->
+        <h2 class="text-2xl font-semibold text-gray-900 mb-2">
+          Build Green. Build with Apex Dura.
+          <span class="italic font-normal text-gray-600">
+            – BIS-certified, Thermex quenched for seismic safety.
+          </span>
+        </h2>
 
-    <h3 class="text-lg font-semibold text-red-600 mb-6">
-      Sustainability Highlights
-    </h3>
+        <h3 class="text-lg font-semibold text-red-600 mb-6">
+          Sustainability Highlights
+        </h3>
 
-    <!-- Table Card -->
-    <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <!-- Table Card -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
 
-      <div class="overflow-x-auto">
-        <table class="w-full text-left">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left">
 
-          <!-- Header -->
-          <thead class="bg-green-700/80 text-white">
-            <tr>
-              <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
-                Feature
-              </th>
-              <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
-                Benefit
-              </th>
-              <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
-                Impact
-              </th>
-            </tr>
-          </thead>
+              <!-- Header -->
+              <thead class="bg-green-700/80 text-white">
+                <tr>
+                  <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
+                    Feature
+                  </th>
+                  <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
+                    Benefit
+                  </th>
+                  <th class="px-6 py-4 text-sm font-semibold uppercase tracking-wide">
+                    Impact
+                  </th>
+                </tr>
+              </thead>
 
-          <!-- Body -->
-          <tbody class="divide-y divide-gray-200">
+              <!-- Body -->
+              <tbody class="divide-y divide-gray-200">
 
-            <tr class="hover:bg-red-50 transition">
-              <td class="px-6 py-5 font-medium text-gray-800">
-                Captive Renewables
-              </td>
-              <td class="px-6 py-5 text-gray-600">
-                Cuts power costs 30%
-              </td>
-              <td class="px-6 py-5 text-gray-600">
-                CO₂ reduction: 1.2 tons/ton steel
-              </td>
-            </tr>
+                <tr class="hover:bg-red-50 transition">
+                  <td class="px-6 py-5 font-medium text-gray-800">
+                    Captive Renewables
+                  </td>
+                  <td class="px-6 py-5 text-gray-600">
+                    Cuts power costs 30%
+                  </td>
+                  <td class="px-6 py-5 text-gray-600">
+                    CO₂ reduction: 1.2 tons/ton steel
+                  </td>
+                </tr>
 
-            <tr class="bg-gray-50 hover:bg-red-50 transition">
-              <td class="px-6 py-5 font-medium text-gray-800">
-                Water Reuse
-              </td>
-              <td class="px-6 py-5 text-gray-600">
-                Zero discharge
-              </td>
-              <td class="px-6 py-5 text-gray-600">
-                Saves 500 KL/day
-              </td>
-            </tr>
+                <tr class="bg-gray-50 hover:bg-red-50 transition">
+                  <td class="px-6 py-5 font-medium text-gray-800">
+                    Water Reuse
+                  </td>
+                  <td class="px-6 py-5 text-gray-600">
+                    Zero discharge
+                  </td>
+                  <td class="px-6 py-5 text-gray-600">
+                    Saves 500 KL/day
+                  </td>
+                </tr>
 
-            <tr class="hover:bg-red-50 transition">
-              <td class="px-6 py-5 font-medium text-gray-800">
-                Zero Waste
-              </td>
-              <td class="px-6 py-5 text-gray-600">
-                Full recycling
-              </td>
-              <td class="px-6 py-5 text-gray-600">
-                100% landfill-free
-              </td>
-            </tr>
+                <tr class="hover:bg-red-50 transition">
+                  <td class="px-6 py-5 font-medium text-gray-800">
+                    Zero Waste
+                  </td>
+                  <td class="px-6 py-5 text-gray-600">
+                    Full recycling
+                  </td>
+                  <td class="px-6 py-5 text-gray-600">
+                    100% landfill-free
+                  </td>
+                </tr>
 
-          </tbody>
-        </table>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
       </div>
-
-    </div>
-
-  </div>
-</section>
+    </section>
 
 
     <!-- Carousel Section -->
     <section class="w-full py-10">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
-      <div class="max-w-6xl mx-auto px-6 relative">
+    <!-- Slider Wrapper -->
+    <div class="overflow-hidden relative">
 
-        <!-- Slider Wrapper -->
-        <div class="overflow-hidden relative">
+      <!-- Slides Container -->
+      <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
 
-          <!-- Slides Container -->
-          <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
+        <!-- CARD 01 -->
+        <div class="min-w-full flex justify-center">
+          <div class="bg-white rounded-3xl 
+            w-full lg:w-[85%] 
+            px-6 sm:px-10 lg:px-20 
+            py-6 sm:py-8 lg:py-14
+            shadow-lg border border-gray-200
+            flex flex-col lg:flex-row 
+            lg:justify-between items-center 
+            gap-5 sm:gap-6 lg:gap-10">
 
-            <!-- CARD 01 -->
-            <div class="min-w-full flex justify-center">
-              <div class="bg-white rounded-3xl 
-                      w-full lg:w-[85%] 
-                      px-8 sm:px-12 lg:px-20 py-12 lg:py-14
-                      shadow-lg border border-gray-200
-                      flex flex-col lg:flex-row 
-                      justify-between items-center gap-8 lg:gap-10">
-
-                <div class="max-w-lg text-center lg:text-left">
-                  <h3 class="text-3xl font-bold text-red-600 mb-4">
-                    Green Tech
-                  </h3>
-                  <p class="text-gray-600 leading-relaxed">
-                    At Apex Dura, we always build to last. That inherently implies our focus on the long term over the
-                    short term. That is why, at the heart of all our endeavours is our desire to leverage the available
-                    knowledge and the latest technology to be green and be among the top green steel manufacturers in
-                    India.
-                  </p>
-                  <p class="text-gray-600 leading-relaxed mt-4">
-                    Our unyielding passion to abide by environmental standards is only matched by our efforts to better
-                    them in the industry. We make “Green-Pro Certified” green steel and have increasingly been adopting
-                    green tech in all aspects of manufacturing. Our rigorous R&D coupled with field expertise help us
-                    build and nurture a sustainable corporate culture.
-                  </p>
-                </div>
-
-                <div class="text-red-600 font-black 
-                        text-[80px] sm:text-[120px] lg:text-[220px]
-                        leading-none" style="font-family:'Chakra Petch', sans-serif;">
-                  01
-                </div>
-
-              </div>
+            <!-- LEFT CONTENT -->
+            <div class="max-w-lg text-center lg:text-left">
+              <h3 class="text-3xl font-bold text-red-600 mb-4">
+                Green Tech
+              </h3>
+              <p class="text-gray-600 leading-relaxed">
+                At Apex Dura, we always build to last. That inherently implies our focus on the long term over the
+                short term. That is why, at the heart of all our endeavours is our desire to leverage the available
+                knowledge and the latest technology to be green and be among the top green steel manufacturers in
+                India.
+              </p>
+              <p class="text-gray-600 leading-relaxed mt-4">
+                Our unyielding passion to abide by environmental standards is only matched by our efforts to better
+                them in the industry. We make “Green-Pro Certified” green steel and have increasingly been adopting
+                green tech in all aspects of manufacturing. Our rigorous R&D coupled with field expertise help us
+                build and nurture a sustainable corporate culture.
+              </p>
             </div>
 
-            <!-- CARD 02 -->
-            <div class="min-w-full flex justify-center">
-              <div class="bg-white rounded-3xl 
-                      w-full lg:w-[85%] 
-                      px-8 sm:px-12 lg:px-20 py-12 lg:py-14
-                      shadow-lg border border-gray-200
-                      flex flex-col lg:flex-row 
-                      justify-between items-center gap-8 lg:gap-10">
-
-                <div class="max-w-lg text-center lg:text-left">
-                  <h3 class="text-3xl font-bold text-red-600 mb-4">
-                    Environmental Awareness
-                  </h3>
-                  <p class="text-gray-600 leading-relaxed">
-                    Apex Dura recognises that green-house gases pose possibly the greatest threat to the planet today.
-                    The steel industry, though an absolute necessity, is frowned upon for its ecological footprint. That
-                    is where we step in as a green steel manufacturer.
-                  </p>
-                  <p class="text-gray-600 leading-relaxed mt-4">
-                    Putting our money into our ideals, we have invested in captive power plants based on waste-heat
-                    recovery that is run entirely on the residual gases from manufacturing process. On one hand it
-                    reduces emission of greenhouse gases (between 5X-20X compared to other steel plants) and, on the
-                    other, reduces dependence on external power.
-                  </p>
-                </div>
-
-                <div class="text-red-600 font-black 
-                        text-[80px] sm:text-[120px] lg:text-[220px]
-                        leading-none" style="font-family:'Chakra Petch', sans-serif;">
-                  02
-                </div>
-
-              </div>
-            </div>
-
-            <!-- CARD 03 -->
-            <div class="min-w-full flex justify-center">
-              <div class="bg-white rounded-3xl 
-                      w-full lg:w-[85%] 
-                      px-8 sm:px-12 lg:px-20 py-12 lg:py-14
-                      shadow-lg border border-gray-200
-                      flex flex-col lg:flex-row 
-                      justify-between items-center gap-8 lg:gap-10">
-
-                <div class="max-w-lg text-center lg:text-left">
-                  <h3 class="text-3xl font-bold text-red-600 mb-4">
-                    CSR(Corporate Social Responsibility)
-                  </h3>
-                  <p class="text-gray-600 leading-relaxed">
-                    Taking care of the communities that surround us is an extension of the care we take of our
-                    environment and ecosystem. As a part of Apex Dura's CSR initiatives, we have contributed towards
-                    army, defence, schools, sports and many other fields.
-                  </p>
-                  <p class="text-gray-600 leading-relaxed mt-4">
-                    We have multiple programmes to strengthen and empower the economically underprivileged. We are
-                    always on a lookout for newer ways to give back to society that is the basis of our existence.
-                  </p>
-                </div>
-
-                <div class="text-red-600 font-black 
-                        text-[80px] sm:text-[120px] lg:text-[220px]
-                        leading-none" style="font-family:'Chakra Petch', sans-serif;">
-                  03
-                </div>
-
-              </div>
-            </div>
-
-            <!-- CARD 04 -->
-            <div class="min-w-full flex justify-center">
-              <div class="bg-white rounded-3xl 
-                      w-full lg:w-[85%] 
-                      px-8 sm:px-12 lg:px-20 py-12 lg:py-14
-                      shadow-lg border border-gray-200
-                      flex flex-col lg:flex-row 
-                      justify-between items-center gap-8 lg:gap-10">
-
-                <div class="max-w-lg text-center lg:text-left">
-                  <h3 class="text-3xl font-bold text-red-600 mb-4">
-                    Zero Wastage
-                  </h3>
-                  <p class="text-gray-600 leading-relaxed">
-                    Waste disposal is an integral part of any steel industry. However, we at Apex Dura have consciously
-                    taken efforts to minimise the solid, liquid and gaseous waste to zero. Solid residues and wastes are
-                    optimally recycled in the creation of proficient by-products that are commercially viable.
-                  </p>
-                  <p class="text-gray-600 leading-relaxed mt-4">
-                    100% of all our solid residues are utilised in the manufacture of flyash bricks and blocks. Waste
-                    from water treatment plants are re-used after carefully maintaining the water quality parameters.
-                  </p>
-                </div>
-
-                <div class="text-red-600 font-black 
-                        text-[80px] sm:text-[120px] lg:text-[220px]
-                        leading-none" style="font-family:'Chakra Petch', sans-serif;">
-                  04
-                </div>
-
-              </div>
+            <!-- RIGHT IMAGE -->
+            <div class="w-full max-w-[220px] sm:max-w-[280px] lg:max-w-[300px] flex justify-center shrink-0">
+              <img src="Apex-Images/Green-tech.png" alt="Environmental Awareness"
+                class="w-full h-auto object-contain block" />
             </div>
 
           </div>
         </div>
 
-        <!-- Arrows (Desktop Only) -->
-        <!-- PREV BUTTON -->
-        <button onclick="prevSlide()" class="hidden lg:flex items-center justify-center
-         absolute left-4 top-1/2 -translate-y-1/2
-         w-10 h-10
-         rounded-full
-         bg-white/90 backdrop-blur-md
-         text-gray-800 text-xl font-semibold
-         shadow-lg
-         border border-gray-200
-         hover:bg-red-600 hover:text-white
-         hover:scale-110
-         transition-all duration-300 ease-in-out">
+        <!-- CARD 02 -->
+        <div class="min-w-full flex justify-center">
+          <div class="bg-white rounded-3xl 
+            w-full lg:w-[85%] 
+            px-6 sm:px-10 lg:px-20 
+            py-6 sm:py-8 lg:py-14
+            shadow-lg border border-gray-200
+            flex flex-col lg:flex-row 
+            lg:justify-between items-center 
+            gap-5 sm:gap-6 lg:gap-10">
 
-          &#8249;
-        </button>
+            <div class="max-w-lg text-center lg:text-left">
+              <h3 class="text-3xl font-bold text-red-600 mb-4">
+                Environmental Awareness
+              </h3>
+              <p class="text-gray-600 leading-relaxed">
+                Apex Dura recognises that green-house gases pose possibly the greatest threat to the planet today.
+                The steel industry, though an absolute necessity, is frowned upon for its ecological footprint. That
+                is where we step in as a green steel manufacturer.
+              </p>
+              <p class="text-gray-600 leading-relaxed mt-4">
+                Putting our money into our ideals, we have invested in captive power plants based on waste-heat
+                recovery that is run entirely on the residual gases from manufacturing process. On one hand it
+                reduces emission of greenhouse gases (between 5X-20X compared to other steel plants) and, on the
+                other, reduces dependence on external power.
+              </p>
+            </div>
 
-        <!-- NEXT BUTTON -->
-        <button onclick="nextSlide()" class="hidden lg:flex items-center justify-center
-         absolute right-4 top-1/2 -translate-y-1/2
-         w-10 h-10
-         rounded-full
-         bg-white/90 backdrop-blur-md
-         text-gray-800 text-xl font-semibold
-         shadow-lg
-         border border-gray-200
-         hover:bg-red-600 hover:text-white
-         hover:scale-110
-         transition-all duration-300 ease-in-out">
+            <!-- RIGHT IMAGE -->
+            <div class="w-full max-w-[220px] sm:max-w-[280px] lg:max-w-[300px] flex justify-center shrink-0">
+              <img src="Apex-Images/Environmental-Awareness.png" alt="Environmental Awareness"
+                class="w-full h-auto object-contain block" />
+            </div>
 
-          &#8250;
-        </button>
+          </div>
+        </div>
+
+        <!-- CARD 03 -->
+        <div class="min-w-full flex justify-center">
+          <div class="bg-white rounded-3xl 
+            w-full lg:w-[85%] 
+            px-6 sm:px-10 lg:px-20 
+            py-6 sm:py-8 lg:py-14
+            shadow-lg border border-gray-200
+            flex flex-col lg:flex-row 
+            lg:justify-between items-center 
+            gap-5 sm:gap-6 lg:gap-10">
+
+            <div class="max-w-lg text-center lg:text-left">
+              <h3 class="text-3xl font-bold text-red-600 mb-4">
+                CSR(Corporate Social Responsibility)
+              </h3>
+              <p class="text-gray-600 leading-relaxed">
+                Taking care of the communities that surround us is an extension of the care we take of our
+                environment and ecosystem. As a part of Apex Dura's CSR initiatives, we have contributed towards
+                army, defence, schools, sports and many other fields.
+              </p>
+              <p class="text-gray-600 leading-relaxed mt-4">
+                We have multiple programmes to strengthen and empower the economically underprivileged. We are
+                always on a lookout for newer ways to give back to society that is the basis of our existence.
+              </p>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="w-full max-w-[220px] sm:max-w-[280px] lg:max-w-[300px] flex justify-center shrink-0">
+              <img src="Apex-Images/CSR-(Corporate-Social-Responsibility).png" alt="CSR"
+                class="w-full h-auto object-contain block" />
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CARD 04 -->
+        <div class="min-w-full flex justify-center">
+          <div class="bg-white rounded-3xl 
+            w-full lg:w-[85%] 
+            px-6 sm:px-10 lg:px-20 
+            py-6 sm:py-8 lg:py-14
+            shadow-lg border border-gray-200
+            flex flex-col lg:flex-row 
+            lg:justify-between items-center 
+            gap-5 sm:gap-6 lg:gap-10">
+
+            <div class="max-w-lg text-center lg:text-left">
+              <h3 class="text-3xl font-bold text-red-600 mb-4">
+                Zero Wastage
+              </h3>
+              <p class="text-gray-600 leading-relaxed">
+                Waste disposal is an integral part of any steel industry. However, we at Apex Dura have consciously
+                taken efforts to minimise the solid, liquid and gaseous waste to zero. Solid residues and wastes are
+                optimally recycled in the creation of proficient by-products that are commercially viable.
+              </p>
+              <p class="text-gray-600 leading-relaxed mt-4">
+                100% of all our solid residues are utilised in the manufacture of flyash bricks and blocks. Waste
+                from water treatment plants are re-used after carefully maintaining the water quality parameters.
+              </p>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="w-full max-w-[220px] sm:max-w-[280px] lg:max-w-[300px] flex justify-center shrink-0">
+              <img src="Apex-Images/Zero-Wastage.png" alt="Zero Wastage"
+                class="w-full h-auto object-contain block" />
+            </div>
+
+          </div>
+        </div>
 
       </div>
-    </section>
+    </div>
+
+    <!-- Arrows (Desktop Only) -->
+    <!-- PREV BUTTON -->
+    <button type="button" onclick="prevSlide()" class="hidden lg:flex items-center justify-center
+      absolute left-4 top-1/2 -translate-y-1/2
+      w-10 h-10
+      rounded-full
+      bg-white/90 backdrop-blur-md
+      text-gray-800 text-xl font-semibold
+      shadow-lg
+      border border-gray-200
+      hover:bg-red-600 hover:text-white
+      hover:scale-110
+      transition-all duration-300 ease-in-out"
+      aria-label="Previous Slide">
+      &#8249;
+    </button>
+
+    <!-- NEXT BUTTON -->
+    <button type="button" onclick="nextSlide()" class="hidden lg:flex items-center justify-center
+      absolute right-4 top-1/2 -translate-y-1/2
+      w-10 h-10
+      rounded-full
+      bg-white/90 backdrop-blur-md
+      text-gray-800 text-xl font-semibold
+      shadow-lg
+      border border-gray-200
+      hover:bg-red-600 hover:text-white
+      hover:scale-110
+      transition-all duration-300 ease-in-out"
+      aria-label="Next Slide">
+      &#8250;
+    </button>
+
+  </div>
+</section>
 
     <script>
-  let index = 0;
-  const carousel = document.getElementById("carousel");
-  const totalSlides = carousel.children.length;
-  let autoSlide;
+      let index = 0;
+      const carousel = document.getElementById("carousel");
+      const totalSlides = carousel.children.length;
+      let autoSlide;
 
-  // Smooth transition speed (important)
-  carousel.style.transition = "transform 1s ease-in-out";
+      // Smooth transition speed (important)
+      carousel.style.transition = "transform 1s ease-in-out";
 
-  function updateSlide() {
-    carousel.style.transform = `translateX(-${index * 100}%)`;
-  }
+      function updateSlide() {
+        carousel.style.transform = `translateX(-${index * 100}%)`;
+      }
 
-  function nextSlide() {
-    index = (index + 1) % totalSlides;
-    updateSlide();
-  }
+      function nextSlide() {
+        index = (index + 1) % totalSlides;
+        updateSlide();
+      }
 
-  function prevSlide() {
-    index = (index - 1 + totalSlides) % totalSlides;
-    updateSlide();
-  }
+      function prevSlide() {
+        index = (index - 1 + totalSlides) % totalSlides;
+        updateSlide();
+      }
 
-  function startAutoSlide() {
-    stopAutoSlide(); // prevent multiple intervals
-    autoSlide = setInterval(() => {
-      nextSlide();
-    }, 3000); // 3 seconds (slower)
-  }
+      function startAutoSlide() {
+        stopAutoSlide(); // prevent multiple intervals
+        autoSlide = setInterval(() => {
+          nextSlide();
+        }, 3000); // 3 seconds (slower)
+      }
 
-  function stopAutoSlide() {
-    clearInterval(autoSlide);
-  }
+      function stopAutoSlide() {
+        clearInterval(autoSlide);
+      }
 
-  function handleResponsiveSlide() {
-    if (window.innerWidth < 1024) {
-      startAutoSlide();
-    } else {
-      stopAutoSlide();
-    }
-  }
+      function handleResponsiveSlide() {
+        if (window.innerWidth < 1024) {
+          startAutoSlide();
+        } else {
+          stopAutoSlide();
+        }
+      }
 
-  window.addEventListener("resize", handleResponsiveSlide);
-  window.addEventListener("load", handleResponsiveSlide);
-</script>
+      window.addEventListener("resize", handleResponsiveSlide);
+      window.addEventListener("load", handleResponsiveSlide);
+    </script>
 
 
 
